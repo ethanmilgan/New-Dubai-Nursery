@@ -1,0 +1,5 @@
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+
+export default function Gallery({images, columns="md:grid-cols-3"}){const [selected,setSelected]=useState(null);return <><div className={`grid gap-3 sm:grid-cols-2 ${columns}`}>{images.map((src,i)=><button key={src} className="group relative aspect-[4/3] overflow-hidden bg-slate-100" onClick={()=>setSelected(src)} aria-label={`Open gallery image ${i+1}`}><Image src={src} alt="EYEG learning activity" fill sizes="(max-width:768px) 50vw, 33vw" className="object-cover transition duration-500 group-hover:scale-105"/></button>)}</div>{selected&&<div className="fixed inset-0 z-[100] grid place-items-center bg-black/90 p-5" onClick={()=>setSelected(null)} role="dialog" aria-modal="true"><button className="absolute right-6 top-4 text-5xl text-white" aria-label="Close">×</button><div className="relative h-[80vh] w-[92vw]"><Image src={selected} alt="Expanded EYEG activity" fill sizes="92vw" className="object-contain"/></div></div>}</>}
