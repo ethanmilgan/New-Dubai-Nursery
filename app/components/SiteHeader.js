@@ -7,8 +7,8 @@ import { useState } from "react";
 
 const navItems = [
   { href: "/", label: "Home", child: { href: "/ndnelc", label: "New Dubai Nursery Early Learning Center" } },
-  { href: "/about-us", label: "About Us" },
-  { href: "/curriculum", label: "Curriculum", child: { href: "/important-dates", label: "Important Dates" } },
+  { href: "/about-us", label: "About Us", child: { href: "/about-us/policies", label: "Policies" } },
+  { href: "/curriculum", label: "Curriculum", child: { href: "/academic-calendar", label: "Academic Calendar" } },
   { href: "/admissions", label: "Admissions" },
   { href: "/contact-us", label: "Contact Us" }
 ];
