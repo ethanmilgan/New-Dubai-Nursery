@@ -79,7 +79,7 @@ The media seed is idempotent: it inserts new files, updates changed files, leave
 | `/about-us` | About EYEG |
 | `/curriculum` | Curriculum and areas of learning |
 | `/admissions` | Admissions details and forms |
-| `/important-dates` | Academic calendar and updates |
+| `/academic-calendar` | Academic calendar and updates |
 | `/ndnelc` | New Dubai Nursery Early Learning Center |
 | `/contact-us` | Contact details and inquiry form |
 
