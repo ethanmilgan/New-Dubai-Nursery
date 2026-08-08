@@ -7,3 +7,4 @@ out/
 .official-forms/
 .official-media.zip
 .official-forms.zip
+.dev-server.*.log
