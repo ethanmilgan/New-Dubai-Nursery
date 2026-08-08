@@ -1,6 +1,43 @@
 import Image from "next/image";
 import Link from "next/link";
+import { contact, navItems } from "@/app/lib/site-data";
 
 export default function SiteFooter() {
-  return <footer className="bg-[#262d34] px-5 pt-16 text-slate-300 sm:px-8 lg:px-14"><div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-2 lg:grid-cols-[1.3fr_.9fr_.8fr_1.1fr]"><div><Image src="/api/media/assets/logo_ii.png" alt="EYEG" width={115} height={80} className="h-auto bg-white p-2"/><p className="mt-5 max-w-sm text-sm leading-7">Providing the best start for your child through quality care and early years education.</p></div><div><h2 className="font-bold text-white">Our Nursery</h2><Link className="mt-5 block text-sm leading-6 hover:text-[#43cec9]" href="/ndnelc">New Dubai Nursery Early Learning Center</Link></div><div><h2 className="font-bold text-white">Quick Links</h2><div className="mt-4 grid gap-2 text-sm"><Link href="/">Home</Link><Link href="/about-us">About Us</Link><Link href="/curriculum">Curriculum</Link><Link href="/admissions">Admissions</Link><Link href="/contact-us">Contact Us</Link></div></div><div><h2 className="font-bold text-white">Contact Us</h2><div className="mt-4 grid gap-2 text-sm"><a href="mailto:ndn@eim.ae">ndn@eim.ae</a><a href="https://instagram.com/newdubainursery">@newdubainursery</a><a href="https://wa.me/971566990985">+971 56 699 0985</a><a href="tel:+97143984900">+971 4 398 4900</a></div></div></div><div className="mx-auto mt-14 max-w-6xl border-t border-white/10 py-6 text-center text-xs text-slate-400">Copyright 2026 — All Rights Reserved — Early Years Education Group</div></footer>;
+  return (
+    <footer className="bg-[var(--palm-dark)] px-5 pb-7 pt-16 text-white sm:px-8 lg:px-14 lg:pt-20">
+      <div className="mx-auto grid max-w-[1400px] gap-12 border-b border-white/10 pb-14 md:grid-cols-2 lg:grid-cols-[1.4fr_.65fr_.85fr_1.1fr]">
+        <div>
+          <Image src="/images/NDN2-1i.png" alt="New Dubai Nursery Early Learning Center" width={630} height={206} className="h-auto w-[250px] rounded-xl bg-white p-3" />
+          <p className="mt-6 max-w-sm text-sm leading-7 text-white/65">A warm, play-led early learning community where children explore, belong and grow in confidence.</p>
+          <p className="mt-5 text-xs font-bold uppercase tracking-[.18em] text-[var(--sun)]">Part of Early Years Education Group</p>
+        </div>
+        <div>
+          <FooterTitle>Explore</FooterTitle>
+          <div className="mt-5 grid gap-2.5 text-sm text-white/65">{navItems.map((item) => <Link key={item.href} href={item.href} className="hover:text-[var(--sun)]">{item.label}</Link>)}</div>
+        </div>
+        <div>
+          <FooterTitle>Contact</FooterTitle>
+          <div className="mt-5 grid gap-3 text-sm text-white/65">
+            <a href={contact.phoneHref} className="hover:text-white">{contact.phone}</a>
+            <a href={contact.whatsappHref} className="hover:text-white">WhatsApp {contact.whatsapp}</a>
+            <a href={contact.emailHref} className="hover:text-white">{contact.email}</a>
+            <a href={contact.instagramHref} target="_blank" rel="noreferrer" className="hover:text-white">{contact.instagram}</a>
+          </div>
+        </div>
+        <div>
+          <FooterTitle>Find us</FooterTitle>
+          <address className="mt-5 text-sm not-italic leading-7 text-white/65">{contact.address}</address>
+          <a href={contact.mapsHref} target="_blank" rel="noreferrer" className="mt-5 inline-flex items-center gap-3 text-sm font-bold text-[var(--sun)]">Open in Google Maps <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div className="mx-auto flex max-w-[1400px] flex-col gap-2 pt-6 text-[11px] text-white/40 sm:flex-row sm:items-center sm:justify-between">
+        <span>© {new Date().getFullYear()} New Dubai Nursery Early Learning Center</span>
+        <span>Quality care and early years education in Dubai</span>
+      </div>
+    </footer>
+  );
+}
+
+function FooterTitle({ children }) {
+  return <h2 className="text-xs font-black uppercase tracking-[.2em] text-white">{children}</h2>;
 }

@@ -1,9 +1,9 @@
 node_modules/
 .next/
 out/
-.vercel/
 .env*
 !.env.example
-*.log
-.DS_Store
-Thumbs.db
+.official-media/
+.official-forms/
+.official-media.zip
+.official-forms.zip

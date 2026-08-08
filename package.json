@@ -1,17 +1,15 @@
 {
-  "name": "early-years-education-group",
+  "name": "new-dubai-nursery",
   "version": "1.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "db:seed:media": "node scripts/seed-media.mjs"
+    "start": "next start"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
-    "mongodb": "^6.21.0",
     "next": "^16.2.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
