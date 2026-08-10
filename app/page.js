@@ -96,7 +96,7 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-[1400px] items-center gap-14 lg:grid-cols-[1fr_.9fr] lg:gap-24">
           <div className="relative">
             <div className="relative aspect-[1/1.02] max-w-[650px] overflow-hidden rounded-[40px_40px_150px_40px]">
-              <Image src="/images/LearnMore_homeiiii.png" alt="Children painting together at New Dubai Nursery" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+              <Image src="/images/WhatsApp-Image-2023-08-15-at-12.12.04-1024x768.jpg" alt="Children in red New Dubai Nursery uniforms exploring nature together" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
             </div>
             <div className="absolute -bottom-7 right-3 max-w-[230px] rounded-[28px] bg-[var(--palm)] p-5 text-white shadow-xl sm:right-[-15px]">
               <p className="font-display text-xl leading-snug">“A home away from home.”</p>

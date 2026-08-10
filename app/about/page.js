@@ -93,7 +93,7 @@ export default function AboutPage() {
             </ul>
           </div>
           <div className="relative min-h-[480px] overflow-hidden rounded-[38px_120px_38px_38px]">
-            <Image src="/images/Untitled-1.jpg" alt="Children learning and playing at New Dubai Nursery" fill sizes="(max-width: 1024px) 100vw, 45vw" className="object-cover object-center" />
+            <Image src="/images/1st_Slide_Only_Pic.jpg" alt="A child learning in the red New Dubai Nursery uniform" fill sizes="(max-width: 1024px) 100vw, 45vw" className="object-cover object-center" />
           </div>
         </div>
       </section>

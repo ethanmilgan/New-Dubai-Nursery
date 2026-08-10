@@ -12,7 +12,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <main id="main-content">
-      <PageHero eyebrow="Contact us" title={<>Let’s start a<br /><em className="font-normal text-[var(--sun)]">conversation</em></>} copy="Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help." image="/images/Untitled-1.jpg" alt="Children enjoying different learning experiences at New Dubai Nursery">
+      <PageHero eyebrow="Contact us" title={<>Let’s start a<br /><em className="font-normal text-[var(--sun)]">conversation</em></>} copy="Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help." image="/images/WhatsApp-Image-2025-12-30-at-19.19.21-1024x657.jpeg" alt="Children in red New Dubai Nursery uniforms exploring robotics">
         <div className="mt-8 flex flex-wrap gap-3"><a href={contact.whatsappHref} className="button button-sun" target="_blank" rel="noreferrer">WhatsApp us <span aria-hidden="true">↗</span></a><a href={contact.phoneHref} className="button border border-white/30 text-white">Call {contact.phone}</a></div>
       </PageHero>
 
