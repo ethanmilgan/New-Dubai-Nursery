@@ -55,7 +55,7 @@ export default function HomePage() {
             <h1 className="font-display text-[clamp(3.35rem,7.3vw,7.5rem)] leading-[.88] tracking-[-.06em] text-[var(--palm)]">
               A joyful<br />beginning<br /><em className="font-normal text-[var(--coral)]">A confident<br />future</em>
             </h1>
-            <p className="mt-7 max-w-xl text-base leading-8 text-[var(--ink-muted)] sm:text-lg">For more than 35 years, New Dubai Nursery has helped children learn through play, grow in independence and feel truly at home.</p>
+            <p className="mt-7 max-w-xl text-base leading-8 text-[var(--ink-muted)] sm:text-lg">For more than 40 years, New Dubai Nursery has helped children learn through play, grow in independence and feel truly at home.</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/contact#visit" className="button button-coral">Book a visit <ArrowIcon /></Link>
               <Link href="/curriculum" className="button button-outline">Explore learning</Link>
@@ -78,7 +78,7 @@ export default function HomePage() {
               <Image src="/images/WhatsApp-Image-2024-08-02-at-15.55.02_d018a10b-1024x768.jpg" alt="Children exploring the nursery garden" fill sizes="(max-width: 1024px) 46vw, 25vw" className="object-cover" />
             </div>
             <div className="absolute bottom-[7%] left-0 z-10 rounded-2xl bg-[var(--sun)] px-5 py-4 text-[var(--palm-dark)] shadow-lg">
-              <strong className="block font-display text-3xl leading-none">35+</strong>
+              <strong className="block font-display text-3xl leading-none">40+</strong>
               <span className="mt-1 block text-[10px] font-black uppercase tracking-[.15em]">Years in early education</span>
             </div>
             <div className="decor-dots absolute -right-9 bottom-2 h-32 w-32 text-[var(--coral)] opacity-30" />
@@ -88,7 +88,7 @@ export default function HomePage() {
 
       <section className="overflow-hidden border-y border-[var(--line)] bg-white py-4" aria-label="Nursery highlights">
         <div className="marquee-track flex w-max items-center whitespace-nowrap text-xs font-black uppercase tracking-[.18em] text-[var(--palm)]">
-          {[...Array(2)].flatMap((_, group) => ["Learn through play", "Ages 2–6", "School readiness", "Arabic & French", "Robotics & STEAM", "Music & movement", "Extended care"].map((item) => <span className="flex items-center" key={`${group}-${item}`}><span className="mx-7 text-[var(--coral)]">✿</span>{item}</span>))}
+          {[...Array(2)].flatMap((_, group) => ["Learn through play", "Ages 2–6", "School readiness", "Arabic & Islamic Studies", "Robotics & STEAM", "Music & movement", "Extended care"].map((item) => <span className="flex items-center" key={`${group}-${item}`}><span className="mx-7 text-[var(--coral)]">✿</span>{item}</span>))}
         </div>
       </section>
 
