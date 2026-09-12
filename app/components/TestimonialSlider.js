@@ -1,17 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { testimonials } from "@/app/lib/site-data";
+import { testimonials as defaultTestimonials } from "@/app/lib/site-data";
 
-export default function TestimonialSlider() {
+export default function TestimonialSlider({ testimonials = defaultTestimonials }) {
   const [active, setActive] = useState(0);
 
   useEffect(() => {
     const interval = window.setInterval(() => setActive((value) => (value + 1) % testimonials.length), 7000);
     return () => window.clearInterval(interval);
-  }, []);
+  }, [testimonials.length]);
 
-  const item = testimonials[active];
+  const item = testimonials[active % testimonials.length];
 
   return (
     <div className="mx-auto max-w-4xl text-center">

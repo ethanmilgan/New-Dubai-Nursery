@@ -1,0 +1,1874 @@
+[
+  {
+    "_id": "nurseryPage-home",
+    "_type": "nurseryPage",
+    "title": "Home",
+    "slug": "home",
+    "photos": [
+      {
+        "_key": "photo-1",
+        "slot": "photo-1",
+        "label": "Main hero",
+        "photoId": "creative-collage"
+      },
+      {
+        "_key": "photo-2",
+        "slot": "photo-2",
+        "label": "Hero reading",
+        "photoId": "classroom-storytime"
+      },
+      {
+        "_key": "photo-3",
+        "slot": "photo-3",
+        "label": "Hero discovery",
+        "photoId": "small-world-exploration"
+      },
+      {
+        "_key": "photo-4",
+        "slot": "photo-4",
+        "label": "A place to belong",
+        "photoId": "soft-play-friends"
+      },
+      {
+        "_key": "photo-5",
+        "slot": "photo-5",
+        "label": "Learning approach",
+        "photoId": "cooperative-discovery"
+      },
+      {
+        "_key": "photo-6",
+        "slot": "photo-6",
+        "label": "Role play gallery",
+        "photoId": "imaginative-kitchen",
+        "caption": "Imaginative role play"
+      },
+      {
+        "_key": "photo-7",
+        "slot": "photo-7",
+        "label": "Movement gallery",
+        "photoId": "balance-and-movement",
+        "caption": "Movement & fitness"
+      },
+      {
+        "_key": "photo-8",
+        "slot": "photo-8",
+        "label": "Families gallery",
+        "photoId": "family-teacher-meeting",
+        "caption": "Families & belonging"
+      },
+      {
+        "_key": "photo-9",
+        "slot": "photo-9",
+        "label": "Celebration gallery",
+        "photoId": "sports-day",
+        "caption": "Celebration & expression"
+      },
+      {
+        "_key": "photo-10",
+        "slot": "photo-10",
+        "label": "Care and wellbeing",
+        "photoId": "watering-plants"
+      }
+    ],
+    "copy": [
+      {
+        "_key": "text-1",
+        "key": "text-1",
+        "label": "Ages 2–3",
+        "value": "Ages 2–3"
+      },
+      {
+        "_key": "text-2",
+        "key": "text-2",
+        "label": "A gentle first step",
+        "value": "A gentle first step"
+      },
+      {
+        "_key": "text-3",
+        "key": "text-3",
+        "label": "Warm relationships, predictable routines and sensory-rich play help our youngest children feel ",
+        "value": "Warm relationships, predictable routines and sensory-rich play help our youngest children feel safe, secure and ready to explore."
+      },
+      {
+        "_key": "text-4",
+        "key": "text-4",
+        "label": "Ages 3–4",
+        "value": "Ages 3–4"
+      },
+      {
+        "_key": "text-5",
+        "key": "text-5",
+        "label": "Curiosity in motion",
+        "value": "Curiosity in motion"
+      },
+      {
+        "_key": "text-6",
+        "key": "text-6",
+        "label": "Imaginative play, conversation, making and movement turn everyday questions into meaningful dis",
+        "value": "Imaginative play, conversation, making and movement turn everyday questions into meaningful discoveries."
+      },
+      {
+        "_key": "text-7",
+        "key": "text-7",
+        "label": "Ages 4–6",
+        "value": "Ages 4–6"
+      },
+      {
+        "_key": "text-8",
+        "key": "text-8",
+        "label": "Confidence for school",
+        "value": "Confidence for school"
+      },
+      {
+        "_key": "text-9",
+        "key": "text-9",
+        "label": "Purposeful projects weave together early literacy, numeracy, independence and the social skills",
+        "value": "Purposeful projects weave together early literacy, numeracy, independence and the social skills children need for what comes next."
+      },
+      {
+        "_key": "text-10",
+        "key": "text-10",
+        "label": "Inquiry-led learning",
+        "value": "Inquiry-led learning"
+      },
+      {
+        "_key": "text-11",
+        "key": "text-11",
+        "label": "Children investigate ideas through play, projects and hands-on exploration.",
+        "value": "Children investigate ideas through play, projects and hands-on exploration."
+      },
+      {
+        "_key": "text-12",
+        "key": "text-12",
+        "label": "EYFS foundations",
+        "value": "EYFS foundations"
+      },
+      {
+        "_key": "text-13",
+        "key": "text-13",
+        "label": "Seven connected areas support the whole child and build school readiness.",
+        "value": "Seven connected areas support the whole child and build school readiness."
+      },
+      {
+        "_key": "text-14",
+        "key": "text-14",
+        "label": "Culture & language",
+        "value": "Culture & language"
+      },
+      {
+        "_key": "text-15",
+        "key": "text-15",
+        "label": "Arabic, French, UAE heritage and a multicultural community broaden every child’s world.",
+        "value": "Arabic, French, UAE heritage and a multicultural community broaden every child’s world."
+      },
+      {
+        "_key": "text-16",
+        "key": "text-16",
+        "label": "STEAM & movement",
+        "value": "STEAM & movement"
+      },
+      {
+        "_key": "text-17",
+        "key": "text-17",
+        "label": "Robotics, creative making, music, fitness and outdoor learning keep minds and bodies active.",
+        "value": "Robotics, creative making, music, fitness and outdoor learning keep minds and bodies active."
+      },
+      {
+        "_key": "text-18",
+        "key": "text-18",
+        "label": "What ages does New Dubai Nursery welcome?",
+        "value": "What ages does New Dubai Nursery welcome?"
+      },
+      {
+        "_key": "text-19",
+        "key": "text-19",
+        "label": "Our current nursery information welcomes children from ages 2 to 6. Contact our admissions team",
+        "value": "Our current nursery information welcomes children from ages 2 to 6. Contact our admissions team to discuss the right placement for your child."
+      },
+      {
+        "_key": "text-20",
+        "key": "text-20",
+        "label": "What curriculum do you follow?",
+        "value": "What curriculum do you follow?"
+      },
+      {
+        "_key": "text-21",
+        "key": "text-21",
+        "label": "Our early years programme brings together EYFS best practice, inquiry-based learning, purposefu",
+        "value": "Our early years programme brings together EYFS best practice, inquiry-based learning, purposeful play and school-readiness pathways."
+      },
+      {
+        "_key": "text-22",
+        "key": "text-22",
+        "label": "Is extended care available?",
+        "value": "Is extended care available?"
+      },
+      {
+        "_key": "text-23",
+        "key": "text-23",
+        "label": "Yes. Extended care is available until 6:00 p.m. Please speak with the nursery team for current ",
+        "value": "Yes. Extended care is available until 6:00 p.m. Please speak with the nursery team for current core hours and transport arrangements."
+      },
+      {
+        "_key": "text-24",
+        "key": "text-24",
+        "label": "How do I arrange a visit?",
+        "value": "How do I arrange a visit?"
+      },
+      {
+        "_key": "text-25",
+        "key": "text-25",
+        "label": "Do you provide transport?",
+        "value": "Do you provide transport?"
+      },
+      {
+        "_key": "text-26",
+        "key": "text-26",
+        "label": "RTA-compliant transport with female supervision is among our services. Availability depends on ",
+        "value": "RTA-compliant transport with female supervision is among our services. Availability depends on route, so please confirm your area with the nursery team."
+      },
+      {
+        "_key": "text-27",
+        "key": "text-27",
+        "label": "New Dubai Nursery · Since 1985",
+        "value": "New Dubai Nursery · Since 1985"
+      },
+      {
+        "_key": "text-28",
+        "key": "text-28",
+        "label": "A joyful",
+        "value": "A joyful"
+      },
+      {
+        "_key": "text-29",
+        "key": "text-29",
+        "label": "beginning",
+        "value": "beginning"
+      },
+      {
+        "_key": "text-30",
+        "key": "text-30",
+        "label": "A confident",
+        "value": "A confident"
+      },
+      {
+        "_key": "text-31",
+        "key": "text-31",
+        "label": "future",
+        "value": "future"
+      },
+      {
+        "_key": "text-32",
+        "key": "text-32",
+        "label": "For more than 40 years, New Dubai Nursery has helped children learn through play, grow in indep",
+        "value": "For more than 40 years, New Dubai Nursery has helped children learn through play, grow in independence and feel truly at home."
+      },
+      {
+        "_key": "text-33",
+        "key": "text-33",
+        "label": "Book a visit",
+        "value": "Book a visit "
+      },
+      {
+        "_key": "text-34",
+        "key": "text-34",
+        "label": "Explore learning",
+        "value": "Explore learning"
+      },
+      {
+        "_key": "text-35",
+        "key": "text-35",
+        "label": "Ages 2–6",
+        "value": " Ages 2–6"
+      },
+      {
+        "_key": "text-36",
+        "key": "text-36",
+        "label": "EYFS best practice",
+        "value": " EYFS best practice"
+      },
+      {
+        "_key": "text-37",
+        "key": "text-37",
+        "label": "KHDA aligned",
+        "value": " KHDA aligned"
+      },
+      {
+        "_key": "text-38",
+        "key": "text-38",
+        "label": "Years in early education",
+        "value": "Years in early education"
+      },
+      {
+        "_key": "text-39",
+        "key": "text-39",
+        "label": "Learn through play",
+        "value": "Learn through play"
+      },
+      {
+        "_key": "text-40",
+        "key": "text-40",
+        "label": "Ages 2–6",
+        "value": "Ages 2–6"
+      },
+      {
+        "_key": "text-41",
+        "key": "text-41",
+        "label": "School readiness",
+        "value": "School readiness"
+      },
+      {
+        "_key": "text-42",
+        "key": "text-42",
+        "label": "Arabic & Islamic Studies",
+        "value": "Arabic & Islamic Studies"
+      },
+      {
+        "_key": "text-43",
+        "key": "text-43",
+        "label": "Robotics & STEAM",
+        "value": "Robotics & STEAM"
+      },
+      {
+        "_key": "text-44",
+        "key": "text-44",
+        "label": "Music & movement",
+        "value": "Music & movement"
+      },
+      {
+        "_key": "text-45",
+        "key": "text-45",
+        "label": "Extended care",
+        "value": "Extended care"
+      },
+      {
+        "_key": "text-46",
+        "key": "text-46",
+        "label": "“A home away from home.”",
+        "value": "“A home away from home.”"
+      },
+      {
+        "_key": "text-47",
+        "key": "text-47",
+        "label": "Our promise to every family",
+        "value": "Our promise to every family"
+      },
+      {
+        "_key": "text-48",
+        "key": "text-48",
+        "label": "A place to belong",
+        "value": "A place to belong"
+      },
+      {
+        "_key": "text-49",
+        "key": "text-49",
+        "label": "Children learn best when they feel",
+        "value": "Children learn best when they feel "
+      },
+      {
+        "_key": "text-50",
+        "key": "text-50",
+        "label": "seen",
+        "value": "seen"
+      },
+      {
+        "_key": "text-51",
+        "key": "text-51",
+        "label": "Our educators create a safe, caring environment where each child’s interests, pace and personal",
+        "value": "Our educators create a safe, caring environment where each child’s interests, pace and personality are respected."
+      },
+      {
+        "_key": "text-52",
+        "key": "text-52",
+        "label": "Through play, conversation, movement and discovery, children build confidence, make friends and",
+        "value": "Through play, conversation, movement and discovery, children build confidence, make friends and develop a genuine love for learning."
+      },
+      {
+        "_key": "text-53",
+        "key": "text-53",
+        "label": "Meet New Dubai Nursery",
+        "value": "Meet New Dubai Nursery "
+      },
+      {
+        "_key": "text-54",
+        "key": "text-54",
+        "label": "Growing together",
+        "value": "Growing together"
+      },
+      {
+        "_key": "text-55",
+        "key": "text-55",
+        "label": "The right rhythm for",
+        "value": "The right rhythm for"
+      },
+      {
+        "_key": "text-56",
+        "key": "text-56",
+        "label": "every little learner",
+        "value": "every little learner"
+      },
+      {
+        "_key": "text-57",
+        "key": "text-57",
+        "label": "Development looks different at every age. Our experiences grow with each child while play remai",
+        "value": "Development looks different at every age. Our experiences grow with each child while play remains at the heart of the day."
+      },
+      {
+        "_key": "text-58",
+        "key": "text-58",
+        "label": "Discover this stage",
+        "value": "Discover this stage "
+      },
+      {
+        "_key": "text-59",
+        "key": "text-59",
+        "label": "Our learning approach",
+        "value": "Our learning approach"
+      },
+      {
+        "_key": "text-60",
+        "key": "text-60",
+        "label": "Learning happens",
+        "value": "Learning happens"
+      },
+      {
+        "_key": "text-61",
+        "key": "text-61",
+        "label": "everywhere",
+        "value": "everywhere"
+      },
+      {
+        "_key": "text-62",
+        "key": "text-62",
+        "label": "Our curriculum gives children room to wonder, test ideas, express themselves and make meaningfu",
+        "value": "Our curriculum gives children room to wonder, test ideas, express themselves and make meaningful connections."
+      },
+      {
+        "_key": "text-63",
+        "key": "text-63",
+        "label": "Real classroom discovery",
+        "value": "Real classroom discovery"
+      },
+      {
+        "_key": "text-64",
+        "key": "text-64",
+        "label": "Explore our curriculum",
+        "value": "Explore our curriculum "
+      },
+      {
+        "_key": "text-65",
+        "key": "text-65",
+        "label": "Life at NDN",
+        "value": "Life at NDN"
+      },
+      {
+        "_key": "text-66",
+        "key": "text-66",
+        "label": "Space to play",
+        "value": "Space to play"
+      },
+      {
+        "_key": "text-67",
+        "key": "text-67",
+        "label": "Reasons to",
+        "value": "Reasons to "
+      },
+      {
+        "_key": "text-68",
+        "key": "text-68",
+        "label": "wonder",
+        "value": "wonder"
+      },
+      {
+        "_key": "text-69",
+        "key": "text-69",
+        "label": "Explore nursery life",
+        "value": "Explore nursery life "
+      },
+      {
+        "_key": "text-70",
+        "key": "text-70",
+        "label": "Imaginative role play",
+        "value": "Imaginative role play"
+      },
+      {
+        "_key": "text-71",
+        "key": "text-71",
+        "label": "Movement & fitness",
+        "value": "Movement & fitness"
+      },
+      {
+        "_key": "text-72",
+        "key": "text-72",
+        "label": "Families & belonging",
+        "value": "Families & belonging"
+      },
+      {
+        "_key": "text-73",
+        "key": "text-73",
+        "label": "Celebration & expression",
+        "value": "Celebration & expression"
+      },
+      {
+        "_key": "text-74",
+        "key": "text-74",
+        "label": "Care you can trust",
+        "value": "Care you can trust"
+      },
+      {
+        "_key": "text-75",
+        "key": "text-75",
+        "label": "Safe hands",
+        "value": "Safe hands"
+      },
+      {
+        "_key": "text-76",
+        "key": "text-76",
+        "label": "Happy hearts",
+        "value": "Happy hearts"
+      },
+      {
+        "_key": "text-77",
+        "key": "text-77",
+        "label": "Children thrive when they feel secure. Our care, routines and environments are thoughtfully des",
+        "value": "Children thrive when they feel secure. Our care, routines and environments are thoughtfully designed around their wellbeing."
+      },
+      {
+        "_key": "text-78",
+        "key": "text-78",
+        "label": "Registered nurse on site",
+        "value": "Registered nurse on site"
+      },
+      {
+        "_key": "text-79",
+        "key": "text-79",
+        "label": "On-call doctor",
+        "value": "On-call doctor"
+      },
+      {
+        "_key": "text-80",
+        "key": "text-80",
+        "label": "Paediatric first-aid trained staff",
+        "value": "Paediatric first-aid trained staff"
+      },
+      {
+        "_key": "text-81",
+        "key": "text-81",
+        "label": "Secure indoor & outdoor play",
+        "value": "Secure indoor & outdoor play"
+      },
+      {
+        "_key": "text-82",
+        "key": "text-82",
+        "label": "Joining New Dubai Nursery",
+        "value": "Joining New Dubai Nursery"
+      },
+      {
+        "_key": "text-83",
+        "key": "text-83",
+        "label": "From hello to",
+        "value": "From hello to"
+      },
+      {
+        "_key": "text-84",
+        "key": "text-84",
+        "label": "first day",
+        "value": "first day"
+      },
+      {
+        "_key": "text-85",
+        "key": "text-85",
+        "label": "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal.",
+        "value": "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal."
+      },
+      {
+        "_key": "text-86",
+        "key": "text-86",
+        "label": "Start a conversation",
+        "value": "Start a conversation"
+      },
+      {
+        "_key": "text-87",
+        "key": "text-87",
+        "label": "Call, WhatsApp or send a visit request. Tell us a little about your child and your preferred st",
+        "value": "Call, WhatsApp or send a visit request. Tell us a little about your child and your preferred start."
+      },
+      {
+        "_key": "text-88",
+        "key": "text-88",
+        "label": "Meet the nursery",
+        "value": "Meet the nursery"
+      },
+      {
+        "_key": "text-89",
+        "key": "text-89",
+        "label": "Visit our Al Hudaiba nursery, explore the setting and ask every question.",
+        "value": "Visit our Al Hudaiba nursery, explore the setting and ask every question."
+      },
+      {
+        "_key": "text-90",
+        "key": "text-90",
+        "label": "Prepare for their start",
+        "value": "Prepare for their start"
+      },
+      {
+        "_key": "text-91",
+        "key": "text-91",
+        "label": "Complete the admission forms and work with your child’s teacher on a gentle settling-in plan.",
+        "value": "Complete the admission forms and work with your child’s teacher on a gentle settling-in plan."
+      },
+      {
+        "_key": "text-92",
+        "key": "text-92",
+        "label": "View admissions",
+        "value": "View admissions "
+      },
+      {
+        "_key": "text-93",
+        "key": "text-93",
+        "label": "Good to know",
+        "value": "Good to know"
+      },
+      {
+        "_key": "text-94",
+        "key": "text-94",
+        "label": "Questions from",
+        "value": "Questions from"
+      },
+      {
+        "_key": "text-95",
+        "key": "text-95",
+        "label": "families",
+        "value": "families"
+      },
+      {
+        "_key": "text-96",
+        "key": "text-96",
+        "label": "Come say hello",
+        "value": "Come say hello"
+      },
+      {
+        "_key": "text-97",
+        "key": "text-97",
+        "label": "A visit is the best way to know if it feels right",
+        "value": "A visit is the best way to know if it feels right"
+      },
+      {
+        "_key": "text-98",
+        "key": "text-98",
+        "label": "Meet our team, explore our Al Hudaiba nursery and talk through the next step for your child.",
+        "value": "Meet our team, explore our Al Hudaiba nursery and talk through the next step for your child."
+      },
+      {
+        "_key": "text-99",
+        "key": "text-99",
+        "label": "Request a visit",
+        "value": "Request a visit "
+      },
+      {
+        "_key": "text-100",
+        "key": "text-100",
+        "label": "Call",
+        "value": "Call "
+      }
+    ]
+  },
+  {
+    "_id": "nurseryPage-about",
+    "_type": "nurseryPage",
+    "title": "About",
+    "slug": "about",
+    "photos": [
+      {
+        "_key": "photo-1",
+        "slot": "photo-1",
+        "label": "Hero",
+        "photoId": "nursery-anniversary-team"
+      },
+      {
+        "_key": "photo-2",
+        "slot": "photo-2",
+        "label": "Learning through play",
+        "photoId": "learning-beyond-classroom"
+      },
+      {
+        "_key": "photo-3",
+        "slot": "photo-3",
+        "label": "Physical play",
+        "photoId": "outdoor-group-movement"
+      },
+      {
+        "_key": "photo-4",
+        "slot": "photo-4",
+        "label": "Nursery life",
+        "photoId": "firefighter-role-play"
+      },
+      {
+        "_key": "photo-5",
+        "slot": "photo-5",
+        "label": "Educators",
+        "photoId": "educator-nature-circle"
+      }
+    ],
+    "copy": [
+      {
+        "_key": "text-1",
+        "key": "text-1",
+        "label": "Belonging",
+        "value": "Belonging"
+      },
+      {
+        "_key": "text-2",
+        "key": "text-2",
+        "label": "Every child is known, welcomed and encouraged to be fully themselves.",
+        "value": "Every child is known, welcomed and encouraged to be fully themselves."
+      },
+      {
+        "_key": "text-3",
+        "key": "text-3",
+        "label": "Curiosity",
+        "value": "Curiosity"
+      },
+      {
+        "_key": "text-4",
+        "key": "text-4",
+        "label": "Questions are treated as the beginning of meaningful learning.",
+        "value": "Questions are treated as the beginning of meaningful learning."
+      },
+      {
+        "_key": "text-5",
+        "key": "text-5",
+        "label": "Confidence",
+        "value": "Confidence"
+      },
+      {
+        "_key": "text-6",
+        "key": "text-6",
+        "label": "Children are trusted with real choices, responsibilities and room to grow.",
+        "value": "Children are trusted with real choices, responsibilities and room to grow."
+      },
+      {
+        "_key": "text-7",
+        "key": "text-7",
+        "label": "Partnership",
+        "value": "Partnership"
+      },
+      {
+        "_key": "text-8",
+        "key": "text-8",
+        "label": "Families and educators work together around the needs of each child.",
+        "value": "Families and educators work together around the needs of each child."
+      },
+      {
+        "_key": "text-9",
+        "key": "text-9",
+        "label": "Culture",
+        "value": "Culture"
+      },
+      {
+        "_key": "text-10",
+        "key": "text-10",
+        "label": "UAE heritage and our diverse community are woven into nursery life.",
+        "value": "UAE heritage and our diverse community are woven into nursery life."
+      },
+      {
+        "_key": "text-11",
+        "key": "text-11",
+        "label": "Joy",
+        "value": "Joy"
+      },
+      {
+        "_key": "text-12",
+        "key": "text-12",
+        "label": "Play, laughter, creativity and friendship are essential parts of every day.",
+        "value": "Play, laughter, creativity and friendship are essential parts of every day."
+      },
+      {
+        "_key": "text-13",
+        "key": "text-13",
+        "label": "Our story",
+        "value": "Our story"
+      },
+      {
+        "_key": "text-14",
+        "key": "text-14",
+        "label": "A nursery with",
+        "value": "A nursery with"
+      },
+      {
+        "_key": "text-15",
+        "key": "text-15",
+        "label": "heart",
+        "value": "heart"
+      },
+      {
+        "_key": "text-16",
+        "key": "text-16",
+        "label": "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a wa",
+        "value": "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start."
+      },
+      {
+        "_key": "text-17",
+        "key": "text-17",
+        "label": "New Dubai Nursery",
+        "value": "New Dubai Nursery"
+      },
+      {
+        "_key": "text-18",
+        "key": "text-18",
+        "label": "Rooted in Dubai",
+        "value": "Rooted in Dubai"
+      },
+      {
+        "_key": "text-19",
+        "key": "text-19",
+        "label": "Growing with",
+        "value": "Growing with "
+      },
+      {
+        "_key": "text-20",
+        "key": "text-20",
+        "label": "families",
+        "value": "families"
+      },
+      {
+        "_key": "text-21",
+        "key": "text-21",
+        "label": "New Dubai Nursery Early Learning Center was founded in September 1985 with a simple belief: ear",
+        "value": "New Dubai Nursery Early Learning Center was founded in September 1985 with a simple belief: early education should nurture the whole child."
+      },
+      {
+        "_key": "text-22",
+        "key": "text-22",
+        "label": "Today, that belief shapes an environment where children can explore, experiment, discover and g",
+        "value": "Today, that belief shapes an environment where children can explore, experiment, discover and grow—physically, intellectually, emotionally, socially and creatively."
+      },
+      {
+        "_key": "text-23",
+        "key": "text-23",
+        "label": "We follow KHDA guidance and bring together EYFS best practice with inquiry-led learning, school",
+        "value": "We follow KHDA guidance and bring together EYFS best practice with inquiry-led learning, school readiness and meaningful connections to UAE culture and heritage."
+      },
+      {
+        "_key": "text-24",
+        "key": "text-24",
+        "label": "Year founded",
+        "value": "Year founded"
+      },
+      {
+        "_key": "text-25",
+        "key": "text-25",
+        "label": "Age range",
+        "value": "Age range"
+      },
+      {
+        "_key": "text-26",
+        "key": "text-26",
+        "label": "Learn",
+        "value": "Learn"
+      },
+      {
+        "_key": "text-27",
+        "key": "text-27",
+        "label": "through",
+        "value": "through"
+      },
+      {
+        "_key": "text-28",
+        "key": "text-28",
+        "label": "play",
+        "value": "play"
+      },
+      {
+        "_key": "text-29",
+        "key": "text-29",
+        "label": "What guides us",
+        "value": "What guides us"
+      },
+      {
+        "_key": "text-30",
+        "key": "text-30",
+        "label": "Values children can",
+        "value": "Values children can"
+      },
+      {
+        "_key": "text-31",
+        "key": "text-31",
+        "label": "feel every day",
+        "value": "feel every day"
+      },
+      {
+        "_key": "text-32",
+        "key": "text-32",
+        "label": "Nursery life",
+        "value": "Nursery life"
+      },
+      {
+        "_key": "text-33",
+        "key": "text-33",
+        "label": "Made for movement,",
+        "value": "Made for movement,"
+      },
+      {
+        "_key": "text-34",
+        "key": "text-34",
+        "label": "mess and",
+        "value": "mess and "
+      },
+      {
+        "_key": "text-35",
+        "key": "text-35",
+        "label": "magic",
+        "value": "magic"
+      },
+      {
+        "_key": "text-36",
+        "key": "text-36",
+        "label": "Our spaces invite children to move freely between focused learning, imaginative play, creativit",
+        "value": "Our spaces invite children to move freely between focused learning, imaginative play, creativity, nature and joyful physical activity."
+      },
+      {
+        "_key": "text-37",
+        "key": "text-37",
+        "label": "Creative & enquiry spaces",
+        "value": "Creative & enquiry spaces"
+      },
+      {
+        "_key": "text-38",
+        "key": "text-38",
+        "label": "Interactive classrooms, role play, reading, making and a dedicated STEAM environment.",
+        "value": "Interactive classrooms, role play, reading, making and a dedicated STEAM environment."
+      },
+      {
+        "_key": "text-39",
+        "key": "text-39",
+        "label": "Active indoor & outdoor play",
+        "value": "Active indoor & outdoor play"
+      },
+      {
+        "_key": "text-40",
+        "key": "text-40",
+        "label": "Shaded play, soft play, a junior fitness gym, music, movement and our traffic park.",
+        "value": "Shaded play, soft play, a junior fitness gym, music, movement and our traffic park."
+      },
+      {
+        "_key": "text-41",
+        "key": "text-41",
+        "label": "Our educators",
+        "value": "Our educators"
+      },
+      {
+        "_key": "text-42",
+        "key": "text-42",
+        "label": "Skilled professionals",
+        "value": "Skilled professionals"
+      },
+      {
+        "_key": "text-43",
+        "key": "text-43",
+        "label": "Caring people",
+        "value": "Caring people"
+      },
+      {
+        "_key": "text-44",
+        "key": "text-44",
+        "label": "Our centre manager, special needs educator, teachers, teaching assistants and care assistants w",
+        "value": "Our centre manager, special needs educator, teachers, teaching assistants and care assistants work together to make learning safe, personal and memorable."
+      },
+      {
+        "_key": "text-45",
+        "key": "text-45",
+        "label": "Early childhood trained educators",
+        "value": "Early childhood trained educators"
+      },
+      {
+        "_key": "text-46",
+        "key": "text-46",
+        "label": "Paediatric first-aid training",
+        "value": "Paediatric first-aid training"
+      },
+      {
+        "_key": "text-47",
+        "key": "text-47",
+        "label": "Registered nurse on premises",
+        "value": "Registered nurse on premises"
+      },
+      {
+        "_key": "text-48",
+        "key": "text-48",
+        "label": "On-call doctor",
+        "value": "On-call doctor"
+      },
+      {
+        "_key": "text-49",
+        "key": "text-49",
+        "label": "Ongoing professional learning",
+        "value": "Ongoing professional learning"
+      },
+      {
+        "_key": "text-50",
+        "key": "text-50",
+        "label": "Strong family communication",
+        "value": "Strong family communication"
+      },
+      {
+        "_key": "text-51",
+        "key": "text-51",
+        "label": "Could NDN be their place?",
+        "value": "Could NDN be their place?"
+      },
+      {
+        "_key": "text-52",
+        "key": "text-52",
+        "label": "Come meet the people behind the care",
+        "value": "Come meet the people behind the care"
+      },
+      {
+        "_key": "text-53",
+        "key": "text-53",
+        "label": "Arrange a visit",
+        "value": "Arrange a visit "
+      }
+    ]
+  },
+  {
+    "_id": "nurseryPage-curriculum",
+    "_type": "nurseryPage",
+    "title": "Curriculum",
+    "slug": "curriculum",
+    "photos": [
+      {
+        "_key": "photo-1",
+        "slot": "photo-1",
+        "label": "Hero",
+        "photoId": "animal-puzzle-discovery"
+      },
+      {
+        "_key": "photo-2",
+        "slot": "photo-2",
+        "label": "Purposeful play",
+        "photoId": "sensory-number-tracing"
+      },
+      {
+        "_key": "photo-3",
+        "slot": "photo-3",
+        "label": "School readiness",
+        "photoId": "reading-together"
+      },
+      {
+        "_key": "learning-0",
+        "slot": "learning-0",
+        "label": "Learning area: Communication & language",
+        "photoId": "story-and-conversation"
+      },
+      {
+        "_key": "learning-1",
+        "slot": "learning-1",
+        "label": "Learning area: Physical development",
+        "photoId": "stepping-stone-balance"
+      },
+      {
+        "_key": "learning-2",
+        "slot": "learning-2",
+        "label": "Learning area: Personal, social & emotional development",
+        "photoId": "shared-sensory-play"
+      },
+      {
+        "_key": "learning-3",
+        "slot": "learning-3",
+        "label": "Learning area: Literacy",
+        "photoId": "quiet-reading-corner"
+      },
+      {
+        "_key": "learning-4",
+        "slot": "learning-4",
+        "label": "Learning area: Mathematics",
+        "photoId": "counting-and-colours"
+      },
+      {
+        "_key": "learning-5",
+        "slot": "learning-5",
+        "label": "Learning area: Understanding the world",
+        "photoId": "solar-system-discovery"
+      },
+      {
+        "_key": "learning-6",
+        "slot": "learning-6",
+        "label": "Learning area: Expressive arts & design",
+        "photoId": "creative-making-together"
+      }
+    ],
+    "copy": [
+      {
+        "_key": "text-1",
+        "key": "text-1",
+        "label": "STEAM & robotics",
+        "value": "STEAM & robotics"
+      },
+      {
+        "_key": "text-2",
+        "key": "text-2",
+        "label": "Children investigate, build, test and problem-solve with age-appropriate technology and open-en",
+        "value": "Children investigate, build, test and problem-solve with age-appropriate technology and open-ended materials."
+      },
+      {
+        "_key": "text-3",
+        "key": "text-3",
+        "label": "Language & culture",
+        "value": "Language & culture"
+      },
+      {
+        "_key": "text-4",
+        "key": "text-4",
+        "label": "Arabic, French, Islamic studies and UAE heritage connect language learning with children’s live",
+        "value": "Arabic, French, Islamic studies and UAE heritage connect language learning with children’s lived community."
+      },
+      {
+        "_key": "text-5",
+        "key": "text-5",
+        "label": "Music & movement",
+        "value": "Music & movement"
+      },
+      {
+        "_key": "text-6",
+        "key": "text-6",
+        "label": "Rhythm, dance, aerobics and fitness develop coordination, confidence and expressive joy.",
+        "value": "Rhythm, dance, aerobics and fitness develop coordination, confidence and expressive joy."
+      },
+      {
+        "_key": "text-7",
+        "key": "text-7",
+        "label": "Nature & discovery",
+        "value": "Nature & discovery"
+      },
+      {
+        "_key": "text-8",
+        "key": "text-8",
+        "label": "Gardening, sand play, outdoor enquiry and field trips make the wider world part of the classroo",
+        "value": "Gardening, sand play, outdoor enquiry and field trips make the wider world part of the classroom."
+      },
+      {
+        "_key": "text-9",
+        "key": "text-9",
+        "label": "Curriculum",
+        "value": "Curriculum"
+      },
+      {
+        "_key": "text-10",
+        "key": "text-10",
+        "label": "Where questions",
+        "value": "Where questions"
+      },
+      {
+        "_key": "text-11",
+        "key": "text-11",
+        "label": "become",
+        "value": "become "
+      },
+      {
+        "_key": "text-12",
+        "key": "text-12",
+        "label": "possibilities",
+        "value": "possibilities"
+      },
+      {
+        "_key": "text-13",
+        "key": "text-13",
+        "label": "Our play-led, inquiry-based programme helps children build strong foundations while protecting ",
+        "value": "Our play-led, inquiry-based programme helps children build strong foundations while protecting the joy and wonder of early childhood."
+      },
+      {
+        "_key": "text-14",
+        "key": "text-14",
+        "label": "Our approach",
+        "value": "Our approach"
+      },
+      {
+        "_key": "text-15",
+        "key": "text-15",
+        "label": "Purposeful play",
+        "value": "Purposeful play"
+      },
+      {
+        "_key": "text-16",
+        "key": "text-16",
+        "label": "Real learning",
+        "value": "Real learning"
+      },
+      {
+        "_key": "text-17",
+        "key": "text-17",
+        "label": "Children are naturally curious. We shape environments and experiences that help them explore th",
+        "value": "Children are naturally curious. We shape environments and experiences that help them explore their ideas, take thoughtful risks and learn with others."
+      },
+      {
+        "_key": "text-18",
+        "key": "text-18",
+        "label": "Educators observe closely, ask questions and extend each child’s thinking. Early literacy, math",
+        "value": "Educators observe closely, ask questions and extend each child’s thinking. Early literacy, mathematics, science and school-readiness skills are woven into meaningful projects—not isolated from play."
+      },
+      {
+        "_key": "text-19",
+        "key": "text-19",
+        "label": "EYFS foundations",
+        "value": "EYFS foundations"
+      },
+      {
+        "_key": "text-20",
+        "key": "text-20",
+        "label": "Seven areas One",
+        "value": "Seven areas One"
+      },
+      {
+        "_key": "text-21",
+        "key": "text-21",
+        "label": "whole child",
+        "value": "whole child"
+      },
+      {
+        "_key": "text-22",
+        "key": "text-22",
+        "label": "The Early Years Foundation Stage connects communication, wellbeing, thinking and creativity so ",
+        "value": "The Early Years Foundation Stage connects communication, wellbeing, thinking and creativity so children develop in a balanced way."
+      },
+      {
+        "_key": "text-23",
+        "key": "text-23",
+        "label": "Learning is connected, just like life.",
+        "value": "Learning is connected, just like life."
+      },
+      {
+        "_key": "text-24",
+        "key": "text-24",
+        "label": "Beyond the basics",
+        "value": "Beyond the basics"
+      },
+      {
+        "_key": "text-25",
+        "key": "text-25",
+        "label": "More ways to",
+        "value": "More ways to"
+      },
+      {
+        "_key": "text-26",
+        "key": "text-26",
+        "label": "find their spark",
+        "value": "find their spark"
+      },
+      {
+        "_key": "text-27",
+        "key": "text-27",
+        "label": "A growing journey",
+        "value": "A growing journey"
+      },
+      {
+        "_key": "text-28",
+        "key": "text-28",
+        "label": "Ready for school",
+        "value": "Ready for school"
+      },
+      {
+        "_key": "text-29",
+        "key": "text-29",
+        "label": "Ready for life",
+        "value": "Ready for life"
+      },
+      {
+        "_key": "text-30",
+        "key": "text-30",
+        "label": "School readiness is more than letters and numbers. It is the confidence to ask for help, try ag",
+        "value": "School readiness is more than letters and numbers. It is the confidence to ask for help, try again, listen to others, make choices and feel excited by a new challenge."
+      },
+      {
+        "_key": "text-31",
+        "key": "text-31",
+        "label": "Independence and self-care",
+        "value": "Independence and self-care"
+      },
+      {
+        "_key": "text-32",
+        "key": "text-32",
+        "label": "Communication and friendship",
+        "value": "Communication and friendship"
+      },
+      {
+        "_key": "text-33",
+        "key": "text-33",
+        "label": "Early literacy and numeracy",
+        "value": "Early literacy and numeracy"
+      },
+      {
+        "_key": "text-34",
+        "key": "text-34",
+        "label": "Critical thinking and problem-solving",
+        "value": "Critical thinking and problem-solving"
+      },
+      {
+        "_key": "text-35",
+        "key": "text-35",
+        "label": "Explore admissions",
+        "value": "Explore admissions "
+      },
+      {
+        "_key": "learning-title-0",
+        "key": "learning-title-0",
+        "label": "Learning area: Communication & language",
+        "value": "Communication & language"
+      },
+      {
+        "_key": "learning-title-1",
+        "key": "learning-title-1",
+        "label": "Learning area: Physical development",
+        "value": "Physical development"
+      },
+      {
+        "_key": "learning-title-2",
+        "key": "learning-title-2",
+        "label": "Learning area: Personal, social & emotional development",
+        "value": "Personal, social & emotional development"
+      },
+      {
+        "_key": "learning-title-3",
+        "key": "learning-title-3",
+        "label": "Learning area: Literacy",
+        "value": "Literacy"
+      },
+      {
+        "_key": "learning-title-4",
+        "key": "learning-title-4",
+        "label": "Learning area: Mathematics",
+        "value": "Mathematics"
+      },
+      {
+        "_key": "learning-title-5",
+        "key": "learning-title-5",
+        "label": "Learning area: Understanding the world",
+        "value": "Understanding the world"
+      },
+      {
+        "_key": "learning-title-6",
+        "key": "learning-title-6",
+        "label": "Learning area: Expressive arts & design",
+        "value": "Expressive arts & design"
+      }
+    ]
+  },
+  {
+    "_id": "nurseryPage-admissions",
+    "_type": "nurseryPage",
+    "title": "Admissions",
+    "slug": "admissions",
+    "photos": [
+      {
+        "_key": "photo-1",
+        "slot": "photo-1",
+        "label": "Hero",
+        "photoId": "welcome-to-soft-play"
+      },
+      {
+        "_key": "photo-2",
+        "slot": "photo-2",
+        "label": "Family partnership",
+        "photoId": "parent-teacher-partnership"
+      }
+    ],
+    "copy": [
+      {
+        "_key": "text-1",
+        "key": "text-1",
+        "label": "Passport and valid visa copies",
+        "value": "Passport and valid visa copies"
+      },
+      {
+        "_key": "text-2",
+        "key": "text-2",
+        "label": "Emirates ID copy",
+        "value": "Emirates ID copy"
+      },
+      {
+        "_key": "text-3",
+        "key": "text-3",
+        "label": "Birth certificate copy",
+        "value": "Birth certificate copy"
+      },
+      {
+        "_key": "text-4",
+        "key": "text-4",
+        "label": "Recent passport-size photographs",
+        "value": "Recent passport-size photographs"
+      },
+      {
+        "_key": "text-5",
+        "key": "text-5",
+        "label": "Immunisation record copy",
+        "value": "Immunisation record copy"
+      },
+      {
+        "_key": "text-6",
+        "key": "text-6",
+        "label": "Parent passport and visa copies",
+        "value": "Parent passport and visa copies"
+      },
+      {
+        "_key": "text-7",
+        "key": "text-7",
+        "label": "Parent Emirates ID copies",
+        "value": "Parent Emirates ID copies"
+      },
+      {
+        "_key": "text-8",
+        "key": "text-8",
+        "label": "Recent passport-size photographs",
+        "value": "Recent passport-size photographs"
+      },
+      {
+        "_key": "text-9",
+        "key": "text-9",
+        "label": "Authorised pick-up person ID and photograph",
+        "value": "Authorised pick-up person ID and photograph"
+      },
+      {
+        "_key": "text-10",
+        "key": "text-10",
+        "label": "Admissions",
+        "value": "Admissions"
+      },
+      {
+        "_key": "text-11",
+        "key": "text-11",
+        "label": "Their next chapter",
+        "value": "Their next chapter"
+      },
+      {
+        "_key": "text-12",
+        "key": "text-12",
+        "label": "starts with",
+        "value": "starts with "
+      },
+      {
+        "_key": "text-13",
+        "key": "text-13",
+        "label": "hello",
+        "value": "hello"
+      },
+      {
+        "_key": "text-14",
+        "key": "text-14",
+        "label": "We welcome enrolment enquiries throughout the year for children ages 2 to 6. Our team will help",
+        "value": "We welcome enrolment enquiries throughout the year for children ages 2 to 6. Our team will help you understand placement, availability and the settling-in journey."
+      },
+      {
+        "_key": "text-15",
+        "key": "text-15",
+        "label": "Ages 2–6",
+        "value": "Ages 2–6"
+      },
+      {
+        "_key": "text-16",
+        "key": "text-16",
+        "label": "Early years placements",
+        "value": "Early years placements"
+      },
+      {
+        "_key": "text-17",
+        "key": "text-17",
+        "label": "Year-round",
+        "value": "Year-round"
+      },
+      {
+        "_key": "text-18",
+        "key": "text-18",
+        "label": "Enrolment enquiries",
+        "value": "Enrolment enquiries"
+      },
+      {
+        "_key": "text-19",
+        "key": "text-19",
+        "label": "Extended care",
+        "value": "Extended care"
+      },
+      {
+        "_key": "text-20",
+        "key": "text-20",
+        "label": "Available until 6:00 p.m.",
+        "value": "Available until 6:00 p.m."
+      },
+      {
+        "_key": "text-21",
+        "key": "text-21",
+        "label": "Core programme timings currently differ across official nursery pages. Please confirm the lates",
+        "value": "Core programme timings currently differ across official nursery pages. Please confirm the latest schedule directly with admissions."
+      },
+      {
+        "_key": "text-22",
+        "key": "text-22",
+        "label": "How to join",
+        "value": "How to join"
+      },
+      {
+        "_key": "text-23",
+        "key": "text-23",
+        "label": "A simple, supportive",
+        "value": "A simple, supportive"
+      },
+      {
+        "_key": "text-24",
+        "key": "text-24",
+        "label": "admissions journey",
+        "value": "admissions journey"
+      },
+      {
+        "_key": "text-25",
+        "key": "text-25",
+        "label": "We want families to feel informed and comfortable from the first conversation.",
+        "value": "We want families to feel informed and comfortable from the first conversation."
+      },
+      {
+        "_key": "text-26",
+        "key": "text-26",
+        "label": "Tell us about your child",
+        "value": "Tell us about your child"
+      },
+      {
+        "_key": "text-27",
+        "key": "text-27",
+        "label": "Message, call or complete our visit form with your child’s age and preferred start.",
+        "value": "Message, call or complete our visit form with your child’s age and preferred start."
+      },
+      {
+        "_key": "text-28",
+        "key": "text-28",
+        "label": "Meet our team",
+        "value": "Meet our team"
+      },
+      {
+        "_key": "text-29",
+        "key": "text-29",
+        "label": "Complete enrolment",
+        "value": "Complete enrolment"
+      },
+      {
+        "_key": "text-30",
+        "key": "text-30",
+        "label": "Submit the relevant forms and documents, then prepare a personal settling-in plan.",
+        "value": "Submit the relevant forms and documents, then prepare a personal settling-in plan."
+      },
+      {
+        "_key": "text-31",
+        "key": "text-31",
+        "label": "Request a visit",
+        "value": "Request a visit "
+      },
+      {
+        "_key": "text-32",
+        "key": "text-32",
+        "label": "Ask on WhatsApp",
+        "value": "Ask on WhatsApp"
+      },
+      {
+        "_key": "text-33",
+        "key": "text-33",
+        "label": "Before you apply",
+        "value": "Before you apply"
+      },
+      {
+        "_key": "text-34",
+        "key": "text-34",
+        "label": "Documents to",
+        "value": "Documents to"
+      },
+      {
+        "_key": "text-35",
+        "key": "text-35",
+        "label": "prepare",
+        "value": "prepare"
+      },
+      {
+        "_key": "text-36",
+        "key": "text-36",
+        "label": "The nursery team will confirm the current number of copies and any additional requirements befo",
+        "value": "The nursery team will confirm the current number of copies and any additional requirements before submission."
+      },
+      {
+        "_key": "text-37",
+        "key": "text-37",
+        "label": "For your child",
+        "value": "For your child"
+      },
+      {
+        "_key": "text-38",
+        "key": "text-38",
+        "label": "For parents",
+        "value": "For parents"
+      },
+      {
+        "_key": "text-39",
+        "key": "text-39",
+        "label": "Download centre",
+        "value": "Download centre"
+      },
+      {
+        "_key": "text-40",
+        "key": "text-40",
+        "label": "Admission forms,",
+        "value": "Admission forms,"
+      },
+      {
+        "_key": "text-41",
+        "key": "text-41",
+        "label": "ready when you are",
+        "value": "ready when you are"
+      },
+      {
+        "_key": "text-42",
+        "key": "text-42",
+        "label": "Download the nursery’s official forms. Please check with admissions that you are using the late",
+        "value": "Download the nursery’s official forms. Please check with admissions that you are using the latest version before submitting."
+      },
+      {
+        "_key": "text-43",
+        "key": "text-43",
+        "label": "PDF ↗",
+        "value": "PDF ↗"
+      },
+      {
+        "_key": "text-44",
+        "key": "text-44",
+        "label": "Need help?",
+        "value": "Need help?"
+      },
+      {
+        "_key": "text-45",
+        "key": "text-45",
+        "label": "Every family’s timeline is different",
+        "value": "Every family’s timeline is different"
+      },
+      {
+        "_key": "text-46",
+        "key": "text-46",
+        "label": "Talk with admissions about availability, current timings, transport and how we can support your",
+        "value": "Talk with admissions about availability, current timings, transport and how we can support your child’s transition."
+      },
+      {
+        "_key": "text-47",
+        "key": "text-47",
+        "label": "Call admissions",
+        "value": "Call admissions "
+      }
+    ]
+  },
+  {
+    "_id": "nurseryPage-contact",
+    "_type": "nurseryPage",
+    "title": "Contact",
+    "slug": "contact",
+    "photos": [
+      {
+        "_key": "photo-1",
+        "slot": "photo-1",
+        "label": "Hero",
+        "photoId": "sharing-stories-and-feelings"
+      },
+      {
+        "_key": "photo-2",
+        "slot": "photo-2",
+        "label": "Nursery activities",
+        "photoId": "outdoor-discovery"
+      }
+    ],
+    "copy": [
+      {
+        "_key": "text-1",
+        "key": "text-1",
+        "label": "Contact us",
+        "value": "Contact us"
+      },
+      {
+        "_key": "text-2",
+        "key": "text-2",
+        "label": "Let’s start a",
+        "value": "Let’s start a"
+      },
+      {
+        "_key": "text-3",
+        "key": "text-3",
+        "label": "conversation",
+        "value": "conversation"
+      },
+      {
+        "_key": "text-4",
+        "key": "text-4",
+        "label": "Whether you are exploring nursery for the first time or ready to apply, our team is here to lis",
+        "value": "Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help."
+      },
+      {
+        "_key": "text-5",
+        "key": "text-5",
+        "label": "WhatsApp us",
+        "value": "WhatsApp us "
+      },
+      {
+        "_key": "text-6",
+        "key": "text-6",
+        "label": "Call",
+        "value": "Call "
+      },
+      {
+        "_key": "text-7",
+        "key": "text-7",
+        "label": "Arrange a visit",
+        "value": "Arrange a visit"
+      },
+      {
+        "_key": "text-8",
+        "key": "text-8",
+        "label": "See if it feels",
+        "value": "See if it feels"
+      },
+      {
+        "_key": "text-9",
+        "key": "text-9",
+        "label": "like",
+        "value": "like "
+      },
+      {
+        "_key": "text-10",
+        "key": "text-10",
+        "label": "their place",
+        "value": "their place"
+      },
+      {
+        "_key": "text-11",
+        "key": "text-11",
+        "label": "Share a few details and WhatsApp will open with your visit request ready to send.",
+        "value": "Share a few details and WhatsApp will open with your visit request ready to send."
+      },
+      {
+        "_key": "text-12",
+        "key": "text-12",
+        "label": "Visit New Dubai Nursery",
+        "value": "Visit New Dubai Nursery"
+      },
+      {
+        "_key": "text-13",
+        "key": "text-13",
+        "label": "Get directions",
+        "value": "Get directions "
+      },
+      {
+        "_key": "text-14",
+        "key": "text-14",
+        "label": "Talk to our team",
+        "value": "Talk to our team"
+      },
+      {
+        "_key": "text-15",
+        "key": "text-15",
+        "label": "Choose what works",
+        "value": "Choose what works"
+      },
+      {
+        "_key": "text-16",
+        "key": "text-16",
+        "label": "for you",
+        "value": "for you"
+      },
+      {
+        "_key": "text-17",
+        "key": "text-17",
+        "label": "Call",
+        "value": "Call"
+      },
+      {
+        "_key": "text-18",
+        "key": "text-18",
+        "label": "WhatsApp",
+        "value": "WhatsApp"
+      },
+      {
+        "_key": "text-19",
+        "key": "text-19",
+        "label": "Email",
+        "value": "Email"
+      },
+      {
+        "_key": "text-20",
+        "key": "text-20",
+        "label": "Instagram",
+        "value": "Instagram"
+      },
+      {
+        "_key": "text-21",
+        "key": "text-21",
+        "label": "Find us",
+        "value": "Find us"
+      },
+      {
+        "_key": "text-22",
+        "key": "text-22",
+        "label": "Visit our Al Hudaiba nursery",
+        "value": "Visit our Al Hudaiba nursery"
+      },
+      {
+        "_key": "text-23",
+        "key": "text-23",
+        "label": "Open in Google Maps",
+        "value": "Open in Google Maps "
+      },
+      {
+        "_key": "text-24",
+        "key": "text-24",
+        "label": "Google Map showing New Dubai Nursery in Al Hudaiba, Dubai",
+        "value": "Google Map showing New Dubai Nursery in Al Hudaiba, Dubai"
+      },
+      {
+        "_key": "text-25",
+        "key": "text-25",
+        "label": "What happens next?",
+        "value": "What happens next?"
+      },
+      {
+        "_key": "text-26",
+        "key": "text-26",
+        "label": "A warm welcome, from the very first message",
+        "value": "A warm welcome, from the very first message"
+      },
+      {
+        "_key": "text-27",
+        "key": "text-27",
+        "label": "We’ll listen",
+        "value": "We’ll listen"
+      },
+      {
+        "_key": "text-28",
+        "key": "text-28",
+        "label": "Tell us about your child, your timing and what matters most to your family.",
+        "value": "Tell us about your child, your timing and what matters most to your family."
+      },
+      {
+        "_key": "text-29",
+        "key": "text-29",
+        "label": "We’ll share details",
+        "value": "We’ll share details"
+      },
+      {
+        "_key": "text-30",
+        "key": "text-30",
+        "label": "Our team will explain availability, timings, the appropriate age group and how to find us.",
+        "value": "Our team will explain availability, timings, the appropriate age group and how to find us."
+      },
+      {
+        "_key": "text-31",
+        "key": "text-31",
+        "label": "We’ll plan your visit",
+        "value": "We’ll plan your visit"
+      },
+      {
+        "_key": "text-32",
+        "key": "text-32",
+        "label": "Meet the team, experience nursery life and ask all the questions you need.",
+        "value": "Meet the team, experience nursery life and ask all the questions you need."
+      }
+    ]
+  }
+]

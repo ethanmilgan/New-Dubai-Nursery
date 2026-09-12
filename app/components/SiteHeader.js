@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { contact, navItems } from "@/app/lib/site-data";
+import { contact as defaultContact, navItems } from "@/app/lib/site-data";
 
-export default function SiteHeader() {
+export default function SiteHeader({ contact = defaultContact }) {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 

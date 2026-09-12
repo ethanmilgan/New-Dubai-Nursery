@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { contact } from "@/app/lib/site-data";
+import { contact as defaultContact } from "@/app/lib/site-data";
 
-export default function TourForm() {
+export default function TourForm({ contact = defaultContact }) {
   const [sent, setSent] = useState(false);
 
   function handleSubmit(event) {

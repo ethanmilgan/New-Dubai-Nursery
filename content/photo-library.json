@@ -1,0 +1,449 @@
+[
+  {
+    "id": "creative-collage",
+    "src": "/images/curated/creative-collage.webp",
+    "alt": "A child creating a colourful paper collage",
+    "category": "Art and Craft",
+    "width": 1440,
+    "height": 1920,
+    "bytes": 433138,
+    "sourceArchive": "Art and Craft.zip",
+    "sourcePath": "Art and Craft/2-3Y.jpg",
+    "placements": [
+      "Home: Main hero"
+    ],
+    "selectionReason": "Clear portrait composition with the activity visible."
+  },
+  {
+    "id": "reading-together",
+    "src": "/images/curated/reading-together.webp",
+    "alt": "Children sharing a picture book",
+    "category": "Communication and language",
+    "width": 1170,
+    "height": 1520,
+    "bytes": 180808,
+    "sourceArchive": "Communication and language.zip",
+    "sourcePath": "Communication and language/3-4y (2).jpg",
+    "placements": [
+      "Curriculum: School readiness"
+    ],
+    "selectionReason": "Close view of shared reading and communication."
+  },
+  {
+    "id": "classroom-storytime",
+    "src": "/images/curated/classroom-storytime.webp",
+    "alt": "Children exploring picture books around a classroom table",
+    "category": "Communication and language",
+    "width": 1170,
+    "height": 880,
+    "bytes": 146256,
+    "sourceArchive": "Communication and language.zip",
+    "sourcePath": "Communication and language/4-5y.jpg",
+    "placements": [
+      "Home: Hero reading"
+    ],
+    "selectionReason": "Landscape view showing authentic shared learning."
+  },
+  {
+    "id": "family-teacher-meeting",
+    "src": "/images/curated/family-teacher-meeting.webp",
+    "alt": "Families and an educator meeting in a nursery classroom",
+    "category": "Events",
+    "width": 1280,
+    "height": 960,
+    "bytes": 277424,
+    "sourceArchive": "Events.zip",
+    "sourcePath": "Events/Parent Teachers Day/7ffe630e-5a18-438c-ac30-27ee7daad369.JPG",
+    "placements": [
+      "Home: Families gallery"
+    ],
+    "selectionReason": "Welcoming family interaction; landscape frame suits banners."
+  },
+  {
+    "id": "sports-day",
+    "src": "/images/curated/sports-day.webp",
+    "alt": "Children taking part in a nursery sports day",
+    "category": "Events",
+    "width": 1600,
+    "height": 1066,
+    "bytes": 137858,
+    "sourceArchive": "Events.zip",
+    "sourcePath": "Events/Sports Day/da37a514-d7dd-4bbb-9b8f-ce2c05f8487f.JPG",
+    "placements": [
+      "Home: Celebration gallery"
+    ],
+    "selectionReason": "Colourful group activity with a clear foreground."
+  },
+  {
+    "id": "sensory-number-tracing",
+    "src": "/images/curated/sensory-number-tracing.webp",
+    "alt": "Children tracing number shapes in sensory trays",
+    "category": "Numeracy",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 148514,
+    "sourceArchive": "Numeracy.zip",
+    "sourcePath": "Numeracy/2-3 Maths (2).JPG",
+    "placements": [
+      "Curriculum: Purposeful play"
+    ],
+    "selectionReason": "Clear view of both learners and their number activity."
+  },
+  {
+    "id": "counting-and-colours",
+    "src": "/images/curated/counting-and-colours.webp",
+    "alt": "Children counting and sorting colourful counters",
+    "category": "Numeracy",
+    "width": 1280,
+    "height": 960,
+    "bytes": 165352,
+    "sourceArchive": "Numeracy.zip",
+    "sourcePath": "Numeracy/3-4y (3).jpeg",
+    "placements": [
+      "Curriculum: Learning area: Mathematics"
+    ],
+    "selectionReason": "The learning materials and cooperative activity are easy to see."
+  },
+  {
+    "id": "cooperative-discovery",
+    "src": "/images/curated/cooperative-discovery.webp",
+    "alt": "Children using tongs together to explore a sensory tray",
+    "category": "Personal Social Emotional Development",
+    "width": 960,
+    "height": 1280,
+    "bytes": 178522,
+    "sourceArchive": "Personal Social Emotional Development.zip",
+    "sourcePath": "Personal Social Emotional Development/4-5y (3).jpeg",
+    "placements": [
+      "Home: Learning approach"
+    ],
+    "selectionReason": "Close view of cooperative, hands-on exploration."
+  },
+  {
+    "id": "balance-and-movement",
+    "src": "/images/curated/balance-and-movement.webp",
+    "alt": "Children practising balance along an outdoor activity path",
+    "category": "Physical development",
+    "width": 960,
+    "height": 1280,
+    "bytes": 299636,
+    "sourceArchive": "Physical development.zip",
+    "sourcePath": "Physical development/3-4 PD (4).JPG",
+    "placements": [
+      "Home: Movement gallery"
+    ],
+    "selectionReason": "Portrait framing preserves the balance path and movement."
+  },
+  {
+    "id": "soft-play-friends",
+    "src": "/images/curated/soft-play-friends.webp",
+    "alt": "Two children smiling together in the soft play area",
+    "category": "Physical development",
+    "width": 960,
+    "height": 1280,
+    "bytes": 198676,
+    "sourceArchive": "Physical development.zip",
+    "sourcePath": "Physical development/3-4y.jpeg",
+    "placements": [
+      "Home: A place to belong"
+    ],
+    "selectionReason": "Warm expressions and clear portrait framing."
+  },
+  {
+    "id": "small-world-exploration",
+    "src": "/images/curated/small-world-exploration.webp",
+    "alt": "Children exploring plants and materials in a small-world tray",
+    "category": "UOW",
+    "width": 1280,
+    "height": 960,
+    "bytes": 235822,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/2-3 UOW.JPG",
+    "placements": [
+      "Home: Hero discovery"
+    ],
+    "selectionReason": "Landscape composition shows shared curiosity and the activity."
+  },
+  {
+    "id": "imaginative-kitchen",
+    "src": "/images/curated/imaginative-kitchen.webp",
+    "alt": "Children playing together in a classroom pretend kitchen",
+    "category": "UOW",
+    "width": 1280,
+    "height": 960,
+    "bytes": 160000,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/3-4y (2).jpeg",
+    "placements": [
+      "Home: Role play gallery"
+    ],
+    "selectionReason": "Recognisable imaginative play with space around the subjects."
+  },
+  {
+    "id": "watering-plants",
+    "src": "/images/curated/watering-plants.webp",
+    "alt": "Children watering plants together",
+    "category": "UOW",
+    "width": 960,
+    "height": 1280,
+    "bytes": 195750,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/4-5 UOW (4).JPG",
+    "placements": [
+      "Home: Care and wellbeing"
+    ],
+    "selectionReason": "Portrait composition connects caring actions with nature."
+  },
+  {
+    "id": "outdoor-discovery",
+    "src": "/images/curated/outdoor-discovery.webp",
+    "alt": "Children investigating soil with pots and scoops outdoors",
+    "category": "UOW",
+    "width": 1920,
+    "height": 1446,
+    "bytes": 759314,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/4-5y.jpg",
+    "placements": [
+      "Contact: Nursery activities"
+    ],
+    "selectionReason": "High-resolution outdoor learning scene with visible activity."
+  },
+  {
+    "id": "nursery-anniversary-team",
+    "src": "/images/curated/nursery-anniversary-team.webp",
+    "alt": "The nursery team celebrating forty years together",
+    "category": "Events",
+    "width": 1280,
+    "height": 774,
+    "bytes": 145828,
+    "sourceArchive": "Events.zip",
+    "sourcePath": "Events/Family Fiesta/PHOTO-2026-09-10-17-26-20.jpg",
+    "placements": [
+      "About: Hero"
+    ],
+    "selectionReason": "A wide group photograph connects the nursery story to its people and anniversary."
+  },
+  {
+    "id": "learning-beyond-classroom",
+    "src": "/images/curated/learning-beyond-classroom.webp",
+    "alt": "Children and educators together on an outdoor visit",
+    "category": "Events",
+    "width": 1280,
+    "height": 960,
+    "bytes": 333502,
+    "sourceArchive": "Events.zip",
+    "sourcePath": "Events/Picnic/df681c11-beb2-4ca2-af92-5a6b4fcc79c1.JPG",
+    "placements": [
+      "About: Learning through play"
+    ],
+    "selectionReason": "Clear outdoor group portrait with educators and children together."
+  },
+  {
+    "id": "outdoor-group-movement",
+    "src": "/images/curated/outdoor-group-movement.webp",
+    "alt": "Children moving together across the shaded nursery playground",
+    "category": "Physical development",
+    "width": 1280,
+    "height": 960,
+    "bytes": 231296,
+    "sourceArchive": "Physical development.zip",
+    "sourcePath": "Physical development/4-5 y PD.JPG",
+    "placements": [
+      "About: Physical play"
+    ],
+    "selectionReason": "Landscape framing shows whole-body movement and the play space."
+  },
+  {
+    "id": "firefighter-role-play",
+    "src": "/images/curated/firefighter-role-play.webp",
+    "alt": "Children pretending to be firefighters with a play fire engine",
+    "category": "Numeracy",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 368082,
+    "sourceArchive": "Numeracy.zip",
+    "sourcePath": "Numeracy/2-3 UOW.JPG",
+    "placements": [
+      "About: Nursery life"
+    ],
+    "selectionReason": "Bright, sharp imaginative play scene with visible costumes and props."
+  },
+  {
+    "id": "educator-nature-circle",
+    "src": "/images/curated/educator-nature-circle.webp",
+    "alt": "An educator leading a small-group activity in the nature area",
+    "category": "UOW",
+    "width": 1280,
+    "height": 960,
+    "bytes": 256704,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/5-6 UOW (2).JPG",
+    "placements": [
+      "About: Educators"
+    ],
+    "selectionReason": "The educator and attentive children are clearly visible in a real learning interaction.",
+    "focus": {
+      "x": 0.28,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "animal-puzzle-discovery",
+    "src": "/images/curated/animal-puzzle-discovery.webp",
+    "alt": "Children working together on an animal puzzle outdoors",
+    "category": "UOW",
+    "width": 1280,
+    "height": 960,
+    "bytes": 295974,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/4-5 y.jpeg",
+    "placements": [
+      "Curriculum: Hero"
+    ],
+    "selectionReason": "Clear landscape view of cooperative problem-solving."
+  },
+  {
+    "id": "story-and-conversation",
+    "src": "/images/curated/story-and-conversation.webp",
+    "alt": "Children exploring a caterpillar story with picture cards",
+    "category": "Numeracy",
+    "width": 1505,
+    "height": 1472,
+    "bytes": 264004,
+    "sourceArchive": "Numeracy.zip",
+    "sourcePath": "Numeracy/2-3 y Lit.JPG",
+    "placements": [
+      "Curriculum: Learning area: Communication & language"
+    ],
+    "selectionReason": "Clear faces and story props show conversation around a familiar story."
+  },
+  {
+    "id": "stepping-stone-balance",
+    "src": "/images/curated/stepping-stone-balance.webp",
+    "alt": "Children balancing along a line of stepping stones",
+    "category": "Physical development",
+    "width": 960,
+    "height": 1280,
+    "bytes": 292674,
+    "sourceArchive": "Physical development.zip",
+    "sourcePath": "Physical development/3-4 PD.JPG",
+    "placements": [
+      "Curriculum: Learning area: Physical development"
+    ],
+    "selectionReason": "Full-body activity makes coordination and balance easy to understand."
+  },
+  {
+    "id": "shared-sensory-play",
+    "src": "/images/curated/shared-sensory-play.webp",
+    "alt": "Children exploring a five-senses activity together",
+    "category": "Personal Social Emotional Development",
+    "width": 1280,
+    "height": 960,
+    "bytes": 202250,
+    "sourceArchive": "Personal Social Emotional Development.zip",
+    "sourcePath": "Personal Social Emotional Development/4-5y (2).jpeg",
+    "placements": [
+      "Curriculum: Learning area: Personal, social & emotional development"
+    ],
+    "selectionReason": "Well-lit group activity shows children sharing materials and exploring together."
+  },
+  {
+    "id": "quiet-reading-corner",
+    "src": "/images/curated/quiet-reading-corner.webp",
+    "alt": "Two children enjoying picture books in the reading corner",
+    "category": "Numeracy",
+    "width": 960,
+    "height": 1280,
+    "bytes": 97986,
+    "sourceArchive": "Numeracy.zip",
+    "sourcePath": "Numeracy/2-3y (2).JPG",
+    "placements": [
+      "Curriculum: Learning area: Literacy"
+    ],
+    "selectionReason": "Uncluttered portrait with both books and readers visible."
+  },
+  {
+    "id": "solar-system-discovery",
+    "src": "/images/curated/solar-system-discovery.webp",
+    "alt": "A child exploring a model of the solar system",
+    "category": "UOW",
+    "width": 960,
+    "height": 1280,
+    "bytes": 125630,
+    "sourceArchive": "UOW.zip",
+    "sourcePath": "UOW/4-5 y (2).jpeg",
+    "placements": [
+      "Curriculum: Learning area: Understanding the world"
+    ],
+    "selectionReason": "A focused portrait with the child and science model visible.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "creative-making-together",
+    "src": "/images/curated/creative-making-together.webp",
+    "alt": "Children decorating gingerbread-shaped crafts with colourful materials",
+    "category": "Art and Craft",
+    "width": 1280,
+    "height": 960,
+    "bytes": 166190,
+    "sourceArchive": "Art and Craft.zip",
+    "sourcePath": "Art and Craft/2-3 arts (3).JPG",
+    "placements": [
+      "Curriculum: Learning area: Expressive arts & design"
+    ],
+    "selectionReason": "Clear landscape view of creative making and varied art materials."
+  },
+  {
+    "id": "welcome-to-soft-play",
+    "src": "/images/curated/welcome-to-soft-play.webp",
+    "alt": "Two children smiling in the nursery soft play area",
+    "category": "Physical development",
+    "width": 960,
+    "height": 1280,
+    "bytes": 127112,
+    "sourceArchive": "Physical development.zip",
+    "sourcePath": "Physical development/3-4y.JPG",
+    "placements": [
+      "Admissions: Hero"
+    ],
+    "selectionReason": "Welcoming expressions in a bright nursery setting.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.33
+    }
+  },
+  {
+    "id": "parent-teacher-partnership",
+    "src": "/images/curated/parent-teacher-partnership.webp",
+    "alt": "A family meeting with an educator in the nursery classroom",
+    "category": "Events",
+    "width": 1280,
+    "height": 960,
+    "bytes": 219356,
+    "sourceArchive": "Events.zip",
+    "sourcePath": "Events/Parent Teachers Day/667edde5-4a76-42d8-a38e-d87fd2d67c84.JPG",
+    "placements": [
+      "Admissions: Family partnership"
+    ],
+    "selectionReason": "Clear landscape portrait of a family and educator meeting."
+  },
+  {
+    "id": "sharing-stories-and-feelings",
+    "src": "/images/curated/sharing-stories-and-feelings.webp",
+    "alt": "A child sharing a story activity with emotion cards",
+    "category": "Communication and language",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 276352,
+    "sourceArchive": "Communication and language.zip",
+    "sourcePath": "Communication and language/4-5y (2).jpeg",
+    "placements": [
+      "Contact: Hero"
+    ],
+    "selectionReason": "A warm expression and storytelling props suit starting a conversation."
+  }
+]

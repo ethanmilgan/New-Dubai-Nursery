@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contact, navItems } from "@/app/lib/site-data";
+import { contact as defaultContact, navItems } from "@/app/lib/site-data";
 
-export default function SiteFooter() {
+export default function SiteFooter({ contact = defaultContact }) {
   return (
     <footer className="bg-[var(--palm-dark)] px-5 pb-7 pt-16 text-white sm:px-8 lg:px-14 lg:pt-20">
       <div className="mx-auto grid max-w-[1400px] gap-12 border-b border-white/10 pb-14 md:grid-cols-2 lg:grid-cols-[1.4fr_.65fr_.85fr_1.1fr]">

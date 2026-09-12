@@ -1,8 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
-import SiteFooter from "./components/SiteFooter";
-import SiteHeader from "./components/SiteHeader";
-import WhatsAppButton from "./components/WhatsAppButton";
-import "./globals.css";
 
 export const metadata = {
   metadataBase: new URL("https://www.earlyyearsedugrp.com"),
@@ -23,12 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body suppressHydrationWarning>
-        <a className="skip-link" href="#main-content">Skip to content</a>
-        <SiteHeader />
         {children}
-        <SiteFooter />
-        <WhatsAppButton />
-        <Analytics />
       </body>
     </html>
   );
