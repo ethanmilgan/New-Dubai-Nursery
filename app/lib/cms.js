@@ -8,7 +8,7 @@ import {contact, testimonials, forms} from './site-data';
 
 const builder = createImageUrlBuilder({projectId, dataset});
 const localPhotos = new Map(photos.map(photo => [photo.id, photo]));
-const query = `{"pages": *[_type == "nurseryPage"]{slug, copy, photos[]{slot, caption, photo->{alt, image}}}, "settings": *[_id == "nurserySettings"][0]{..., forms[]{name, "url": document.asset->url}}}`;
+const query = `{"pages": *[_type == "nurseryPage"]{slug, copy, photos[]{slot, caption, photo->{alt, image}}}, "settings": *[_id == "nurserySettings"][0]{..., tour{title, "url": video.asset->url, "poster": poster.asset->url, "captions": captions.asset->url}, forms[]{name, "url": document.asset->url}}}`;
 export const getContent = cache(async () => {
   try {
     const url = `https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?perspective=published&query=${encodeURIComponent(query)}`;
@@ -49,5 +49,5 @@ export async function getSettings() {
   merged.phoneHref = `tel:${merged.phone.replace(/[^+\d]/g, '')}`;
   merged.whatsappHref = `https://wa.me/${merged.whatsapp.replace(/\D/g, '')}`;
   merged.emailHref = `mailto:${merged.email}`;
-  return {contact: merged, testimonials: saved?.testimonials?.length ? saved.testimonials : testimonials, forms: saved?.forms?.filter(form => form.name && form.url) ?? forms.map(form => ({...form, url: `/forms/${form.file}`}))};
+  return {contact: merged, tour: saved?.tour?.url ? saved.tour : null, testimonials: saved?.testimonials?.length ? saved.testimonials : testimonials, forms: saved?.forms?.filter(form => form.name && form.url) ?? forms.map(form => ({...form, url: `/forms/${form.file}`}))};
 }

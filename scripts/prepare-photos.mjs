@@ -4,7 +4,7 @@ import sharp from 'sharp';
 
 // Review IDs refer to the local archive inventory, not children's identities.
 const selections = [
-  [4, 'creative-collage', 'A child creating a colourful paper collage', ['Home: main hero'], 'Clear portrait composition with the activity visible.'],
+  [7, 'colourful-craft-making', 'A child decorating a craft with colourful paper', ['Home: main hero'], 'Clear portrait composition showing a focused classroom craft activity.'],
   [8, 'reading-together', 'Children sharing a picture book', ['Curriculum: literacy'], 'Close view of shared reading and communication.'],
   [12, 'classroom-storytime', 'Children exploring picture books around a classroom table', ['Home: supporting hero', 'Curriculum: communication and language'], 'Landscape view showing authentic shared learning.'],
   [32, 'family-teacher-meeting', 'Families and an educator meeting in a nursery classroom', ['About: hero', 'Admissions: family partnership', 'Contact: hero'], 'Welcoming family interaction; landscape frame suits banners.'],

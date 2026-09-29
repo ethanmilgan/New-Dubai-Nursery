@@ -9,7 +9,7 @@
         "_key": "photo-1",
         "slot": "photo-1",
         "label": "Main hero",
-        "photoId": "creative-collage"
+        "photoId": "colourful-craft-making"
       },
       {
         "_key": "photo-2",
@@ -81,7 +81,7 @@
         "_key": "text-2",
         "key": "text-2",
         "label": "A gentle first step",
-        "value": "A gentle first step"
+        "value": "A Gentle First Step"
       },
       {
         "_key": "text-3",
@@ -99,7 +99,7 @@
         "_key": "text-5",
         "key": "text-5",
         "label": "Curiosity in motion",
-        "value": "Curiosity in motion"
+        "value": "Curiosity in Motion"
       },
       {
         "_key": "text-6",
@@ -117,7 +117,7 @@
         "_key": "text-8",
         "key": "text-8",
         "label": "Confidence for school",
-        "value": "Confidence for school"
+        "value": "Confidence for School"
       },
       {
         "_key": "text-9",
@@ -129,7 +129,7 @@
         "_key": "text-10",
         "key": "text-10",
         "label": "Inquiry-led learning",
-        "value": "Inquiry-led learning"
+        "value": "Inquiry-Led Learning"
       },
       {
         "_key": "text-11",
@@ -141,7 +141,7 @@
         "_key": "text-12",
         "key": "text-12",
         "label": "EYFS foundations",
-        "value": "EYFS foundations"
+        "value": "EYFS Foundations"
       },
       {
         "_key": "text-13",
@@ -153,7 +153,7 @@
         "_key": "text-14",
         "key": "text-14",
         "label": "Culture & language",
-        "value": "Culture & language"
+        "value": "Culture & Language"
       },
       {
         "_key": "text-15",
@@ -165,7 +165,7 @@
         "_key": "text-16",
         "key": "text-16",
         "label": "STEAM & movement",
-        "value": "STEAM & movement"
+        "value": "STEAM & Movement"
       },
       {
         "_key": "text-17",
@@ -237,25 +237,25 @@
         "_key": "text-28",
         "key": "text-28",
         "label": "A joyful",
-        "value": "A joyful"
+        "value": "A Joyful"
       },
       {
         "_key": "text-29",
         "key": "text-29",
         "label": "beginning",
-        "value": "beginning"
+        "value": "Beginning"
       },
       {
         "_key": "text-30",
         "key": "text-30",
         "label": "A confident",
-        "value": "A confident"
+        "value": "A Confident"
       },
       {
         "_key": "text-31",
         "key": "text-31",
         "label": "future",
-        "value": "future"
+        "value": "Future"
       },
       {
         "_key": "text-32",
@@ -363,13 +363,13 @@
         "_key": "text-49",
         "key": "text-49",
         "label": "Children learn best when they feel",
-        "value": "Children learn best when they feel "
+        "value": "Children Learn Best When They Feel "
       },
       {
         "_key": "text-50",
         "key": "text-50",
         "label": "seen",
-        "value": "seen"
+        "value": "Seen"
       },
       {
         "_key": "text-51",
@@ -399,13 +399,13 @@
         "_key": "text-55",
         "key": "text-55",
         "label": "The right rhythm for",
-        "value": "The right rhythm for"
+        "value": "The Right Rhythm for"
       },
       {
         "_key": "text-56",
         "key": "text-56",
         "label": "every little learner",
-        "value": "every little learner"
+        "value": "Every Little Learner"
       },
       {
         "_key": "text-57",
@@ -429,13 +429,13 @@
         "_key": "text-60",
         "key": "text-60",
         "label": "Learning happens",
-        "value": "Learning happens"
+        "value": "Learning Happens"
       },
       {
         "_key": "text-61",
         "key": "text-61",
         "label": "everywhere",
-        "value": "everywhere"
+        "value": "Everywhere"
       },
       {
         "_key": "text-62",
@@ -465,7 +465,7 @@
         "_key": "text-66",
         "key": "text-66",
         "label": "Space to play",
-        "value": "Space to play"
+        "value": "Space to Play"
       },
       {
         "_key": "text-67",
@@ -477,7 +477,7 @@
         "_key": "text-68",
         "key": "text-68",
         "label": "wonder",
-        "value": "wonder"
+        "value": "Wonder"
       },
       {
         "_key": "text-69",
@@ -519,13 +519,13 @@
         "_key": "text-75",
         "key": "text-75",
         "label": "Safe hands",
-        "value": "Safe hands"
+        "value": "Safe Hands"
       },
       {
         "_key": "text-76",
         "key": "text-76",
         "label": "Happy hearts",
-        "value": "Happy hearts"
+        "value": "Happy Hearts"
       },
       {
         "_key": "text-77",
@@ -567,13 +567,13 @@
         "_key": "text-83",
         "key": "text-83",
         "label": "From hello to",
-        "value": "From hello to"
+        "value": "From Hello to"
       },
       {
         "_key": "text-84",
         "key": "text-84",
         "label": "first day",
-        "value": "first day"
+        "value": "First Day"
       },
       {
         "_key": "text-85",
@@ -585,7 +585,7 @@
         "_key": "text-86",
         "key": "text-86",
         "label": "Start a conversation",
-        "value": "Start a conversation"
+        "value": "Start a Conversation"
       },
       {
         "_key": "text-87",
@@ -597,7 +597,7 @@
         "_key": "text-88",
         "key": "text-88",
         "label": "Meet the nursery",
-        "value": "Meet the nursery"
+        "value": "Meet the Nursery"
       },
       {
         "_key": "text-89",
@@ -609,7 +609,7 @@
         "_key": "text-90",
         "key": "text-90",
         "label": "Prepare for their start",
-        "value": "Prepare for their start"
+        "value": "Prepare for Their Start"
       },
       {
         "_key": "text-91",
@@ -639,7 +639,7 @@
         "_key": "text-95",
         "key": "text-95",
         "label": "families",
-        "value": "families"
+        "value": "Families"
       },
       {
         "_key": "text-96",
@@ -651,7 +651,7 @@
         "_key": "text-97",
         "key": "text-97",
         "label": "A visit is the best way to know if it feels right",
-        "value": "A visit is the best way to know if it feels right"
+        "value": "A Visit Is the Best Way to Know If It Feels Right"
       },
       {
         "_key": "text-98",
@@ -793,13 +793,13 @@
         "_key": "text-14",
         "key": "text-14",
         "label": "A nursery with",
-        "value": "A nursery with"
+        "value": "A Nursery with"
       },
       {
         "_key": "text-15",
         "key": "text-15",
         "label": "heart",
-        "value": "heart"
+        "value": "Heart"
       },
       {
         "_key": "text-16",
@@ -829,7 +829,7 @@
         "_key": "text-20",
         "key": "text-20",
         "label": "families",
-        "value": "families"
+        "value": "Families"
       },
       {
         "_key": "text-21",
@@ -889,13 +889,13 @@
         "_key": "text-30",
         "key": "text-30",
         "label": "Values children can",
-        "value": "Values children can"
+        "value": "Values Children Can"
       },
       {
         "_key": "text-31",
         "key": "text-31",
         "label": "feel every day",
-        "value": "feel every day"
+        "value": "Feel Every Day"
       },
       {
         "_key": "text-32",
@@ -907,19 +907,19 @@
         "_key": "text-33",
         "key": "text-33",
         "label": "Made for movement,",
-        "value": "Made for movement,"
+        "value": "Made for Movement,"
       },
       {
         "_key": "text-34",
         "key": "text-34",
         "label": "mess and",
-        "value": "mess and "
+        "value": "Mess and "
       },
       {
         "_key": "text-35",
         "key": "text-35",
         "label": "magic",
-        "value": "magic"
+        "value": "Magic"
       },
       {
         "_key": "text-36",
@@ -931,7 +931,7 @@
         "_key": "text-37",
         "key": "text-37",
         "label": "Creative & enquiry spaces",
-        "value": "Creative & enquiry spaces"
+        "value": "Creative & Enquiry Spaces"
       },
       {
         "_key": "text-38",
@@ -943,7 +943,7 @@
         "_key": "text-39",
         "key": "text-39",
         "label": "Active indoor & outdoor play",
-        "value": "Active indoor & outdoor play"
+        "value": "Active Indoor & Outdoor Play"
       },
       {
         "_key": "text-40",
@@ -961,13 +961,13 @@
         "_key": "text-42",
         "key": "text-42",
         "label": "Skilled professionals",
-        "value": "Skilled professionals"
+        "value": "Skilled Professionals"
       },
       {
         "_key": "text-43",
         "key": "text-43",
         "label": "Caring people",
-        "value": "Caring people"
+        "value": "Caring People"
       },
       {
         "_key": "text-44",
@@ -1021,7 +1021,7 @@
         "_key": "text-52",
         "key": "text-52",
         "label": "Come meet the people behind the care",
-        "value": "Come meet the people behind the care"
+        "value": "Come Meet the People Behind the Care"
       },
       {
         "_key": "text-53",
@@ -1103,7 +1103,7 @@
         "_key": "text-1",
         "key": "text-1",
         "label": "STEAM & robotics",
-        "value": "STEAM & robotics"
+        "value": "STEAM & Robotics"
       },
       {
         "_key": "text-2",
@@ -1115,7 +1115,7 @@
         "_key": "text-3",
         "key": "text-3",
         "label": "Language & culture",
-        "value": "Language & culture"
+        "value": "Language & Culture"
       },
       {
         "_key": "text-4",
@@ -1127,7 +1127,7 @@
         "_key": "text-5",
         "key": "text-5",
         "label": "Music & movement",
-        "value": "Music & movement"
+        "value": "Music & Movement"
       },
       {
         "_key": "text-6",
@@ -1139,7 +1139,7 @@
         "_key": "text-7",
         "key": "text-7",
         "label": "Nature & discovery",
-        "value": "Nature & discovery"
+        "value": "Nature & Discovery"
       },
       {
         "_key": "text-8",
@@ -1157,19 +1157,19 @@
         "_key": "text-10",
         "key": "text-10",
         "label": "Where questions",
-        "value": "Where questions"
+        "value": "Where Questions"
       },
       {
         "_key": "text-11",
         "key": "text-11",
         "label": "become",
-        "value": "become "
+        "value": "Become "
       },
       {
         "_key": "text-12",
         "key": "text-12",
         "label": "possibilities",
-        "value": "possibilities"
+        "value": "Possibilities"
       },
       {
         "_key": "text-13",
@@ -1187,13 +1187,13 @@
         "_key": "text-15",
         "key": "text-15",
         "label": "Purposeful play",
-        "value": "Purposeful play"
+        "value": "Purposeful Play"
       },
       {
         "_key": "text-16",
         "key": "text-16",
         "label": "Real learning",
-        "value": "Real learning"
+        "value": "Real Learning"
       },
       {
         "_key": "text-17",
@@ -1217,13 +1217,13 @@
         "_key": "text-20",
         "key": "text-20",
         "label": "Seven areas One",
-        "value": "Seven areas One"
+        "value": "Seven Areas One"
       },
       {
         "_key": "text-21",
         "key": "text-21",
         "label": "whole child",
-        "value": "whole child"
+        "value": "Whole Child"
       },
       {
         "_key": "text-22",
@@ -1247,13 +1247,13 @@
         "_key": "text-25",
         "key": "text-25",
         "label": "More ways to",
-        "value": "More ways to"
+        "value": "More Ways to"
       },
       {
         "_key": "text-26",
         "key": "text-26",
         "label": "find their spark",
-        "value": "find their spark"
+        "value": "Find Their Spark"
       },
       {
         "_key": "text-27",
@@ -1265,13 +1265,13 @@
         "_key": "text-28",
         "key": "text-28",
         "label": "Ready for school",
-        "value": "Ready for school"
+        "value": "Ready for School"
       },
       {
         "_key": "text-29",
         "key": "text-29",
         "label": "Ready for life",
-        "value": "Ready for life"
+        "value": "Ready for Life"
       },
       {
         "_key": "text-30",
@@ -1313,19 +1313,19 @@
         "_key": "learning-title-0",
         "key": "learning-title-0",
         "label": "Learning area: Communication & language",
-        "value": "Communication & language"
+        "value": "Communication & Language"
       },
       {
         "_key": "learning-title-1",
         "key": "learning-title-1",
         "label": "Learning area: Physical development",
-        "value": "Physical development"
+        "value": "Physical Development"
       },
       {
         "_key": "learning-title-2",
         "key": "learning-title-2",
         "label": "Learning area: Personal, social & emotional development",
-        "value": "Personal, social & emotional development"
+        "value": "Personal, Social & Emotional Development"
       },
       {
         "_key": "learning-title-3",
@@ -1343,13 +1343,13 @@
         "_key": "learning-title-5",
         "key": "learning-title-5",
         "label": "Learning area: Understanding the world",
-        "value": "Understanding the world"
+        "value": "Understanding the World"
       },
       {
         "_key": "learning-title-6",
         "key": "learning-title-6",
         "label": "Learning area: Expressive arts & design",
-        "value": "Expressive arts & design"
+        "value": "Expressive Arts & Design"
       }
     ]
   },
@@ -1437,19 +1437,19 @@
         "_key": "text-11",
         "key": "text-11",
         "label": "Their next chapter",
-        "value": "Their next chapter"
+        "value": "Their Next Chapter"
       },
       {
         "_key": "text-12",
         "key": "text-12",
         "label": "starts with",
-        "value": "starts with "
+        "value": "Starts with "
       },
       {
         "_key": "text-13",
         "key": "text-13",
         "label": "hello",
-        "value": "hello"
+        "value": "Hello"
       },
       {
         "_key": "text-14",
@@ -1473,7 +1473,7 @@
         "_key": "text-17",
         "key": "text-17",
         "label": "Year-round",
-        "value": "Year-round"
+        "value": "Year-Round"
       },
       {
         "_key": "text-18",
@@ -1485,7 +1485,7 @@
         "_key": "text-19",
         "key": "text-19",
         "label": "Extended care",
-        "value": "Extended care"
+        "value": "Extended Care"
       },
       {
         "_key": "text-20",
@@ -1509,13 +1509,13 @@
         "_key": "text-23",
         "key": "text-23",
         "label": "A simple, supportive",
-        "value": "A simple, supportive"
+        "value": "A Simple, Supportive"
       },
       {
         "_key": "text-24",
         "key": "text-24",
         "label": "admissions journey",
-        "value": "admissions journey"
+        "value": "Admissions Journey"
       },
       {
         "_key": "text-25",
@@ -1527,7 +1527,7 @@
         "_key": "text-26",
         "key": "text-26",
         "label": "Tell us about your child",
-        "value": "Tell us about your child"
+        "value": "Tell Us About Your Child"
       },
       {
         "_key": "text-27",
@@ -1539,13 +1539,13 @@
         "_key": "text-28",
         "key": "text-28",
         "label": "Meet our team",
-        "value": "Meet our team"
+        "value": "Meet Our Team"
       },
       {
         "_key": "text-29",
         "key": "text-29",
         "label": "Complete enrolment",
-        "value": "Complete enrolment"
+        "value": "Complete Enrolment"
       },
       {
         "_key": "text-30",
@@ -1581,7 +1581,7 @@
         "_key": "text-35",
         "key": "text-35",
         "label": "prepare",
-        "value": "prepare"
+        "value": "Prepare"
       },
       {
         "_key": "text-36",
@@ -1593,13 +1593,13 @@
         "_key": "text-37",
         "key": "text-37",
         "label": "For your child",
-        "value": "For your child"
+        "value": "For Your Child"
       },
       {
         "_key": "text-38",
         "key": "text-38",
         "label": "For parents",
-        "value": "For parents"
+        "value": "For Parents"
       },
       {
         "_key": "text-39",
@@ -1611,13 +1611,13 @@
         "_key": "text-40",
         "key": "text-40",
         "label": "Admission forms,",
-        "value": "Admission forms,"
+        "value": "Admission Forms"
       },
       {
         "_key": "text-41",
         "key": "text-41",
         "label": "ready when you are",
-        "value": "ready when you are"
+        "value": "Ready When You Are"
       },
       {
         "_key": "text-42",
@@ -1641,7 +1641,7 @@
         "_key": "text-45",
         "key": "text-45",
         "label": "Every family’s timeline is different",
-        "value": "Every family’s timeline is different"
+        "value": "Every Family’s Timeline Is Different"
       },
       {
         "_key": "text-46",
@@ -1687,13 +1687,13 @@
         "_key": "text-2",
         "key": "text-2",
         "label": "Let’s start a",
-        "value": "Let’s start a"
+        "value": "Let’s Start a"
       },
       {
         "_key": "text-3",
         "key": "text-3",
         "label": "conversation",
-        "value": "conversation"
+        "value": "Conversation"
       },
       {
         "_key": "text-4",
@@ -1723,19 +1723,19 @@
         "_key": "text-8",
         "key": "text-8",
         "label": "See if it feels",
-        "value": "See if it feels"
+        "value": "See If It Feels"
       },
       {
         "_key": "text-9",
         "key": "text-9",
         "label": "like",
-        "value": "like "
+        "value": "Like "
       },
       {
         "_key": "text-10",
         "key": "text-10",
         "label": "their place",
-        "value": "their place"
+        "value": "Their Place"
       },
       {
         "_key": "text-11",
@@ -1765,13 +1765,13 @@
         "_key": "text-15",
         "key": "text-15",
         "label": "Choose what works",
-        "value": "Choose what works"
+        "value": "Choose What Works"
       },
       {
         "_key": "text-16",
         "key": "text-16",
         "label": "for you",
-        "value": "for you"
+        "value": "for You"
       },
       {
         "_key": "text-17",
@@ -1807,7 +1807,7 @@
         "_key": "text-22",
         "key": "text-22",
         "label": "Visit our Al Hudaiba nursery",
-        "value": "Visit our Al Hudaiba nursery"
+        "value": "Visit Our Al Hudaiba Nursery"
       },
       {
         "_key": "text-23",
@@ -1831,13 +1831,13 @@
         "_key": "text-26",
         "key": "text-26",
         "label": "A warm welcome, from the very first message",
-        "value": "A warm welcome, from the very first message"
+        "value": "A Warm Welcome, from the Very First Message"
       },
       {
         "_key": "text-27",
         "key": "text-27",
         "label": "We’ll listen",
-        "value": "We’ll listen"
+        "value": "We’ll Listen"
       },
       {
         "_key": "text-28",
@@ -1849,7 +1849,7 @@
         "_key": "text-29",
         "key": "text-29",
         "label": "We’ll share details",
-        "value": "We’ll share details"
+        "value": "We’ll Share Details"
       },
       {
         "_key": "text-30",
@@ -1861,7 +1861,7 @@
         "_key": "text-31",
         "key": "text-31",
         "label": "We’ll plan your visit",
-        "value": "We’ll plan your visit"
+        "value": "We’ll Plan Your Visit"
       },
       {
         "_key": "text-32",

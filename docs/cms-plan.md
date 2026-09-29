@@ -52,6 +52,12 @@ The seed dry run reports the intended import. With `--write`, it uploads missing
 
 Set `SITE_URL` when running verification to check rendered pages and Studio as well as the database. It checks public access, every photo reference, no repeated assets, and all five PDF downloads.
 
+## Nursery Video Tour
+
+In Studio, open **Nursery details → Nursery video tour** to replace the MP4, preview image, heading, or optional English WebVTT captions. Publish to update the About page video and homepage tour link. Removing the video hides both. The video uses native playback controls with no autoplay or initial video download.
+
+The original tour is kept outside Git. The optimized 1280×720 MP4 and its preview are hosted in Sanity. To import a first tour, run `sanity exec scripts/upload-tour.mjs --with-user-token -- path/to/video.mp4 path/to/preview.jpg`; this script refuses to overwrite an existing tour.
+
 ## References
 
 - https://www.sanity.io/docs/nextjs

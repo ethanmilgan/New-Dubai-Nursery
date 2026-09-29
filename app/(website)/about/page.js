@@ -1,4 +1,4 @@
-import {getPageContent} from '@/app/lib/cms';
+import {getPageContent, getSettings} from '@/app/lib/cms';
 import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/app/components/PageHero";
@@ -12,6 +12,7 @@ export const metadata = {
 
 export default async function AboutPage() {
  const {t, photo} = await getPageContent('about');
+ const {tour} = await getSettings();
 const values = [
   [t('text-1', "Belonging"), t('text-2', "Every child is known, welcomed and encouraged to be fully themselves.")],
   [t('text-3', "Curiosity"), t('text-4', "Questions are treated as the beginning of meaningful learning.")],
@@ -85,6 +86,20 @@ const values = [
           </div>
         </div>
       </section>
+
+      {tour && <section id="nursery-tour" aria-labelledby="nursery-tour-title" className="scroll-mt-28 bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14">
+        <div className="mx-auto max-w-[1200px] text-center">
+          <p className="eyebrow text-[var(--coral)]">Our Nursery Tour</p>
+          <h2 id="nursery-tour-title" className="font-display text-[clamp(2.6rem,5vw,4.6rem)] leading-tight tracking-[-.04em] text-[var(--palm)]">{tour.title || 'Take a Look Around Our Nursery'}</h2>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--ink-muted)]">Step inside our classrooms, play areas and outdoor spaces, and picture your child’s day at New Dubai Nursery.</p>
+          <video className="mt-10 aspect-video w-full rounded-[28px] bg-black shadow-xl" controls playsInline preload="none" crossOrigin="anonymous" poster={tour.poster} aria-label="New Dubai Nursery video tour">
+            <source src={tour.url} type="video/mp4" />
+            {tour.captions && <track kind="captions" src={tour.captions} srcLang="en" label="English" />}
+            Your browser cannot play this video. <a href={tour.url}>Watch the nursery tour</a>.
+          </video>
+          <Link href="/contact#visit" className="button button-coral mt-8">Book a Visit <ArrowIcon /></Link>
+        </div>
+      </section>}
 
       <section className="bg-[var(--palm)] px-5 py-20 text-white sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto grid max-w-[1250px] items-center gap-14 lg:grid-cols-[1fr_.9fr] lg:gap-24">

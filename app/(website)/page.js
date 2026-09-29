@@ -7,7 +7,7 @@ import { ArrowIcon } from "@/app/components/SiteHeader";
 
 export default async function HomePage() {
  const {t, photo} = await getPageContent('home');
- const {contact, testimonials} = await getSettings();
+ const {contact, testimonials, tour} = await getSettings();
 const programmes = [
   {
     age: t('text-1', "Ages 2–3"),
@@ -158,7 +158,10 @@ const faqs = [
         <div className="mx-auto max-w-[1400px]">
           <div className="flex flex-col gap-7 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading eyebrow={t('text-65', "Life at NDN")} title={<>{t('text-66', "Space to play")}<br />{t('text-67', "Reasons to ")}<em className="font-normal text-[var(--coral)]">{t('text-68', "wonder")}</em></>} />
-            <Link href="/about#nursery-life" className="button button-outline">{t('text-69', "Explore nursery life ")}<ArrowIcon /></Link>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/about#nursery-life" className="button button-outline">{t('text-69', "Explore nursery life ")}<ArrowIcon /></Link>
+              {tour && <Link href="/about#nursery-tour" className="button button-coral">Watch Our Nursery Tour <ArrowIcon /></Link>}
+            </div>
           </div>
           <div className="mt-14 grid auto-rows-[250px] gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <PhotoCard className="sm:row-span-2 lg:col-span-2" image={photo('photo-6').src} alt={photo('photo-6').alt} imagePosition={photo('photo-6').style.objectPosition} label={photo('photo-6').caption} />

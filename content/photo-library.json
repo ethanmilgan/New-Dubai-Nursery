@@ -1,18 +1,18 @@
 [
   {
-    "id": "creative-collage",
-    "src": "/images/curated/creative-collage.webp",
-    "alt": "A child creating a colourful paper collage",
+    "id": "colourful-craft-making",
+    "src": "/images/curated/colourful-craft-making.webp",
+    "alt": "A child decorating a craft with colourful paper",
     "category": "Art and Craft",
-    "width": 1440,
-    "height": 1920,
-    "bytes": 433138,
+    "width": 960,
+    "height": 1280,
+    "bytes": 111210,
     "sourceArchive": "Art and Craft.zip",
-    "sourcePath": "Art and Craft/2-3Y.jpg",
+    "sourcePath": "Art and Craft/4-5Y.jpeg",
     "placements": [
       "Home: Main hero"
     ],
-    "selectionReason": "Clear portrait composition with the activity visible."
+    "selectionReason": "Clear portrait composition showing a focused classroom craft activity."
   },
   {
     "id": "reading-together",

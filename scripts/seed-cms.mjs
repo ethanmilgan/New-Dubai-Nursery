@@ -28,7 +28,9 @@ if (!(await client.getDocument('nurserySettings'))) {
     const asset = await client.assets.upload('file', await fs.readFile(new URL(`../public/forms/${form.file}`, import.meta.url)), {filename: form.file, contentType: 'application/pdf'});
     documents.push({_key:`form-${index}`, _type:'admissionForm', name:form.name, document:{_type:'file',asset:{_type:'reference',_ref:asset._id}}});
   }
-  await client.createIfNotExists({_id:'nurserySettings',_type:'nurserySettings',...contact, testimonials:testimonials.map((item,index)=>({...item,_type:'testimonial',_key:`testimonial-${index}`})), forms:documents});
+  // These links are derived from the editable contact values by the website.
+  const {phoneHref, whatsappHref, emailHref, ...editableContact} = contact;
+  await client.createIfNotExists({_id:'nurserySettings',_type:'nurserySettings',...editableContact, testimonials:testimonials.map((item,index)=>({...item,_type:'testimonial',_key:`testimonial-${index}`})), forms:documents});
 }
 const result = await client.fetch('{"photos": count(*[_type == "nurseryPhoto"]), "pages": count(*[_type == "nurseryPage"]), "settings": defined(*[_id == "nurserySettings"][0])}');
 if (result.photos < library.length || result.pages < pages.length || !result.settings) throw new Error('Import verification failed');

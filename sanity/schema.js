@@ -30,6 +30,12 @@ export const schemaTypes = [
     ], preview: {select: {title: 'label', subtitle: 'value'}}}]}),
   ]}),
   defineType({name: 'nurserySettings', title: 'Nursery details', type: 'document', fields: [
+    defineField({name:'tour', title:'Nursery video tour', type:'object', fields:[
+      text('title','Heading'),
+      defineField({name:'video',title:'Tour video',type:'file',options:{accept:'video/mp4'}}),
+      defineField({name:'poster',title:'Video preview image',type:'image'}),
+      defineField({name:'captions',title:'English captions (WebVTT)',type:'file',options:{accept:'.vtt'}}),
+    ]}),
     ...['phone','whatsapp','email','instagram','address','addressShort'].map(name => text(name, {phone:'Telephone',whatsapp:'WhatsApp number',email:'Email',instagram:'Instagram handle',address:'Full address',addressShort:'Short address'}[name], {validation: required})),
     ...['instagramHref','mapsHref','mapsEmbedHref'].map(name => defineField({name, title: {instagramHref:'Instagram link',mapsHref:'Google Maps link',mapsEmbedHref:'Embedded map link'}[name], type:'url', validation: rule => rule.required().uri({scheme:['https']})})),
     defineField({name:'testimonials', title:'Parent testimonials', type:'array', validation: rule => rule.min(1), of:[{type:'object', name:'testimonial', fields:[text('name','Parent name',{validation:required}),text('role','Description'),defineField({name:'quote',title:'Quotation',type:'text',validation:required})], preview:{select:{title:'name',subtitle:'quote'}}}]}),
