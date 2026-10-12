@@ -34,7 +34,7 @@ const programmes = [
 const features = [
   ["01", t('text-10', "Inquiry-led learning"), t('text-11', "Children investigate ideas through play, projects and hands-on exploration.")],
   ["02", t('text-12', "EYFS foundations"), t('text-13', "Seven connected areas support the whole child and build school readiness.")],
-  ["03", t('text-14', "Culture & language"), t('text-15', "Arabic, French, UAE heritage and a multicultural community broaden every child’s world.")],
+  ["03", t('text-14', "Culture & language"), t('text-15', "Arabic, Islamic studies, social studies, UAE heritage and a multicultural community broaden every child’s world.")],
   ["04", t('text-16', "STEAM & movement"), t('text-17', "Robotics, creative making, music, fitness and outdoor learning keep minds and bodies active.")]
 ];
 const faqs = [
@@ -87,7 +87,7 @@ const faqs = [
 
       <section className="overflow-hidden border-y border-[var(--line)] bg-white py-4" aria-label="Nursery highlights">
         <div className="marquee-track flex w-max items-center whitespace-nowrap text-xs font-black uppercase tracking-[.18em] text-[var(--palm)]">
-          {[...Array(2)].flatMap((_, group) => [t('text-39', "Learn through play"), t('text-40', "Ages 2–6"), t('text-41', "School readiness"), t('text-42', "Arabic & Islamic Studies"), t('text-43', "Robotics & STEAM"), t('text-44', "Music & movement"), t('text-45', "Extended care")].map((item) => <span className="flex items-center" key={`${group}-${item}`}><span className="mx-7 text-[var(--coral)]">✿</span>{item}</span>))}
+          {[...Array(2)].flatMap((_, group) => [t('text-39', "Learn through play"), t('text-40', "Ages 2–6"), t('text-41', "School readiness"), t('text-42', "Arabic, Islamic & Social Studies"), t('text-43', "Robotics & STEAM"), t('text-44', "Music & movement"), t('text-45', "Extended care")].map((item) => <span className="flex items-center" key={`${group}-${item}`}><span className="mx-7 text-[var(--coral)]">✿</span>{item}</span>))}
         </div>
       </section>
 
@@ -186,8 +186,9 @@ const faqs = [
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-[var(--coral)] px-5 py-24 sm:px-8 lg:px-14 lg:py-32">
+      <section aria-labelledby="family-testimonials-heading" className="relative overflow-hidden bg-[var(--coral)] px-5 py-24 sm:px-8 lg:px-14 lg:py-32">
         <div className="decor-dots absolute -right-12 -top-12 h-60 w-60 text-white opacity-10" />
+        <h2 id="family-testimonials-heading" className="relative mb-12 text-center font-display text-3xl text-white sm:text-4xl">{t('family-testimonials-heading', "What Our Families Say")}</h2>
         <TestimonialSlider testimonials={testimonials} />
       </section>
 

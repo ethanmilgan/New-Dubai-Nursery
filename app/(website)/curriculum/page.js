@@ -15,7 +15,7 @@ export default async function CurriculumPage() {
  const {t, photo} = await getPageContent('curriculum');
 const enrichments = [
   [t('text-1', "STEAM & robotics"), t('text-2', "Children investigate, build, test and problem-solve with age-appropriate technology and open-ended materials."), "✦", "bg-[var(--mint)]"],
-  [t('text-3', "Language & culture"), t('text-4', "Arabic, French, Islamic studies and UAE heritage connect language learning with children’s lived community."), "◒", "bg-[#f7d7cd]"],
+  [t('text-3', "Language & culture"), t('text-4', "Arabic, Islamic studies, social studies and UAE heritage connect learning with children’s lived community."), "◒", "bg-[#f7d7cd]"],
   [t('text-5', "Music & movement"), t('text-6', "Rhythm, dance, aerobics and fitness develop coordination, confidence and expressive joy."), "♪", "bg-[#f7df92]"],
   [t('text-7', "Nature & discovery"), t('text-8', "Gardening, sand play, outdoor enquiry and field trips make the wider world part of the classroom."), "⌁", "bg-[#dbeaf1]"]
 ];

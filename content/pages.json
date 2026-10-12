@@ -158,8 +158,8 @@
       {
         "_key": "text-15",
         "key": "text-15",
-        "label": "Arabic, French, UAE heritage and a multicultural community broaden every child’s world.",
-        "value": "Arabic, French, UAE heritage and a multicultural community broaden every child’s world."
+        "label": "Arabic, Islamic studies, social studies, UAE heritage and a multicultural community broaden every child’s world.",
+        "value": "Arabic, Islamic studies, social studies, UAE heritage and a multicultural community broaden every child’s world."
       },
       {
         "_key": "text-16",
@@ -320,8 +320,8 @@
       {
         "_key": "text-42",
         "key": "text-42",
-        "label": "Arabic & Islamic Studies",
-        "value": "Arabic & Islamic Studies"
+        "label": "Arabic, Islamic & Social Studies",
+        "value": "Arabic, Islamic & Social Studies"
       },
       {
         "_key": "text-43",
@@ -707,7 +707,7 @@
         "_key": "photo-5",
         "slot": "photo-5",
         "label": "Educators",
-        "photoId": "educator-nature-circle"
+        "photoId": "educator-classroom-activity"
       }
     ],
     "copy": [
@@ -1120,8 +1120,8 @@
       {
         "_key": "text-4",
         "key": "text-4",
-        "label": "Arabic, French, Islamic studies and UAE heritage connect language learning with children’s live",
-        "value": "Arabic, French, Islamic studies and UAE heritage connect language learning with children’s lived community."
+        "label": "Arabic, Islamic studies, social studies and UAE heritage connect learning with children’s live",
+        "value": "Arabic, Islamic studies, social studies and UAE heritage connect learning with children’s lived community."
       },
       {
         "_key": "text-5",
@@ -1369,7 +1369,7 @@
         "_key": "photo-2",
         "slot": "photo-2",
         "label": "Family partnership",
-        "photoId": "parent-teacher-partnership"
+        "photoId": "admissions-welcome"
       }
     ],
     "copy": [
@@ -1673,7 +1673,7 @@
         "_key": "photo-2",
         "slot": "photo-2",
         "label": "Nursery activities",
-        "photoId": "outdoor-discovery"
+        "photoId": "classroom-creating-together"
       }
     ],
     "copy": [

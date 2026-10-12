@@ -445,5 +445,59 @@
       "Contact: Hero"
     ],
     "selectionReason": "A warm expression and storytelling props suit starting a conversation."
+  },
+  {
+    "id": "educator-classroom-activity",
+    "src": "/images/curated/educator-classroom-activity.webp",
+    "alt": "A teacher guiding children through a table activity in the nursery classroom",
+    "category": "Curriculum",
+    "width": 1280,
+    "height": 960,
+    "bytes": 160378,
+    "sourcePath": "Website Photos/Curriculum/WhatsApp Image 2025-12-11 at 12.50.33_3e0ecc19.jpg",
+    "placements": [
+      "About: Educators"
+    ],
+    "selectionReason": "A clear classroom interaction showing an educator supporting a small group of students.",
+    "focus": {
+      "x": 0.38,
+      "y": 0.45
+    }
+  },
+  {
+    "id": "admissions-welcome",
+    "src": "/images/curated/admissions-welcome.webp",
+    "alt": "A smiling child beside the nursery welcome sign",
+    "category": "Admissions",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 265184,
+    "sourcePath": "Website Photos/WhatsApp Image 2025-12-30 at 17.31.57.jpeg",
+    "placements": [
+      "Admissions: Before you apply"
+    ],
+    "selectionReason": "A welcoming nursery arrival photo for prospective families.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.3
+    }
+  },
+  {
+    "id": "classroom-creating-together",
+    "src": "/images/curated/classroom-creating-together.webp",
+    "alt": "Children creating a colourful flower-petal design together around a classroom table",
+    "category": "Gallery",
+    "width": 1599,
+    "height": 1200,
+    "bytes": 207726,
+    "sourcePath": "Website Photos/Gallery/WhatsApp Image 2025-12-13 at 22.07.27_5f40b70b.jpg",
+    "placements": [
+      "Contact: Warm welcome"
+    ],
+    "selectionReason": "A friendly classroom group activity showing children creating together.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    }
   }
 ]
