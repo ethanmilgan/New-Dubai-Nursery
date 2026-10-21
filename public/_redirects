@@ -4,5 +4,7 @@
 /studio/structure/* /studio/ 200
 /studio/intent /studio/ 200
 /studio/intent/* /studio/ 200
+/studio/releases /studio/ 200
+/studio/releases/* /studio/ 200
 # Sanity's generated favicon/manifest URLs use /static even with a base path.
 /static/* /studio/static/:splat 200
