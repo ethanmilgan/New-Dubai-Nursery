@@ -58,9 +58,14 @@ Keep GoDaddy as registrar. Registering elsewhere is unnecessary.
 
 Before DNS changes, record the existing DNS configuration and keep the Vercel deployment available. If cutover fails, restore the recorded web DNS configuration while investigating. For a bad Pages release, roll back to a previously successful production deployment in Pages and pause the webhook if necessary. CMS data is unchanged by this migration.
 
-## Remaining account setup
+## Deployment status (October 21, 2026)
 
-Local code preparation does not create a Cloudflare project, configure CORS/webhooks, change nameservers, or cancel Vercel. Those steps need account access and successful end-to-end verification.
+- Pages project: `new-dubai-nursery`, live at https://new-dubai-nursery.pages.dev/.
+- Production branch: `codex/cloudflare-static`. Future production code changes must be pushed to this branch until the production-branch setting is deliberately changed. The existing `main` branch and Vercel deployment have not been changed.
+- Editor: https://new-dubai-nursery.pages.dev/studio/. Exact-origin credentialed CORS is configured and GitHub sign-in has been verified.
+- Automatic publishing: Cloudflare hook `Sanity publish`, connected to Sanity webhook `Cloudflare Pages rebuild` for published nursery documents in `production`. Only document ID/type are sent. The hook URL is stored in the dashboards, not this repository.
+- Verification: public homepage, contact route, Studio sign-in, editor deep links and static assets passed live checks. A settings revision with the same phone value triggered a successful HTTP 200 webhook delivery and a Cloudflare build, without changing visible content.
+- Pending: custom-domain ownership/DNS setup, custom-domain Studio CORS, HTTPS and final cutover checks. Vercel has not been cancelled.
 
 ## References
 

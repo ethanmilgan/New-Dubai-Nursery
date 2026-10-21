@@ -11,7 +11,7 @@ const server = createServer(async (req, res) => {
     let file = path.resolve(root, `.${assetPath}`);
     if (file !== root && !file.startsWith(root + path.sep)) {res.writeHead(403).end(); return;}
     try {if ((await stat(file)).isDirectory()) file = path.join(file, 'index.html');}
-    catch {if (/^\/studio\/(structure|intent)(\/|$)/.test(pathname)) file = path.join(root, 'studio/index.html');}
+    catch {if (/^\/studio\/(structure|intent|releases)(\/|$)/.test(pathname)) file = path.join(root, 'studio/index.html');}
     const data = await readFile(file);
     res.writeHead(200, {'Content-Type': types[path.extname(file)] || 'application/octet-stream'}).end(data);
   } catch {
