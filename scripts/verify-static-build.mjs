@@ -11,7 +11,7 @@ for (const route of ['', 'about', 'curriculum', 'admissions', 'contact', 'studio
 }
 await stat(path.join(root, '404.html'));
 const redirects = await readFile(path.join(root, '_redirects'), 'utf8');
-assert(redirects.includes('/studio/structure/* /studio/index.html 200'), 'Missing Studio deep-link rewrite');
+assert(redirects.includes('/studio/structure/* /studio/ 200'), 'Missing Studio deep-link rewrite');
 assert(!redirects.includes('/studio/* '), 'A broad Studio rewrite would intercept static assets');
 let files = 0;
 async function check(dir) {
