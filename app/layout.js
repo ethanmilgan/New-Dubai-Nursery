@@ -1,6 +1,6 @@
 
 export const metadata = {
-  metadataBase: new URL("https://www.earlyyearsedugrp.com"),
+  metadataBase: new URL("https://newdubainursery.com"),
   title: {
     default: "New Dubai Nursery | Early Learning Center",
     template: "%s | New Dubai Nursery"

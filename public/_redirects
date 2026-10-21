@@ -1,0 +1,8 @@
+# Sanity is a static SPA. Rewrite only its editor routes, not the public site.
+/studio /studio/ 301
+/studio/structure /studio/index.html 200
+/studio/structure/* /studio/index.html 200
+/studio/intent /studio/index.html 200
+/studio/intent/* /studio/index.html 200
+# Sanity's generated favicon/manifest URLs use /static even with a base path.
+/static/* /studio/static/:splat 200

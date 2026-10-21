@@ -5,7 +5,7 @@ import {projectId, dataset} from './sanity/project.js';
 import {schemaTypes} from './sanity/schema.js';
 
 export default defineConfig({
-  name: 'nursery', title: 'New Dubai Nursery', projectId, dataset, basePath: '/studio',
+  name: 'nursery', title: 'New Dubai Nursery', projectId, dataset,
   plugins: [structureTool({structure: S => S.list().title('Website content').items([
     S.listItem().title('Pages').child(S.documentTypeList('nurseryPage').title('Pages')),
     S.listItem().title('Photo library').child(S.documentTypeList('nurseryPhoto').title('Photo library')),

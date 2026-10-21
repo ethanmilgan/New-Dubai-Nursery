@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22.12" },
+  "engines": {
+    "node": ">=22.12"
+  },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build --webpack && sanity build out/studio --yes && node scripts/verify-static-build.mjs",
+    "preview": "node scripts/preview-static.mjs",
+    "start": "node scripts/preview-static.mjs",
+    "cms:dev": "sanity dev",
     "cms": "sanity",
     "cms:seed": "sanity exec scripts/seed-cms.mjs --with-user-token --",
     "cms:verify": "node scripts/verify-cms.mjs"
@@ -15,9 +19,7 @@
   "dependencies": {
     "@sanity/client": "^8.6.1",
     "@sanity/image-url": "^2.1.1",
-    "@vercel/analytics": "^2.0.1",
     "next": "^16.2.7",
-    "next-sanity": "^13.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sanity": "^6.13.2",

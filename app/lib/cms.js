@@ -1,5 +1,6 @@
 import 'server-only';
 import {cache} from 'react';
+import {get} from 'node:https';
 import {createImageUrlBuilder} from '@sanity/image-url';
 import {projectId, dataset, apiVersion} from '@/sanity/project';
 import defaults from '@/content/pages.json';
@@ -9,14 +10,40 @@ import {contact, testimonials, forms} from './site-data';
 const builder = createImageUrlBuilder({projectId, dataset});
 const localPhotos = new Map(photos.map(photo => [photo.id, photo]));
 const query = `{"pages": *[_type == "nurseryPage"]{slug, copy, photos[]{slot, caption, photo->{alt, image}}}, "settings": *[_id == "nurserySettings"][0]{..., tour{title, "url": video.asset->url, "poster": poster.asset->url, "captions": captions.asset->url}, forms[]{name, "url": document.asset->url}}}`;
+// Bypass Next's persistent fetch cache so every CMS-triggered build reads the
+// latest published data, even when Cloudflare restores its build cache.
+function readPublishedContent(url) {
+  return new Promise((resolve, reject) => {
+    const request = get(url, response => {
+      if (response.statusCode !== 200) {
+        response.resume();
+        reject(new Error(`CMS HTTP ${response.statusCode}`));
+        return;
+      }
+      let body = '';
+      response.setEncoding('utf8');
+      response.on('data', chunk => { body += chunk; });
+      response.on('error', reject);
+      response.on('end', () => {
+        try { resolve(JSON.parse(body)); } catch (error) { reject(error); }
+      });
+    });
+    request.setTimeout(10000, () => request.destroy(new Error('CMS request timed out')));
+    request.on('error', reject);
+  });
+}
 export const getContent = cache(async () => {
   try {
     const url = `https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?perspective=published&query=${encodeURIComponent(query)}`;
-    const response = await fetch(url, {next: {revalidate: 60}, signal: AbortSignal.timeout(10000)});
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const {result} = await response.json();
+    const {result} = await readPublishedContent(url);
+    if (!Array.isArray(result?.pages) || result.pages.length === 0 || !result.settings) {
+      throw new Error('CMS response is missing published pages or nursery settings');
+    }
     return result || {};
   } catch (error) {
+    // A failed production rebuild must retain the last successful deployment,
+    // rather than publishing stale fallback content over the editor's changes.
+    if (process.env.NODE_ENV === 'production') throw error;
     console.error('CMS unavailable; using local nursery content.', error.message);
     return {};
   }
