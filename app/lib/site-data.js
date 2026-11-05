@@ -1,3 +1,5 @@
+import parentTestimonials from '@/content/testimonials.json';
+
 export const contact = {
   phone: "+971 4 398 4900",
   phoneHref: "tel:+97143984900",
@@ -21,28 +23,7 @@ export const navItems = [
   { href: "/contact", label: "Contact" }
 ];
 
-export const testimonials = [
-  {
-    quote: "Since joining, our son has made remarkable progress. He shares everything he learns—from songs to stories—and looks forward to nursery every day.",
-    name: "Bijil & Rohini",
-    role: "New Dubai Nursery parents"
-  },
-  {
-    quote: "We are grateful for the patience, warmth and care. Our daughter has grown in confidence, communication and independence.",
-    name: "Maahi Punjwani",
-    role: "New Dubai Nursery parent"
-  },
-  {
-    quote: "The team created such a nurturing and joyful environment. Our children blossomed while feeling happy and safe every day.",
-    name: "Raji Arun",
-    role: "New Dubai Nursery parent"
-  },
-  {
-    quote: "The teachers are compassionate and committed to every child’s growth. New Dubai Nursery gave our daughter an incredible start.",
-    name: "The Austria Family",
-    role: "New Dubai Nursery family"
-  }
-];
+export const testimonials = parentTestimonials;
 
 export const learningAreas = [
   "Communication & language",

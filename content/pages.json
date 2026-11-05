@@ -9,7 +9,7 @@
         "_key": "photo-1",
         "slot": "photo-1",
         "label": "Main hero",
-        "photoId": "colourful-craft-making"
+        "photoId": "children-uae-flag"
       },
       {
         "_key": "photo-2",
@@ -40,28 +40,28 @@
         "slot": "photo-6",
         "label": "Role play gallery",
         "photoId": "imaginative-kitchen",
-        "caption": "Imaginative role play"
+        "caption": "Imaginative Role Play"
       },
       {
         "_key": "photo-7",
         "slot": "photo-7",
         "label": "Movement gallery",
         "photoId": "balance-and-movement",
-        "caption": "Movement & fitness"
+        "caption": "Movement & Fitness"
       },
       {
         "_key": "photo-8",
         "slot": "photo-8",
         "label": "Families gallery",
         "photoId": "family-teacher-meeting",
-        "caption": "Families & belonging"
+        "caption": "Families & Belonging"
       },
       {
         "_key": "photo-9",
         "slot": "photo-9",
         "label": "Celebration gallery",
         "photoId": "sports-day",
-        "caption": "Celebration & expression"
+        "caption": "Celebration & Expression"
       },
       {
         "_key": "photo-10",
@@ -267,13 +267,13 @@
         "_key": "text-33",
         "key": "text-33",
         "label": "Book a visit",
-        "value": "Book a visit "
+        "value": "Book a Visit "
       },
       {
         "_key": "text-34",
         "key": "text-34",
         "label": "Explore learning",
-        "value": "Explore learning"
+        "value": "Explore Learning"
       },
       {
         "_key": "text-35",
@@ -483,31 +483,31 @@
         "_key": "text-69",
         "key": "text-69",
         "label": "Explore nursery life",
-        "value": "Explore nursery life "
+        "value": "Explore Nursery Life "
       },
       {
         "_key": "text-70",
         "key": "text-70",
         "label": "Imaginative role play",
-        "value": "Imaginative role play"
+        "value": "Imaginative Role Play"
       },
       {
         "_key": "text-71",
         "key": "text-71",
         "label": "Movement & fitness",
-        "value": "Movement & fitness"
+        "value": "Movement & Fitness"
       },
       {
         "_key": "text-72",
         "key": "text-72",
         "label": "Families & belonging",
-        "value": "Families & belonging"
+        "value": "Families & Belonging"
       },
       {
         "_key": "text-73",
         "key": "text-73",
         "label": "Celebration & expression",
-        "value": "Celebration & expression"
+        "value": "Celebration & Expression"
       },
       {
         "_key": "text-74",
@@ -621,7 +621,7 @@
         "_key": "text-92",
         "key": "text-92",
         "label": "View admissions",
-        "value": "View admissions "
+        "value": "View Admissions "
       },
       {
         "_key": "text-93",
@@ -657,13 +657,13 @@
         "_key": "text-98",
         "key": "text-98",
         "label": "Meet our team, explore our Al Hudaiba nursery and talk through the next step for your child.",
-        "value": "Meet our team, explore our Al Hudaiba nursery and talk through the next step for your child."
+        "value": "Meet our team, explore our centre and talk through the next step for your child."
       },
       {
         "_key": "text-99",
         "key": "text-99",
         "label": "Request a visit",
-        "value": "Request a visit "
+        "value": "Request a Visit "
       },
       {
         "_key": "text-100",
@@ -683,7 +683,7 @@
         "_key": "photo-1",
         "slot": "photo-1",
         "label": "Hero",
-        "photoId": "nursery-anniversary-team"
+        "photoId": "anniversary-board-team-corrected"
       },
       {
         "_key": "photo-2",
@@ -708,6 +708,18 @@
         "slot": "photo-5",
         "label": "Educators",
         "photoId": "educator-classroom-activity"
+      },
+      {
+        "_key": "indoor-play",
+        "slot": "indoor-play",
+        "label": "Creative and enquiry spaces",
+        "photoId": "indoor-steam-building"
+      },
+      {
+        "_key": "outdoor-play",
+        "slot": "outdoor-play",
+        "label": "Active indoor and outdoor play",
+        "photoId": "outdoor-movement-circle"
       }
     ],
     "copy": [
@@ -973,49 +985,49 @@
         "_key": "text-44",
         "key": "text-44",
         "label": "Our centre manager, special needs educator, teachers, teaching assistants and care assistants w",
-        "value": "Our centre manager, special needs educator, teachers, teaching assistants and care assistants work together to make learning safe, personal and memorable."
+        "value": "Our Centre Manager, Special Needs Educator, Teachers, Teaching Assistants and Care Assistants work together to make learning safe, personal and memorable."
       },
       {
         "_key": "text-45",
         "key": "text-45",
         "label": "Early childhood trained educators",
-        "value": "Early childhood trained educators"
+        "value": "Early Childhood Trained Educators"
       },
       {
         "_key": "text-46",
         "key": "text-46",
         "label": "Paediatric first-aid training",
-        "value": "Paediatric first-aid training"
+        "value": "Paediatric First-aid Training"
       },
       {
         "_key": "text-47",
         "key": "text-47",
         "label": "Registered nurse on premises",
-        "value": "Registered nurse on premises"
+        "value": "Registered Nurse on Premises"
       },
       {
         "_key": "text-48",
         "key": "text-48",
         "label": "On-call doctor",
-        "value": "On-call doctor"
+        "value": "On-call Doctor"
       },
       {
         "_key": "text-49",
         "key": "text-49",
         "label": "Ongoing professional learning",
-        "value": "Ongoing professional learning"
+        "value": "Ongoing Professional Learning"
       },
       {
         "_key": "text-50",
         "key": "text-50",
         "label": "Strong family communication",
-        "value": "Strong family communication"
+        "value": "Strong Family Communication"
       },
       {
         "_key": "text-51",
         "key": "text-51",
         "label": "Could NDN be their place?",
-        "value": "Could NDN be their place?"
+        "value": "Could NDN be your place?"
       },
       {
         "_key": "text-52",
@@ -1027,7 +1039,7 @@
         "_key": "text-53",
         "key": "text-53",
         "label": "Arrange a visit",
-        "value": "Arrange a visit "
+        "value": "Arrange a Visit "
       }
     ]
   },
@@ -1096,6 +1108,30 @@
         "slot": "learning-6",
         "label": "Learning area: Expressive arts & design",
         "photoId": "creative-making-together"
+      },
+      {
+        "_key": "enrichment-0",
+        "slot": "enrichment-0",
+        "label": "STEAM and robotics",
+        "photoId": "robotics-investigation"
+      },
+      {
+        "_key": "enrichment-1",
+        "slot": "enrichment-1",
+        "label": "Language and culture",
+        "photoId": "language-circle-time"
+      },
+      {
+        "_key": "enrichment-2",
+        "slot": "enrichment-2",
+        "label": "Music and movement",
+        "photoId": "music-and-group-movement"
+      },
+      {
+        "_key": "enrichment-3",
+        "slot": "enrichment-3",
+        "label": "Nature and discovery",
+        "photoId": "outdoor-nature-investigation"
       }
     ],
     "copy": [
@@ -1229,7 +1265,7 @@
         "_key": "text-22",
         "key": "text-22",
         "label": "The Early Years Foundation Stage connects communication, wellbeing, thinking and creativity so ",
-        "value": "The Early Years Foundation Stage connects communication, wellbeing, thinking and creativity so children develop in a balanced way."
+        "value": "The Early Years Foundation Stage connects Communication, Wellbeing, Thinking and Creativity so children develop in a balanced way."
       },
       {
         "_key": "text-23",
@@ -1283,31 +1319,31 @@
         "_key": "text-31",
         "key": "text-31",
         "label": "Independence and self-care",
-        "value": "Independence and self-care"
+        "value": "Independence and Self-care"
       },
       {
         "_key": "text-32",
         "key": "text-32",
         "label": "Communication and friendship",
-        "value": "Communication and friendship"
+        "value": "Communication and Friendship"
       },
       {
         "_key": "text-33",
         "key": "text-33",
         "label": "Early literacy and numeracy",
-        "value": "Early literacy and numeracy"
+        "value": "Early Literacy and Numeracy"
       },
       {
         "_key": "text-34",
         "key": "text-34",
         "label": "Critical thinking and problem-solving",
-        "value": "Critical thinking and problem-solving"
+        "value": "Critical Thinking and Problem-solving"
       },
       {
         "_key": "text-35",
         "key": "text-35",
         "label": "Explore admissions",
-        "value": "Explore admissions "
+        "value": "Explore Admissions "
       },
       {
         "_key": "learning-title-0",
@@ -1363,7 +1399,7 @@
         "_key": "photo-1",
         "slot": "photo-1",
         "label": "Hero",
-        "photoId": "welcome-to-soft-play"
+        "photoId": "admissions-building-together"
       },
       {
         "_key": "photo-2",
@@ -1377,55 +1413,55 @@
         "_key": "text-1",
         "key": "text-1",
         "label": "Passport and valid visa copies",
-        "value": "Passport and valid visa copies"
+        "value": "Passport and Valid Visa Copies"
       },
       {
         "_key": "text-2",
         "key": "text-2",
         "label": "Emirates ID copy",
-        "value": "Emirates ID copy"
+        "value": "Emirates ID Copy"
       },
       {
         "_key": "text-3",
         "key": "text-3",
         "label": "Birth certificate copy",
-        "value": "Birth certificate copy"
+        "value": "Birth Certificate Copy"
       },
       {
         "_key": "text-4",
         "key": "text-4",
         "label": "Recent passport-size photographs",
-        "value": "Recent passport-size photographs"
+        "value": "Recent Passport-size Photographs"
       },
       {
         "_key": "text-5",
         "key": "text-5",
         "label": "Immunisation record copy",
-        "value": "Immunisation record copy"
+        "value": "Immunisation Record Copy"
       },
       {
         "_key": "text-6",
         "key": "text-6",
         "label": "Parent passport and visa copies",
-        "value": "Parent passport and visa copies"
+        "value": "Parent Passport and Visa Copies"
       },
       {
         "_key": "text-7",
         "key": "text-7",
         "label": "Parent Emirates ID copies",
-        "value": "Parent Emirates ID copies"
+        "value": "Parent Emirates ID Copies"
       },
       {
         "_key": "text-8",
         "key": "text-8",
         "label": "Recent passport-size photographs",
-        "value": "Recent passport-size photographs"
+        "value": "Recent Passport-size Photographs"
       },
       {
         "_key": "text-9",
         "key": "text-9",
         "label": "Authorised pick-up person ID and photograph",
-        "value": "Authorised pick-up person ID and photograph"
+        "value": "Authorised Pick-up Person ID and Photograph"
       },
       {
         "_key": "text-10",
@@ -1467,7 +1503,7 @@
         "_key": "text-16",
         "key": "text-16",
         "label": "Early years placements",
-        "value": "Early years placements"
+        "value": "Early Years Placements"
       },
       {
         "_key": "text-17",
@@ -1479,7 +1515,7 @@
         "_key": "text-18",
         "key": "text-18",
         "label": "Enrolment enquiries",
-        "value": "Enrolment enquiries"
+        "value": "Enrolment Enquiries"
       },
       {
         "_key": "text-19",
@@ -1492,12 +1528,6 @@
         "key": "text-20",
         "label": "Available until 6:00 p.m.",
         "value": "Available until 6:00 p.m."
-      },
-      {
-        "_key": "text-21",
-        "key": "text-21",
-        "label": "Core programme timings currently differ across official nursery pages. Please confirm the lates",
-        "value": "Core programme timings currently differ across official nursery pages. Please confirm the latest schedule directly with admissions."
       },
       {
         "_key": "text-22",
@@ -1557,7 +1587,7 @@
         "_key": "text-31",
         "key": "text-31",
         "label": "Request a visit",
-        "value": "Request a visit "
+        "value": "Request a Visit "
       },
       {
         "_key": "text-32",
@@ -1705,7 +1735,7 @@
         "_key": "text-5",
         "key": "text-5",
         "label": "WhatsApp us",
-        "value": "WhatsApp us "
+        "value": "WhatsApp Us "
       },
       {
         "_key": "text-6",
@@ -1717,7 +1747,7 @@
         "_key": "text-7",
         "key": "text-7",
         "label": "Arrange a visit",
-        "value": "Arrange a visit"
+        "value": "Arrange a Visit"
       },
       {
         "_key": "text-8",

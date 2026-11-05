@@ -5,11 +5,12 @@ import {createImageUrlBuilder} from '@sanity/image-url';
 import {projectId, dataset, apiVersion} from '@/sanity/project';
 import defaults from '@/content/pages.json';
 import photos from '@/content/photo-library.json';
+import {newsletterGroups} from '@/content/newsletters';
 import {contact, testimonials, forms} from './site-data';
 
 const builder = createImageUrlBuilder({projectId, dataset});
 const localPhotos = new Map(photos.map(photo => [photo.id, photo]));
-const query = `{"pages": *[_type == "nurseryPage"]{slug, copy, photos[]{slot, caption, photo->{alt, image}}}, "settings": *[_id == "nurserySettings"][0]{..., tour{title, "url": video.asset->url, "poster": poster.asset->url, "captions": captions.asset->url}, forms[]{name, "url": document.asset->url}}}`;
+const query = `{"pages": *[_type == "nurseryPage"]{slug, copy, photos[]{slot, caption, photo->{alt, image}}}, "settings": *[_id == "nurserySettings"][0]{..., newsletters{${newsletterGroups.map(group=>`"${group.key}": ${group.key}.asset->url`).join(', ')}}, tour{title, "url": video.asset->url, "poster": poster.asset->url, "captions": captions.asset->url}, forms[]{name, "url": document.asset->url}}}`;
 // Bypass Next's persistent fetch cache so every CMS-triggered build reads the
 // latest published data, even when Cloudflare restores its build cache.
 function readPublishedContent(url) {
@@ -76,5 +77,6 @@ export async function getSettings() {
   merged.phoneHref = `tel:${merged.phone.replace(/[^+\d]/g, '')}`;
   merged.whatsappHref = `https://wa.me/${merged.whatsapp.replace(/\D/g, '')}`;
   merged.emailHref = `mailto:${merged.email}`;
-  return {contact: merged, tour: saved?.tour?.url ? saved.tour : null, testimonials: saved?.testimonials?.length ? saved.testimonials : testimonials, forms: saved?.forms?.filter(form => form.name && form.url) ?? forms.map(form => ({...form, url: `/forms/${form.file}`}))};
+  const newsletters = Object.fromEntries(newsletterGroups.map(group=>[group.key, saved?.newsletters?.[group.key] || `/newsletters/${group.file}`]));
+  return {contact: merged, newsletters, tour: saved?.tour?.url ? saved.tour : null, testimonials: saved?.testimonials?.length ? saved.testimonials : testimonials, forms: saved?.forms?.filter(form => form.name && form.url) ?? forms.map(form => ({...form, url: `/forms/${form.file}`}))};
 }

@@ -27,7 +27,7 @@ npm run build
 
 Local fallback photography and admission forms are stored in `public/`. `app/lib/site-data.js` provides fallback contact details, the Al Hudaiba address and Google Maps links when CMS content is unavailable.
 
-Sanity now manages the main page wording, photos, contact details, testimonials, and admission forms. Open `/studio` and sign in with GitHub to edit. The 29 curated photographs each occupy a unique position across the website; the editor checks for image reuse before publishing. See [the CMS guide](docs/cms-plan.md) for editing, verification and deployment instructions.
+Sanity now manages the main page wording, photos, contact details, testimonials, and admission forms. Open `/studio` and sign in with GitHub to edit. The 35 assigned photographs each occupy a unique position across the website; the editor checks for image reuse before publishing. See [the CMS guide](docs/cms-plan.md) for editing, verification and deployment instructions.
 
 Use Node.js 24.19.0 (see `.node-version`). `npm run cms:verify` checks the saved content and unique photo assignments. The curated fallback copies are in `public/images/curated/`, with descriptions and source references in `content/photo-library.json`.
 

@@ -15,14 +15,14 @@ export default async function ContactPage() {
 
   return (
     <main id="main-content">
-      <PageHero eyebrow={t('text-1', "Contact us")} title={<>{t('text-2', "Let’s start a")}<br /><em className="font-normal text-[var(--sun)]">{t('text-3', "conversation")}</em></>} copy={t('text-4', "Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition}>
-        <div className="mt-8 flex flex-wrap gap-3"><a href={contact.whatsappHref} className="button button-sun" target="_blank" rel="noreferrer">{t('text-5', "WhatsApp us ")}<span aria-hidden="true">↗</span></a><a href={contact.phoneHref} className="button border border-white/30 text-white">{t('text-6', "Call ")}{contact.phone}</a></div>
+      <PageHero eyebrow={t('text-1', "Contact us")} title={<>{t('text-2', "Let’s Start a")}<br /><em className="font-normal text-[var(--sun)]">{t('text-3', "Conversation")}</em></>} copy={t('text-4', "Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition}>
+        <div className="mt-8 flex flex-wrap gap-3"><a href={contact.whatsappHref} className="button button-sun" target="_blank" rel="noreferrer">{t('text-5', "WhatsApp Us ")}<span aria-hidden="true">↗</span></a><a href={contact.phoneHref} className="button border border-white/30 text-white">{t('text-6', "Call ")}{contact.phone}</a></div>
       </PageHero>
 
       <section className="bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32" id="visit">
         <div className="mx-auto grid max-w-[1300px] items-start gap-14 lg:grid-cols-[.78fr_1.22fr] lg:gap-20">
           <div>
-            <SectionHeading eyebrow={t('text-7', "Arrange a visit")} title={<>{t('text-8', "See if it feels")}<br />{t('text-9', "like ")}<em className="font-normal text-[var(--coral)]">{t('text-10', "their place")}</em></>} copy={t('text-11', "Share a few details and WhatsApp will open with your visit request ready to send.")} />
+            <SectionHeading eyebrow={t('text-7', "Arrange a Visit")} title={<>{t('text-8', "See If It Feels")}<br />{t('text-9', "Like ")}<em className="font-normal text-[var(--coral)]">{t('text-10', "Their Place")}</em></>} copy={t('text-11', "Share a few details and WhatsApp will open with your visit request ready to send.")} />
             <div className="mt-9 rounded-[28px] border border-[var(--coral)]/20 bg-[#f7d7cd] p-6">
               <p className="text-xs font-black uppercase tracking-[.15em] text-[var(--coral-dark)]">{t('text-12', "Visit New Dubai Nursery")}</p>
               <address className="mt-3 text-sm not-italic leading-7 text-[var(--ink-muted)]">{contact.address}</address>
@@ -35,7 +35,7 @@ export default async function ContactPage() {
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto max-w-[1200px]">
-          <SectionHeading align="center" eyebrow={t('text-14', "Talk to our team")} title={<>{t('text-15', "Choose what works")}<br /><em className="font-normal text-[var(--coral)]">{t('text-16', "for you")}</em></>} />
+          <SectionHeading align="center" eyebrow={t('text-14', "Talk to our team")} title={<>{t('text-15', "Choose What Works")}<br /><em className="font-normal text-[var(--coral)]">{t('text-16', "for You")}</em></>} />
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             <ContactCard icon="☎" label={t('text-17', "Call")} value={contact.phone} href={contact.phoneHref} />
             <ContactCard icon="◉" label={t('text-18', "WhatsApp")} value={contact.whatsapp} href={contact.whatsappHref} external />
@@ -49,7 +49,7 @@ export default async function ContactPage() {
         <div className="mx-auto grid max-w-[1250px] items-center gap-12 lg:grid-cols-[.72fr_1.28fr] lg:gap-20">
           <div>
             <p className="eyebrow text-[var(--sun)]">{t('text-21', "Find us")}</p>
-            <h2 className="font-display text-[clamp(2.7rem,5.2vw,4.8rem)] leading-[.98] tracking-[-.045em]">{t('text-22', "Visit our Al Hudaiba nursery")}</h2>
+            <h2 className="font-display text-[clamp(2.7rem,5.2vw,4.8rem)] leading-[.98] tracking-[-.045em]">{t('text-22', "Visit Our Al Hudaiba Nursery")}</h2>
             <address className="mt-6 max-w-md text-base not-italic leading-8 text-white/70">{contact.address}</address>
             <a href={contact.mapsHref} target="_blank" rel="noreferrer" className="button button-sun mt-8">{t('text-23', "Open in Google Maps ")}<span aria-hidden="true">↗</span></a>
           </div>
@@ -73,11 +73,11 @@ export default async function ContactPage() {
           </div>
           <div>
             <p className="eyebrow text-[var(--coral)]">{t('text-25', "What happens next?")}</p>
-            <h2 className="font-display text-[clamp(2.7rem,5.2vw,4.8rem)] leading-[.98] tracking-[-.045em] text-[var(--palm)]">{t('text-26', "A warm welcome, from the very first message")}</h2>
+            <h2 className="font-display text-[clamp(2.7rem,5.2vw,4.8rem)] leading-[.98] tracking-[-.045em] text-[var(--palm)]">{t('text-26', "A Warm Welcome, from the Very First Message")}</h2>
             <div className="mt-8 space-y-6">
-              <NextStep number="1" title={t('text-27', "We’ll listen")} copy={t('text-28', "Tell us about your child, your timing and what matters most to your family.")} />
-              <NextStep number="2" title={t('text-29', "We’ll share details")} copy={t('text-30', "Our team will explain availability, timings, the appropriate age group and how to find us.")} />
-              <NextStep number="3" title={t('text-31', "We’ll plan your visit")} copy={t('text-32', "Meet the team, experience nursery life and ask all the questions you need.")} />
+              <NextStep number="1" title={t('text-27', "We’ll Listen")} copy={t('text-28', "Tell us about your child, your timing and what matters most to your family.")} />
+              <NextStep number="2" title={t('text-29', "We’ll Share Details")} copy={t('text-30', "Our team will explain availability, timings, the appropriate age group and how to find us.")} />
+              <NextStep number="3" title={t('text-31', "We’ll Plan Your Visit")} copy={t('text-32', "Meet the team, experience nursery life and ask all the questions you need.")} />
             </div>
           </div>
         </div>

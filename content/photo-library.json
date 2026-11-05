@@ -9,9 +9,7 @@
     "bytes": 111210,
     "sourceArchive": "Art and Craft.zip",
     "sourcePath": "Art and Craft/4-5Y.jpeg",
-    "placements": [
-      "Home: Main hero"
-    ],
+    "placements": [],
     "selectionReason": "Clear portrait composition showing a focused classroom craft activity."
   },
   {
@@ -25,7 +23,7 @@
     "sourceArchive": "Communication and language.zip",
     "sourcePath": "Communication and language/3-4y (2).jpg",
     "placements": [
-      "Curriculum: School readiness"
+      "curriculum: School readiness"
     ],
     "selectionReason": "Close view of shared reading and communication."
   },
@@ -40,7 +38,7 @@
     "sourceArchive": "Communication and language.zip",
     "sourcePath": "Communication and language/4-5y.jpg",
     "placements": [
-      "Home: Hero reading"
+      "home: Hero reading"
     ],
     "selectionReason": "Landscape view showing authentic shared learning."
   },
@@ -55,7 +53,7 @@
     "sourceArchive": "Events.zip",
     "sourcePath": "Events/Parent Teachers Day/7ffe630e-5a18-438c-ac30-27ee7daad369.JPG",
     "placements": [
-      "Home: Families gallery"
+      "home: Families gallery"
     ],
     "selectionReason": "Welcoming family interaction; landscape frame suits banners."
   },
@@ -70,7 +68,7 @@
     "sourceArchive": "Events.zip",
     "sourcePath": "Events/Sports Day/da37a514-d7dd-4bbb-9b8f-ce2c05f8487f.JPG",
     "placements": [
-      "Home: Celebration gallery"
+      "home: Celebration gallery"
     ],
     "selectionReason": "Colourful group activity with a clear foreground."
   },
@@ -85,7 +83,7 @@
     "sourceArchive": "Numeracy.zip",
     "sourcePath": "Numeracy/2-3 Maths (2).JPG",
     "placements": [
-      "Curriculum: Purposeful play"
+      "curriculum: Purposeful play"
     ],
     "selectionReason": "Clear view of both learners and their number activity."
   },
@@ -100,7 +98,7 @@
     "sourceArchive": "Numeracy.zip",
     "sourcePath": "Numeracy/3-4y (3).jpeg",
     "placements": [
-      "Curriculum: Learning area: Mathematics"
+      "curriculum: Learning area: Mathematics"
     ],
     "selectionReason": "The learning materials and cooperative activity are easy to see."
   },
@@ -115,7 +113,7 @@
     "sourceArchive": "Personal Social Emotional Development.zip",
     "sourcePath": "Personal Social Emotional Development/4-5y (3).jpeg",
     "placements": [
-      "Home: Learning approach"
+      "home: Learning approach"
     ],
     "selectionReason": "Close view of cooperative, hands-on exploration."
   },
@@ -130,7 +128,7 @@
     "sourceArchive": "Physical development.zip",
     "sourcePath": "Physical development/3-4 PD (4).JPG",
     "placements": [
-      "Home: Movement gallery"
+      "home: Movement gallery"
     ],
     "selectionReason": "Portrait framing preserves the balance path and movement."
   },
@@ -145,7 +143,7 @@
     "sourceArchive": "Physical development.zip",
     "sourcePath": "Physical development/3-4y.jpeg",
     "placements": [
-      "Home: A place to belong"
+      "home: A place to belong"
     ],
     "selectionReason": "Warm expressions and clear portrait framing."
   },
@@ -160,7 +158,7 @@
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/2-3 UOW.JPG",
     "placements": [
-      "Home: Hero discovery"
+      "home: Hero discovery"
     ],
     "selectionReason": "Landscape composition shows shared curiosity and the activity."
   },
@@ -175,7 +173,7 @@
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/3-4y (2).jpeg",
     "placements": [
-      "Home: Role play gallery"
+      "home: Role play gallery"
     ],
     "selectionReason": "Recognisable imaginative play with space around the subjects."
   },
@@ -190,7 +188,7 @@
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/4-5 UOW (4).JPG",
     "placements": [
-      "Home: Care and wellbeing"
+      "home: Care and wellbeing"
     ],
     "selectionReason": "Portrait composition connects caring actions with nature."
   },
@@ -204,9 +202,7 @@
     "bytes": 759314,
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/4-5y.jpg",
-    "placements": [
-      "Contact: Nursery activities"
-    ],
+    "placements": [],
     "selectionReason": "High-resolution outdoor learning scene with visible activity."
   },
   {
@@ -219,9 +215,7 @@
     "bytes": 145828,
     "sourceArchive": "Events.zip",
     "sourcePath": "Events/Family Fiesta/PHOTO-2026-09-10-17-26-20.jpg",
-    "placements": [
-      "About: Hero"
-    ],
+    "placements": [],
     "selectionReason": "A wide group photograph connects the nursery story to its people and anniversary."
   },
   {
@@ -235,7 +229,7 @@
     "sourceArchive": "Events.zip",
     "sourcePath": "Events/Picnic/df681c11-beb2-4ca2-af92-5a6b4fcc79c1.JPG",
     "placements": [
-      "About: Learning through play"
+      "about: Learning through play"
     ],
     "selectionReason": "Clear outdoor group portrait with educators and children together."
   },
@@ -250,7 +244,7 @@
     "sourceArchive": "Physical development.zip",
     "sourcePath": "Physical development/4-5 y PD.JPG",
     "placements": [
-      "About: Physical play"
+      "about: Physical play"
     ],
     "selectionReason": "Landscape framing shows whole-body movement and the play space."
   },
@@ -265,7 +259,7 @@
     "sourceArchive": "Numeracy.zip",
     "sourcePath": "Numeracy/2-3 UOW.JPG",
     "placements": [
-      "About: Nursery life"
+      "about: Nursery life"
     ],
     "selectionReason": "Bright, sharp imaginative play scene with visible costumes and props."
   },
@@ -279,9 +273,7 @@
     "bytes": 256704,
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/5-6 UOW (2).JPG",
-    "placements": [
-      "About: Educators"
-    ],
+    "placements": [],
     "selectionReason": "The educator and attentive children are clearly visible in a real learning interaction.",
     "focus": {
       "x": 0.28,
@@ -299,7 +291,7 @@
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/4-5 y.jpeg",
     "placements": [
-      "Curriculum: Hero"
+      "curriculum: Hero"
     ],
     "selectionReason": "Clear landscape view of cooperative problem-solving."
   },
@@ -314,7 +306,7 @@
     "sourceArchive": "Numeracy.zip",
     "sourcePath": "Numeracy/2-3 y Lit.JPG",
     "placements": [
-      "Curriculum: Learning area: Communication & language"
+      "curriculum: Learning area: Communication & language"
     ],
     "selectionReason": "Clear faces and story props show conversation around a familiar story."
   },
@@ -329,7 +321,7 @@
     "sourceArchive": "Physical development.zip",
     "sourcePath": "Physical development/3-4 PD.JPG",
     "placements": [
-      "Curriculum: Learning area: Physical development"
+      "curriculum: Learning area: Physical development"
     ],
     "selectionReason": "Full-body activity makes coordination and balance easy to understand."
   },
@@ -344,7 +336,7 @@
     "sourceArchive": "Personal Social Emotional Development.zip",
     "sourcePath": "Personal Social Emotional Development/4-5y (2).jpeg",
     "placements": [
-      "Curriculum: Learning area: Personal, social & emotional development"
+      "curriculum: Learning area: Personal, social & emotional development"
     ],
     "selectionReason": "Well-lit group activity shows children sharing materials and exploring together."
   },
@@ -359,7 +351,7 @@
     "sourceArchive": "Numeracy.zip",
     "sourcePath": "Numeracy/2-3y (2).JPG",
     "placements": [
-      "Curriculum: Learning area: Literacy"
+      "curriculum: Learning area: Literacy"
     ],
     "selectionReason": "Uncluttered portrait with both books and readers visible."
   },
@@ -374,7 +366,7 @@
     "sourceArchive": "UOW.zip",
     "sourcePath": "UOW/4-5 y (2).jpeg",
     "placements": [
-      "Curriculum: Learning area: Understanding the world"
+      "curriculum: Learning area: Understanding the world"
     ],
     "selectionReason": "A focused portrait with the child and science model visible.",
     "focus": {
@@ -393,7 +385,7 @@
     "sourceArchive": "Art and Craft.zip",
     "sourcePath": "Art and Craft/2-3 arts (3).JPG",
     "placements": [
-      "Curriculum: Learning area: Expressive arts & design"
+      "curriculum: Learning area: Expressive arts & design"
     ],
     "selectionReason": "Clear landscape view of creative making and varied art materials."
   },
@@ -407,9 +399,7 @@
     "bytes": 127112,
     "sourceArchive": "Physical development.zip",
     "sourcePath": "Physical development/3-4y.JPG",
-    "placements": [
-      "Admissions: Hero"
-    ],
+    "placements": [],
     "selectionReason": "Welcoming expressions in a bright nursery setting.",
     "focus": {
       "x": 0.5,
@@ -426,9 +416,7 @@
     "bytes": 219356,
     "sourceArchive": "Events.zip",
     "sourcePath": "Events/Parent Teachers Day/667edde5-4a76-42d8-a38e-d87fd2d67c84.JPG",
-    "placements": [
-      "Admissions: Family partnership"
-    ],
+    "placements": [],
     "selectionReason": "Clear landscape portrait of a family and educator meeting."
   },
   {
@@ -442,7 +430,7 @@
     "sourceArchive": "Communication and language.zip",
     "sourcePath": "Communication and language/4-5y (2).jpeg",
     "placements": [
-      "Contact: Hero"
+      "contact: Hero"
     ],
     "selectionReason": "A warm expression and storytelling props suit starting a conversation."
   },
@@ -456,7 +444,7 @@
     "bytes": 160378,
     "sourcePath": "Website Photos/Curriculum/WhatsApp Image 2025-12-11 at 12.50.33_3e0ecc19.jpg",
     "placements": [
-      "About: Educators"
+      "about: Educators"
     ],
     "selectionReason": "A clear classroom interaction showing an educator supporting a small group of students.",
     "focus": {
@@ -474,7 +462,7 @@
     "bytes": 265184,
     "sourcePath": "Website Photos/WhatsApp Image 2025-12-30 at 17.31.57.jpeg",
     "placements": [
-      "Admissions: Before you apply"
+      "admissions: Family partnership"
     ],
     "selectionReason": "A welcoming nursery arrival photo for prospective families.",
     "focus": {
@@ -492,9 +480,203 @@
     "bytes": 207726,
     "sourcePath": "Website Photos/Gallery/WhatsApp Image 2025-12-13 at 22.07.27_5f40b70b.jpg",
     "placements": [
-      "Contact: Warm welcome"
+      "contact: Nursery activities"
     ],
     "selectionReason": "A friendly classroom group activity showing children creating together.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "craft-making-without-cap",
+    "src": "/images/curated/craft-making-without-cap.webp",
+    "alt": "A child decorating a craft with colourful paper",
+    "category": "Art and Craft",
+    "width": 960,
+    "height": 1280,
+    "bytes": 108472,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 12.22.10.jpeg",
+    "placements": [],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "indoor-steam-building",
+    "src": "/images/curated/indoor-steam-building.webp",
+    "alt": "Children building with blocks and exploring materials around a classroom table",
+    "category": "UOW",
+    "width": 1584,
+    "height": 993,
+    "bytes": 244996,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.24 (3).jpeg",
+    "placements": [
+      "about: Creative and enquiry spaces"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "outdoor-movement-circle",
+    "src": "/images/curated/outdoor-movement-circle.webp",
+    "alt": "Children exercising together in a circle in the shaded outdoor play area",
+    "category": "Physical development",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 342852,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.24.jpeg",
+    "placements": [
+      "about: Active indoor and outdoor play"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "robotics-investigation",
+    "src": "/images/curated/robotics-investigation.webp",
+    "alt": "Children exploring robotics and construction materials at a classroom table",
+    "category": "UOW",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 209058,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.25.jpeg",
+    "placements": [
+      "curriculum: STEAM and robotics"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "language-circle-time",
+    "src": "/images/curated/language-circle-time.webp",
+    "alt": "An educator leading a group conversation with children seated in the classroom",
+    "category": "Communication and language",
+    "width": 1600,
+    "height": 918,
+    "bytes": 360874,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-31 at 02.24.jpeg",
+    "placements": [
+      "curriculum: Language and culture"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "music-and-group-movement",
+    "src": "/images/curated/music-and-group-movement.webp",
+    "alt": "Children taking part in a coordinated movement activity in the assembly hall",
+    "category": "Physical development",
+    "width": 1280,
+    "height": 960,
+    "bytes": 153128,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-.jpeg",
+    "placements": [
+      "curriculum: Music and movement"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "outdoor-nature-investigation",
+    "src": "/images/curated/outdoor-nature-investigation.webp",
+    "alt": "Children exploring natural materials and soil together outdoors",
+    "category": "UOW",
+    "width": 1280,
+    "height": 960,
+    "bytes": 209044,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.23.jpeg",
+    "placements": [
+      "curriculum: Nature and discovery"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "admissions-building-together",
+    "src": "/images/curated/admissions-building-together.webp",
+    "alt": "Children building and exploring colourful construction toys together",
+    "category": "UOW",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 163326,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-31 at 02.24.56.jpeg",
+    "placements": [
+      "admissions: Hero"
+    ],
+    "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.4
+    }
+  },
+  {
+    "id": "anniversary-board-team",
+    "src": "/images/curated/anniversary-board-team.webp",
+    "alt": "The New Dubai Nursery team celebrating its 40th anniversary with large 40 balloons",
+    "category": "Events",
+    "width": 1280,
+    "height": 694,
+    "bytes": 166854,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-26 at 06.16.56.jpeg",
+    "placements": [],
+    "selectionReason": "The anniversary board photograph supplied to replace the About hero.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "anniversary-board-team-corrected",
+    "src": "/images/curated/anniversary-board-team-corrected.webp",
+    "alt": "The New Dubai Nursery team celebrating its 40th anniversary with large 40 balloons",
+    "category": "Events",
+    "width": 1703,
+    "height": 923,
+    "bytes": 300690,
+    "sourcePath": "AI colour-corrected version of New Website pictures/WhatsApp Image 2026-10-26 at 06.16.56.jpeg",
+    "placements": [
+      "About: Main hero"
+    ],
+    "selectionReason": "User approved the AI-corrected preview after disclosure that facial details changed. Original retained as anniversary-board-team.webp.",
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  },
+  {
+    "id": "children-uae-flag",
+    "src": "/images/curated/children-uae-flag.webp",
+    "alt": "Children dressed in red, green, white and black arranged in the shape of the UAE flag",
+    "category": "Events",
+    "width": 1584,
+    "height": 993,
+    "bytes": 412588,
+    "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.24 (2).jpeg",
+    "placements": [
+      "Home: Main hero"
+    ],
+    "selectionReason": "User requested the UAE flag photograph for the home-page hero.",
     "focus": {
       "x": 0.5,
       "y": 0.5

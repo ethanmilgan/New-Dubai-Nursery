@@ -24,12 +24,12 @@ const values = [
 
   return (
     <main id="main-content">
-      <PageHero eyebrow={t('text-13', "Our story")} title={<>{t('text-14', "A nursery with")}<br /><em className="font-normal text-[var(--sun)]">{t('text-15', "heart")}</em></>} copy={t('text-16', "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition} />
+      <PageHero eyebrow={t('text-13', "Our story")} title={<>{t('text-14', "A Nursery with")}<br /><em className="font-normal text-[var(--sun)]">{t('text-15', "Heart")}</em></>} copy={t('text-16', "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition} />
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto grid max-w-[1300px] items-center gap-14 lg:grid-cols-[.95fr_1.05fr] lg:gap-24">
           <div>
-            <SectionHeading eyebrow={t('text-17', "New Dubai Nursery")} title={<>{t('text-18', "Rooted in Dubai")}<br />{t('text-19', "Growing with ")}<em className="font-normal text-[var(--coral)]">{t('text-20', "families")}</em></>} />
+            <SectionHeading eyebrow={t('text-17', "New Dubai Nursery")} title={<>{t('text-18', "Rooted in Dubai")}<br />{t('text-19', "Growing with ")}<em className="font-normal text-[var(--coral)]">{t('text-20', "Families")}</em></>} />
             <div className="mt-7 space-y-5 text-base leading-8 text-[var(--ink-muted)] sm:text-lg">
               <p>{t('text-21', "New Dubai Nursery Early Learning Center was founded in September 1985 with a simple belief: early education should nurture the whole child.")}</p>
               <p>{t('text-22', "Today, that belief shapes an environment where children can explore, experiment, discover and grow—physically, intellectually, emotionally, socially and creatively.")}</p>
@@ -56,7 +56,7 @@ const values = [
 
       <section className="bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto max-w-[1300px]">
-          <SectionHeading align="center" eyebrow={t('text-29', "What guides us")} title={<>{t('text-30', "Values children can")}<br /><em className="font-normal text-[var(--coral)]">{t('text-31', "feel every day")}</em></>} />
+          <SectionHeading align="center" eyebrow={t('text-29', "What guides us")} title={<>{t('text-30', "Values Children Can")}<br /><em className="font-normal text-[var(--coral)]">{t('text-31', "Feel Every Day")}</em></>} />
           <div className="mt-14 grid gap-px overflow-hidden rounded-[32px] bg-[var(--line)] sm:grid-cols-2 lg:grid-cols-3">
             {values.map(([title, copy], index) => (
               <article key={title} className="bg-white p-8 sm:p-10">
@@ -72,16 +72,20 @@ const values = [
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32" id="nursery-life">
         <div className="mx-auto max-w-[1400px]">
           <div className="grid items-end gap-8 lg:grid-cols-2">
-            <SectionHeading eyebrow={t('text-32', "Nursery life")} title={<>{t('text-33', "Made for movement,")}<br />{t('text-34', "mess and ")}<em className="font-normal text-[var(--coral)]">{t('text-35', "magic")}</em></>} />
+            <SectionHeading eyebrow={t('text-32', "Nursery life")} title={<>{t('text-33', "Made for Movement,")}<br />{t('text-34', "Mess and ")}<em className="font-normal text-[var(--coral)]">{t('text-35', "Magic")}</em></>} />
             <p className="max-w-xl text-base leading-8 text-[var(--ink-muted)] lg:justify-self-end">{t('text-36', "Our spaces invite children to move freely between focused learning, imaginative play, creativity, nature and joyful physical activity.")}</p>
           </div>
-          <div className="mt-14 grid gap-5 lg:grid-cols-[1.2fr_.8fr]">
-            <div className="relative min-h-[520px] overflow-hidden rounded-[36px]">
+          <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-[.8fr_1.1fr_1.1fr]">
+            <div className="relative min-h-[320px] overflow-hidden rounded-[36px] md:col-span-2 lg:col-span-1">
               <Image src={photo('photo-4').src} alt={photo('photo-4').alt} style={photo('photo-4').style} fill sizes="(max-width: 1024px) 100vw, 60vw" className="object-cover" />
             </div>
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
-              <LifeCard title={t('text-37', "Creative & enquiry spaces")} copy={t('text-38', "Interactive classrooms, role play, reading, making and a dedicated STEAM environment.")} color="bg-[var(--mint)]" />
-              <LifeCard title={t('text-39', "Active indoor & outdoor play")} copy={t('text-40', "Shaded play, soft play, a junior fitness gym, music, movement and our traffic park.")} color="bg-[#f7df92]" />
+            <div className="overflow-hidden rounded-[32px] bg-[var(--mint)]">
+              <div className="relative aspect-[4/3]"><Image src={photo('indoor-play').src} alt={photo('indoor-play').alt} style={photo('indoor-play').style} fill sizes="(max-width: 768px) 90vw, 35vw" className="object-cover" /></div>
+              <LifeCard title={t('text-37', "Creative & Enquiry Spaces")} copy={t('text-38', "Interactive classrooms, role play, reading, making and a dedicated STEAM environment.")} color="bg-[var(--mint)]" />
+            </div>
+            <div className="overflow-hidden rounded-[32px] bg-[#f7df92]">
+              <div className="relative aspect-[4/3]"><Image src={photo('outdoor-play').src} alt={photo('outdoor-play').alt} style={photo('outdoor-play').style} fill sizes="(max-width: 768px) 90vw, 35vw" className="object-cover" /></div>
+              <LifeCard title={t('text-39', "Active Indoor & Outdoor Play")} copy={t('text-40', "Shaded play, soft play, a junior fitness gym, music, movement and our traffic park.")} color="bg-[#f7df92]" />
             </div>
           </div>
         </div>
@@ -91,22 +95,21 @@ const values = [
         <div className="mx-auto max-w-[1200px] text-center">
           <p className="eyebrow text-[var(--coral)]">Our Nursery Tour</p>
           <h2 id="nursery-tour-title" className="font-display text-[clamp(2.6rem,5vw,4.6rem)] leading-tight tracking-[-.04em] text-[var(--palm)]">{tour.title || 'Take a Look Around Our Nursery'}</h2>
-          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--ink-muted)]">Step inside our classrooms, play areas and outdoor spaces, and picture your child’s day at New Dubai Nursery.</p>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--ink-muted)]">Step inside our Classrooms, Play Areas and Outdoor Spaces, and picture your child’s day at New Dubai Nursery.</p>
           <video className="mt-10 aspect-video w-full rounded-[28px] bg-black shadow-xl" controls playsInline preload="none" crossOrigin="anonymous" poster={tour.poster} aria-label="New Dubai Nursery video tour">
             <source src={tour.url} type="video/mp4" />
             {tour.captions && <track kind="captions" src={tour.captions} srcLang="en" label="English" />}
             Your browser cannot play this video. <a href={tour.url}>Watch the nursery tour</a>.
           </video>
-          <Link href="/contact#visit" className="button button-coral mt-8">Book a Visit <ArrowIcon /></Link>
         </div>
       </section>}
 
       <section className="bg-[var(--palm)] px-5 py-20 text-white sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto grid max-w-[1250px] items-center gap-14 lg:grid-cols-[1fr_.9fr] lg:gap-24">
           <div>
-            <SectionHeading light eyebrow={t('text-41', "Our educators")} title={<>{t('text-42', "Skilled professionals")}<br /><em className="font-normal text-[var(--sun)]">{t('text-43', "Caring people")}</em></>} copy={t('text-44', "Our centre manager, special needs educator, teachers, teaching assistants and care assistants work together to make learning safe, personal and memorable.")} />
+            <SectionHeading light eyebrow={t('text-41', "Our educators")} title={<>{t('text-42', "Skilled Professionals")}<br /><em className="font-normal text-[var(--sun)]">{t('text-43', "Caring People")}</em></>} copy={t('text-44', "Our Centre Manager, Special Needs Educator, Teachers, Teaching Assistants and Care Assistants work together to make learning safe, personal and memorable.")} />
             <ul className="mt-8 grid gap-3 text-sm text-white/75 sm:grid-cols-2">
-              {[t('text-45', "Early childhood trained educators"), t('text-46', "Paediatric first-aid training"), t('text-47', "Registered nurse on premises"), t('text-48', "On-call doctor"), t('text-49', "Ongoing professional learning"), t('text-50', "Strong family communication")].map((item) => <li key={item} className="flex gap-3"><span className="text-[var(--sun)]">✓</span>{item}</li>)}
+              {[t('text-45', "Early Childhood Trained Educators"), t('text-46', "Paediatric First-aid Training"), t('text-47', "Registered Nurse on Premises"), t('text-48', "On-call Doctor"), t('text-49', "Ongoing Professional Learning"), t('text-50', "Strong Family Communication")].map((item) => <li key={item} className="flex gap-3"><span className="text-[var(--sun)]">✓</span>{item}</li>)}
             </ul>
           </div>
           <div className="relative min-h-[480px] overflow-hidden rounded-[38px_120px_38px_38px]">
@@ -117,8 +120,8 @@ const values = [
 
       <section className="bg-[var(--sun)] px-5 py-14 sm:px-8 lg:px-14">
         <div className="mx-auto flex max-w-[1100px] flex-col items-center justify-between gap-7 text-center sm:flex-row sm:text-left">
-          <div><p className="text-xs font-black uppercase tracking-[.18em] text-[var(--palm)]">{t('text-51', "Could NDN be their place?")}</p><h2 className="mt-2 font-display text-3xl text-[var(--palm-dark)] sm:text-4xl">{t('text-52', "Come meet the people behind the care")}</h2></div>
-          <Link href="/contact#visit" className="button bg-[var(--palm)] text-white">{t('text-53', "Arrange a visit ")}<ArrowIcon /></Link>
+          <div><p className="text-xs font-black uppercase tracking-[.18em] text-[var(--palm)]">{t('text-51', "Could NDN be your place?")}</p><h2 className="mt-2 font-display text-3xl text-[var(--palm-dark)] sm:text-4xl">{t('text-52', "Come Meet the People Behind the Care")}</h2></div>
+          <Link href="/contact#visit" className="button bg-[var(--palm)] text-white">{t('text-53', "Arrange a Visit ")}<ArrowIcon /></Link>
         </div>
       </section>
     </main>

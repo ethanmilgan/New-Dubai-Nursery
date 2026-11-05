@@ -1,0 +1,477 @@
+{
+  "changes": [
+    {
+      "slug": "home",
+      "key": "text-33",
+      "before": "Book a visit ",
+      "value": "Book a Visit "
+    },
+    {
+      "slug": "home",
+      "key": "text-34",
+      "before": "Explore learning",
+      "value": "Explore Learning"
+    },
+    {
+      "slug": "home",
+      "key": "text-69",
+      "before": "Explore nursery life ",
+      "value": "Explore Nursery Life "
+    },
+    {
+      "slug": "home",
+      "key": "text-70",
+      "before": "Imaginative role play",
+      "value": "Imaginative Role Play"
+    },
+    {
+      "slug": "home",
+      "key": "text-71",
+      "before": "Movement & fitness",
+      "value": "Movement & Fitness"
+    },
+    {
+      "slug": "home",
+      "key": "text-72",
+      "before": "Families & belonging",
+      "value": "Families & Belonging"
+    },
+    {
+      "slug": "home",
+      "key": "text-73",
+      "before": "Celebration & expression",
+      "value": "Celebration & Expression"
+    },
+    {
+      "slug": "home",
+      "key": "text-92",
+      "before": "View admissions ",
+      "value": "View Admissions "
+    },
+    {
+      "slug": "home",
+      "key": "text-98",
+      "before": "Meet our team, explore our Al Hudaiba nursery and talk through the next step for your child.",
+      "value": "Meet our team, explore our centre and talk through the next step for your child."
+    },
+    {
+      "slug": "home",
+      "key": "text-99",
+      "before": "Request a visit ",
+      "value": "Request a Visit "
+    },
+    {
+      "slug": "about",
+      "key": "text-44",
+      "before": "Our centre manager, special needs educator, teachers, teaching assistants and care assistants work together to make learning safe, personal and memorable.",
+      "value": "Our Centre Manager, Special Needs Educator, Teachers, Teaching Assistants and Care Assistants work together to make learning safe, personal and memorable."
+    },
+    {
+      "slug": "about",
+      "key": "text-51",
+      "before": "Could NDN be their place?",
+      "value": "Could NDN be your place?"
+    },
+    {
+      "slug": "about",
+      "key": "text-53",
+      "before": "Arrange a visit ",
+      "value": "Arrange a Visit "
+    },
+    {
+      "slug": "curriculum",
+      "key": "text-22",
+      "before": "The Early Years Foundation Stage connects communication, wellbeing, thinking and creativity so children develop in a balanced way.",
+      "value": "The Early Years Foundation Stage connects Communication, Wellbeing, Thinking and Creativity so children develop in a balanced way."
+    },
+    {
+      "slug": "curriculum",
+      "key": "text-31",
+      "before": "Independence and self-care",
+      "value": "Independence and Self-care"
+    },
+    {
+      "slug": "curriculum",
+      "key": "text-32",
+      "before": "Communication and friendship",
+      "value": "Communication and Friendship"
+    },
+    {
+      "slug": "curriculum",
+      "key": "text-33",
+      "before": "Early literacy and numeracy",
+      "value": "Early Literacy and Numeracy"
+    },
+    {
+      "slug": "curriculum",
+      "key": "text-34",
+      "before": "Critical thinking and problem-solving",
+      "value": "Critical Thinking and Problem-solving"
+    },
+    {
+      "slug": "curriculum",
+      "key": "text-35",
+      "before": "Explore admissions ",
+      "value": "Explore Admissions "
+    },
+    {
+      "slug": "admissions",
+      "key": "text-31",
+      "before": "Request a visit ",
+      "value": "Request a Visit "
+    },
+    {
+      "slug": "contact",
+      "key": "text-5",
+      "before": "WhatsApp us ",
+      "value": "WhatsApp Us "
+    },
+    {
+      "slug": "contact",
+      "key": "text-7",
+      "before": "Arrange a visit",
+      "value": "Arrange a Visit"
+    },
+    {
+      "slug": "about",
+      "key": "text-45",
+      "before": "Early childhood trained educators",
+      "value": "Early Childhood Trained Educators"
+    },
+    {
+      "slug": "about",
+      "key": "text-46",
+      "before": "Paediatric first-aid training",
+      "value": "Paediatric First-aid Training"
+    },
+    {
+      "slug": "about",
+      "key": "text-47",
+      "before": "Registered nurse on premises",
+      "value": "Registered Nurse on Premises"
+    },
+    {
+      "slug": "about",
+      "key": "text-48",
+      "before": "On-call doctor",
+      "value": "On-call Doctor"
+    },
+    {
+      "slug": "about",
+      "key": "text-49",
+      "before": "Ongoing professional learning",
+      "value": "Ongoing Professional Learning"
+    },
+    {
+      "slug": "about",
+      "key": "text-50",
+      "before": "Strong family communication",
+      "value": "Strong Family Communication"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-1",
+      "before": "Passport and valid visa copies",
+      "value": "Passport and Valid Visa Copies"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-2",
+      "before": "Emirates ID copy",
+      "value": "Emirates ID Copy"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-3",
+      "before": "Birth certificate copy",
+      "value": "Birth Certificate Copy"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-4",
+      "before": "Recent passport-size photographs",
+      "value": "Recent Passport-size Photographs"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-5",
+      "before": "Immunisation record copy",
+      "value": "Immunisation Record Copy"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-6",
+      "before": "Parent passport and visa copies",
+      "value": "Parent Passport and Visa Copies"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-7",
+      "before": "Parent Emirates ID copies",
+      "value": "Parent Emirates ID Copies"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-8",
+      "before": "Recent passport-size photographs",
+      "value": "Recent Passport-size Photographs"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-9",
+      "before": "Authorised pick-up person ID and photograph",
+      "value": "Authorised Pick-up Person ID and Photograph"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-16",
+      "before": "Early years placements",
+      "value": "Early Years Placements"
+    },
+    {
+      "slug": "admissions",
+      "key": "text-18",
+      "before": "Enrolment enquiries",
+      "value": "Enrolment Enquiries"
+    }
+  ],
+  "newPhotos": [
+    {
+      "slug": "home",
+      "slot": "photo-1",
+      "label": "Main hero",
+      "photo": {
+        "id": "children-uae-flag",
+        "src": "/images/curated/children-uae-flag.webp",
+        "alt": "Children dressed in red, green, white and black arranged in the shape of the UAE flag",
+        "category": "Events",
+        "width": 1584,
+        "height": 993,
+        "bytes": 412588,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.24 (2).jpeg",
+        "placements": [
+          "Home: Main hero"
+        ],
+        "selectionReason": "User requested the UAE flag photograph for the home-page hero.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "slug": "about",
+      "slot": "indoor-play",
+      "label": "Creative and enquiry spaces",
+      "photo": {
+        "id": "indoor-steam-building",
+        "src": "/images/curated/indoor-steam-building.webp",
+        "alt": "Children building with blocks and exploring materials around a classroom table",
+        "category": "UOW",
+        "width": 1584,
+        "height": 993,
+        "bytes": 244996,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.24 (3).jpeg",
+        "placements": [
+          "about: Creative and enquiry spaces"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "about",
+      "slot": "outdoor-play",
+      "label": "Active indoor and outdoor play",
+      "photo": {
+        "id": "outdoor-movement-circle",
+        "src": "/images/curated/outdoor-movement-circle.webp",
+        "alt": "Children exercising together in a circle in the shaded outdoor play area",
+        "category": "Physical development",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 342852,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.24.jpeg",
+        "placements": [
+          "about: Active indoor and outdoor play"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "curriculum",
+      "slot": "enrichment-0",
+      "label": "STEAM and robotics",
+      "photo": {
+        "id": "robotics-investigation",
+        "src": "/images/curated/robotics-investigation.webp",
+        "alt": "Children exploring robotics and construction materials at a classroom table",
+        "category": "UOW",
+        "width": 1086,
+        "height": 1448,
+        "bytes": 209058,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.25.jpeg",
+        "placements": [
+          "curriculum: STEAM and robotics"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "curriculum",
+      "slot": "enrichment-1",
+      "label": "Language and culture",
+      "photo": {
+        "id": "language-circle-time",
+        "src": "/images/curated/language-circle-time.webp",
+        "alt": "An educator leading a group conversation with children seated in the classroom",
+        "category": "Communication and language",
+        "width": 1600,
+        "height": 918,
+        "bytes": 360874,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-31 at 02.24.jpeg",
+        "placements": [
+          "curriculum: Language and culture"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "curriculum",
+      "slot": "enrichment-2",
+      "label": "Music and movement",
+      "photo": {
+        "id": "music-and-group-movement",
+        "src": "/images/curated/music-and-group-movement.webp",
+        "alt": "Children taking part in a coordinated movement activity in the assembly hall",
+        "category": "Physical development",
+        "width": 1280,
+        "height": 960,
+        "bytes": 153128,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-.jpeg",
+        "placements": [
+          "curriculum: Music and movement"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "curriculum",
+      "slot": "enrichment-3",
+      "label": "Nature and discovery",
+      "photo": {
+        "id": "outdoor-nature-investigation",
+        "src": "/images/curated/outdoor-nature-investigation.webp",
+        "alt": "Children exploring natural materials and soil together outdoors",
+        "category": "UOW",
+        "width": 1280,
+        "height": 960,
+        "bytes": 209044,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-24 at 13.42.23.jpeg",
+        "placements": [
+          "curriculum: Nature and discovery"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "admissions",
+      "slot": "photo-1",
+      "label": "Main hero",
+      "photo": {
+        "id": "admissions-building-together",
+        "src": "/images/curated/admissions-building-together.webp",
+        "alt": "Children building and exploring colourful construction toys together",
+        "category": "UOW",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 163326,
+        "sourcePath": "New Website pictures/WhatsApp Image 2026-10-31 at 02.24.56.jpeg",
+        "placements": [
+          "admissions: Hero"
+        ],
+        "selectionReason": "Selected from the supplied new photo pool for the October 24 meeting changes.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "slug": "about",
+      "slot": "photo-1",
+      "label": "Main hero",
+      "photo": {
+        "id": "anniversary-board-team-corrected",
+        "src": "/images/curated/anniversary-board-team-corrected.webp",
+        "alt": "The New Dubai Nursery team celebrating its 40th anniversary with large 40 balloons",
+        "category": "Events",
+        "width": 1703,
+        "height": 923,
+        "bytes": 300690,
+        "sourcePath": "AI colour-corrected version of New Website pictures/WhatsApp Image 2026-10-26 at 06.16.56.jpeg",
+        "placements": [
+          "About: Main hero"
+        ],
+        "selectionReason": "User approved the AI-corrected preview after disclosure that facial details changed. Original retained as anniversary-board-team.webp.",
+        "focus": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ],
+  "captions": [
+    {
+      "_key": "photo-6",
+      "slot": "photo-6",
+      "label": "Role play gallery",
+      "photoId": "imaginative-kitchen",
+      "caption": "Imaginative Role Play"
+    },
+    {
+      "_key": "photo-7",
+      "slot": "photo-7",
+      "label": "Movement gallery",
+      "photoId": "balance-and-movement",
+      "caption": "Movement & Fitness"
+    },
+    {
+      "_key": "photo-8",
+      "slot": "photo-8",
+      "label": "Families gallery",
+      "photoId": "family-teacher-meeting",
+      "caption": "Families & Belonging"
+    },
+    {
+      "_key": "photo-9",
+      "slot": "photo-9",
+      "label": "Celebration gallery",
+      "photoId": "sports-day",
+      "caption": "Celebration & Expression"
+    }
+  ]
+}

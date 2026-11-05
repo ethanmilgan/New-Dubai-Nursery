@@ -7,35 +7,38 @@ import { ArrowIcon } from "@/app/components/SiteHeader";
 
 export default async function HomePage() {
  const {t, photo} = await getPageContent('home');
- const {contact, testimonials, tour} = await getSettings();
+ const {contact, testimonials, tour, newsletters} = await getSettings();
 const programmes = [
   {
     age: t('text-1', "Ages 2–3"),
-    title: t('text-2', "A gentle first step"),
+    newsletter: newsletters.ages2to3,
+    title: t('text-2', "A Gentle First Step"),
     copy: t('text-3', "Warm relationships, predictable routines and sensory-rich play help our youngest children feel safe, secure and ready to explore."),
     color: "bg-[#f7d7cd]",
     icon: "✦"
   },
   {
     age: t('text-4', "Ages 3–4"),
-    title: t('text-5', "Curiosity in motion"),
+    newsletter: newsletters.ages3to4,
+    title: t('text-5', "Curiosity in Motion"),
     copy: t('text-6', "Imaginative play, conversation, making and movement turn everyday questions into meaningful discoveries."),
     color: "bg-[#f7df92]",
     icon: "⌁"
   },
   {
     age: t('text-7', "Ages 4–6"),
-    title: t('text-8', "Confidence for school"),
+    newsletter: newsletters.ages4to6,
+    title: t('text-8', "Confidence for School"),
     copy: t('text-9', "Purposeful projects weave together early literacy, numeracy, independence and the social skills children need for what comes next."),
     color: "bg-[#cfe5d6]",
     icon: "✿"
   }
 ];
 const features = [
-  ["01", t('text-10', "Inquiry-led learning"), t('text-11', "Children investigate ideas through play, projects and hands-on exploration.")],
-  ["02", t('text-12', "EYFS foundations"), t('text-13', "Seven connected areas support the whole child and build school readiness.")],
-  ["03", t('text-14', "Culture & language"), t('text-15', "Arabic, Islamic studies, social studies, UAE heritage and a multicultural community broaden every child’s world.")],
-  ["04", t('text-16', "STEAM & movement"), t('text-17', "Robotics, creative making, music, fitness and outdoor learning keep minds and bodies active.")]
+  ["01", t('text-10', "Inquiry-Led Learning"), t('text-11', "Children investigate ideas through play, projects and hands-on exploration.")],
+  ["02", t('text-12', "EYFS Foundations"), t('text-13', "Seven connected areas support the whole child and build school readiness.")],
+  ["03", t('text-14', "Culture & Language"), t('text-15', "Arabic, Islamic studies, social studies, UAE heritage and a multicultural community broaden every child’s world.")],
+  ["04", t('text-16', "STEAM & Movement"), t('text-17', "Robotics, creative making, music, fitness and outdoor learning keep minds and bodies active.")]
 ];
 const faqs = [
   [t('text-18', "What ages does New Dubai Nursery welcome?"), t('text-19', "Our current nursery information welcomes children from ages 2 to 6. Contact our admissions team to discuss the right placement for your child.")],
@@ -52,12 +55,11 @@ const faqs = [
         <div className="mx-auto grid max-w-[1400px] items-center gap-14 lg:grid-cols-[.87fr_1.13fr]">
           <div className="relative z-10 min-w-0 max-w-2xl">
             <p className="eyebrow text-[var(--coral)]">{t('text-27', "New Dubai Nursery · Since 1985")}</p>
-            <h1 className="font-display text-[clamp(3.35rem,7.3vw,7.5rem)] leading-[.88] tracking-[-.06em] text-[var(--palm)]">{t('text-28', "A joyful")}<br />{t('text-29', "beginning")}<br /><em className="font-normal text-[var(--coral)]">{t('text-30', "A confident")}<br />{t('text-31', "future")}</em>
+            <h1 className="font-display text-[clamp(3.35rem,7.3vw,7.5rem)] leading-[.88] tracking-[-.06em] text-[var(--palm)]">{t('text-28', "A Joyful")}<br />{t('text-29', "Beginning")}<br /><em className="font-normal text-[var(--coral)]">{t('text-30', "A Confident")}<br />{t('text-31', "Future")}</em>
             </h1>
             <p className="mt-7 max-w-xl text-base leading-8 text-[var(--ink-muted)] sm:text-lg">{t('text-32', "For more than 40 years, New Dubai Nursery has helped children learn through play, grow in independence and feel truly at home.")}</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/contact#visit" className="button button-coral">{t('text-33', "Book a visit ")}<ArrowIcon /></Link>
-              <Link href="/curriculum" className="button button-outline">{t('text-34', "Explore learning")}</Link>
+              <Link href="/curriculum" className="button button-outline">{t('text-34', "Explore Learning")}</Link>
             </div>
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-[var(--line)] pt-6 text-xs font-bold text-[var(--palm)]">
               <span className="flex items-center gap-2"><Check />{t('text-35', " Ages 2–6")}</span>
@@ -66,17 +68,17 @@ const faqs = [
             </div>
           </div>
 
-          <div className="relative min-h-[520px] sm:min-h-[640px]">
-            <div className="absolute left-[2%] top-[2%] h-[78%] w-[62%] overflow-hidden rounded-[220px_220px_40px_40px] bg-[var(--mint)] shadow-[0_30px_80px_rgba(20,66,57,.15)]">
-              <Image src={photo('photo-1').src} alt={photo('photo-1').alt} style={photo('photo-1').style} fill priority sizes="(max-width: 1024px) 60vw, 35vw" className="object-cover object-top" />
+          <div className="relative grid grid-cols-2 gap-4 sm:gap-5">
+            <div className="relative col-span-2 aspect-[1584/993] overflow-hidden rounded-[36px_36px_80px_36px] bg-[var(--mint)] shadow-[0_30px_80px_rgba(20,66,57,.15)]">
+              <Image src={photo('photo-1').src} alt={photo('photo-1').alt} style={photo('photo-1').style} fill priority sizes="(max-width: 1024px) 100vw, 55vw" className="object-contain" />
             </div>
-            <div className="absolute right-0 top-[9%] h-[38%] w-[43%] overflow-hidden rounded-[30px_90px_30px_30px] border-[7px] border-[var(--cream)] bg-white shadow-xl">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-[30px_70px_30px_30px] border-[7px] border-[var(--cream)] bg-white shadow-xl">
               <Image src={photo('photo-2').src} alt={photo('photo-2').alt} style={photo('photo-2').style} fill sizes="(max-width: 1024px) 42vw, 23vw" className="object-cover" />
             </div>
-            <div className="absolute bottom-[2%] right-[5%] h-[38%] w-[48%] overflow-hidden rounded-[90px_30px_30px_30px] border-[7px] border-[var(--cream)] bg-white shadow-xl">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-[70px_30px_30px_30px] border-[7px] border-[var(--cream)] bg-white shadow-xl">
               <Image src={photo('photo-3').src} alt={photo('photo-3').alt} style={photo('photo-3').style} fill sizes="(max-width: 1024px) 46vw, 25vw" className="object-cover" />
             </div>
-            <div className="absolute bottom-[7%] left-0 z-10 rounded-2xl bg-[var(--sun)] px-5 py-4 text-[var(--palm-dark)] shadow-lg">
+            <div className="relative z-10 col-span-2 justify-self-start rounded-2xl bg-[var(--sun)] px-5 py-4 text-[var(--palm-dark)] shadow-lg">
               <strong className="block font-display text-3xl leading-none">40+</strong>
               <span className="mt-1 block text-[10px] font-black uppercase tracking-[.15em]">{t('text-38', "Years in early education")}</span>
             </div>
@@ -103,7 +105,7 @@ const faqs = [
             </div>
           </div>
           <div>
-            <SectionHeading eyebrow={t('text-48', "A place to belong")} title={<>{t('text-49', "Children learn best when they feel ")}<em className="font-normal text-[var(--coral)]">{t('text-50', "seen")}</em></>} />
+            <SectionHeading eyebrow={t('text-48', "A place to belong")} title={<>{t('text-49', "Children Learn Best When They Feel ")}<em className="font-normal text-[var(--coral)]">{t('text-50', "Seen")}</em></>} />
             <div className="mt-7 space-y-5 text-base leading-8 text-[var(--ink-muted)] sm:text-lg">
               <p>{t('text-51', "Our educators create a safe, caring environment where each child’s interests, pace and personality are respected.")}</p>
               <p>{t('text-52', "Through play, conversation, movement and discovery, children build confidence, make friends and develop a genuine love for learning.")}</p>
@@ -116,7 +118,7 @@ const faqs = [
       <section className="bg-[var(--palm)] px-5 py-20 text-white sm:px-8 sm:py-24 lg:px-14 lg:py-32" id="programmes">
         <div className="mx-auto max-w-[1400px]">
           <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-            <SectionHeading light eyebrow={t('text-54', "Growing together")} title={<>{t('text-55', "The right rhythm for")}<br /><em className="font-normal text-[var(--sun)]">{t('text-56', "every little learner")}</em></>} />
+            <SectionHeading light eyebrow={t('text-54', "Growing together")} title={<>{t('text-55', "The Right Rhythm for")}<br /><em className="font-normal text-[var(--sun)]">{t('text-56', "Every Little Learner")}</em></>} />
             <p className="max-w-md text-base leading-8 text-white/65">{t('text-57', "Development looks different at every age. Our experiences grow with each child while play remains at the heart of the day.")}</p>
           </div>
           <div className="mt-14 grid gap-5 lg:grid-cols-3">
@@ -126,7 +128,7 @@ const faqs = [
                 <div className="my-9 flex min-h-24 items-center justify-center" aria-hidden="true"><ProgrammeArt index={index} /></div>
                 <h3 className="font-display text-3xl leading-tight tracking-[-.03em]">{programme.title}</h3>
                 <p className="mt-4 text-sm leading-7 text-[var(--palm-dark)]/70">{programme.copy}</p>
-                <Link href="/curriculum" className="mt-auto flex items-center justify-between border-t border-[var(--palm)]/15 pt-5 text-sm font-bold">{t('text-58', "Discover this stage ")}<ArrowIcon /></Link>
+                <a href={programme.newsletter} target="_blank" rel="noreferrer" aria-label={`Discover this stage: ${programme.age} newsletter (PDF, opens in a new tab)`} className="mt-auto flex items-center justify-between border-t border-[var(--palm)]/15 pt-5 text-sm font-bold">{t('text-58', "Discover this stage ")}<ArrowIcon /></a>
               </article>
             ))}
           </div>
@@ -135,7 +137,7 @@ const faqs = [
 
       <section className="bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto max-w-[1400px]">
-          <SectionHeading eyebrow={t('text-59', "Our learning approach")} title={<>{t('text-60', "Learning happens")}<br /><em className="font-normal text-[var(--coral)]">{t('text-61', "everywhere")}</em></>} copy={t('text-62', "Our curriculum gives children room to wonder, test ideas, express themselves and make meaningful connections.")} />
+          <SectionHeading eyebrow={t('text-59', "Our learning approach")} title={<>{t('text-60', "Learning Happens")}<br /><em className="font-normal text-[var(--coral)]">{t('text-61', "Everywhere")}</em></>} copy={t('text-62', "Our curriculum gives children room to wonder, test ideas, express themselves and make meaningful connections.")} />
           <div className="mt-14 grid overflow-hidden rounded-[36px] bg-white shadow-[0_20px_60px_rgba(35,71,63,.08)] lg:grid-cols-[1.15fr_.85fr]">
             <div className="relative min-h-[420px] lg:min-h-[650px]">
               <Image src={photo('photo-5').src} alt={photo('photo-5').alt} style={photo('photo-5').style} fill sizes="(max-width: 1024px) 100vw, 60vw" className="object-cover" />
@@ -157,9 +159,9 @@ const faqs = [
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto max-w-[1400px]">
           <div className="flex flex-col gap-7 sm:flex-row sm:items-end sm:justify-between">
-            <SectionHeading eyebrow={t('text-65', "Life at NDN")} title={<>{t('text-66', "Space to play")}<br />{t('text-67', "Reasons to ")}<em className="font-normal text-[var(--coral)]">{t('text-68', "wonder")}</em></>} />
+            <SectionHeading eyebrow={t('text-65', "Life at NDN")} title={<>{t('text-66', "Space to Play")}<br />{t('text-67', "Reasons to ")}<em className="font-normal text-[var(--coral)]">{t('text-68', "Wonder")}</em></>} />
             <div className="flex flex-wrap gap-3">
-              <Link href="/about#nursery-life" className="button button-outline">{t('text-69', "Explore nursery life ")}<ArrowIcon /></Link>
+              <Link href="/about#nursery-life" className="button button-outline">{t('text-69', "Explore Nursery Life ")}<ArrowIcon /></Link>
               {tour && <Link href="/about#nursery-tour" className="button button-coral">Watch Our Nursery Tour <ArrowIcon /></Link>}
             </div>
           </div>
@@ -178,7 +180,7 @@ const faqs = [
             <Image src={photo('photo-10').src} alt={photo('photo-10').alt} style={photo('photo-10').style} fill sizes="(max-width: 1024px) 90vw, 40vw" className="object-cover" />
           </div>
           <div>
-            <SectionHeading eyebrow={t('text-74', "Care you can trust")} title={<>{t('text-75', "Safe hands")}<br /><em className="font-normal text-[var(--coral)]">{t('text-76', "Happy hearts")}</em></>} copy={t('text-77', "Children thrive when they feel secure. Our care, routines and environments are thoughtfully designed around their wellbeing.")} />
+            <SectionHeading eyebrow={t('text-74', "Care you can trust")} title={<>{t('text-75', "Safe Hands")}<br /><em className="font-normal text-[var(--coral)]">{t('text-76', "Happy Hearts")}</em></>} copy={t('text-77', "Children thrive when they feel secure. Our care, routines and environments are thoughtfully designed around their wellbeing.")} />
             <div className="mt-9 grid gap-4 sm:grid-cols-2">
               {[t('text-78', "Registered nurse on site"), t('text-79', "On-call doctor"), t('text-80', "Paediatric first-aid trained staff"), t('text-81', "Secure indoor & outdoor play")].map((item) => <div key={item} className="flex items-center gap-3 rounded-2xl bg-white/65 p-4 text-sm font-bold text-[var(--palm)]"><Check />{item}</div>)}
             </div>
@@ -194,9 +196,9 @@ const faqs = [
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto max-w-[1400px]">
-          <SectionHeading align="center" eyebrow={t('text-82', "Joining New Dubai Nursery")} title={<>{t('text-83', "From hello to")}<br /><em className="font-normal text-[var(--coral)]">{t('text-84', "first day")}</em></>} copy={t('text-85', "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal.")} />
+          <SectionHeading align="center" eyebrow={t('text-82', "Joining New Dubai Nursery")} title={<>{t('text-83', "From Hello to")}<br /><em className="font-normal text-[var(--coral)]">{t('text-84', "First Day")}</em></>} copy={t('text-85', "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal.")} />
           <div className="mt-14 grid gap-4 md:grid-cols-3">
-            {[["01", t('text-86', "Start a conversation"), t('text-87', "Call, WhatsApp or send a visit request. Tell us a little about your child and your preferred start.")], ["02", t('text-88', "Meet the nursery"), t('text-89', "Visit our Al Hudaiba nursery, explore the setting and ask every question.")], ["03", t('text-90', "Prepare for their start"), t('text-91', "Complete the admission forms and work with your child’s teacher on a gentle settling-in plan.")]].map(([number, title, copy]) => (
+            {[["01", t('text-86', "Start a Conversation"), t('text-87', "Call, WhatsApp or send a visit request. Tell us a little about your child and your preferred start.")], ["02", t('text-88', "Meet the Nursery"), t('text-89', "Visit our Al Hudaiba nursery, explore the setting and ask every question.")], ["03", t('text-90', "Prepare for Their Start"), t('text-91', "Complete the admission forms and work with your child’s teacher on a gentle settling-in plan.")]].map(([number, title, copy]) => (
               <article key={number} className="rounded-[28px] border border-[var(--line)] bg-white p-7 sm:p-9">
                 <span className="grid h-12 w-12 place-items-center rounded-full bg-[var(--sun)] text-xs font-black text-[var(--palm)]">{number}</span>
                 <h3 className="mt-7 font-display text-2xl text-[var(--palm)]">{title}</h3>
@@ -204,13 +206,13 @@ const faqs = [
               </article>
             ))}
           </div>
-          <div className="mt-10 text-center"><Link href="/admissions" className="button button-coral">{t('text-92', "View admissions ")}<ArrowIcon /></Link></div>
+          <div className="mt-10 text-center"><Link href="/admissions" className="button button-coral">{t('text-92', "View Admissions ")}<ArrowIcon /></Link></div>
         </div>
       </section>
 
       <section className="bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto grid max-w-[1200px] gap-12 lg:grid-cols-[.75fr_1.25fr]">
-          <SectionHeading eyebrow={t('text-93', "Good to know")} title={<>{t('text-94', "Questions from")}<br /><em className="font-normal text-[var(--coral)]">{t('text-95', "families")}</em></>} />
+          <SectionHeading eyebrow={t('text-93', "Good to know")} title={<>{t('text-94', "Questions from")}<br /><em className="font-normal text-[var(--coral)]">{t('text-95', "Families")}</em></>} />
           <div className="divide-y divide-[var(--line)] border-y border-[var(--line)]">
             {faqs.map(([question, answer], index) => (
               <details key={question} className="group py-1" open={index === 0}>
@@ -226,9 +228,9 @@ const faqs = [
         <div className="absolute -right-20 -top-24 h-96 w-96 rounded-full border-[70px] border-white/5" />
         <div className="relative mx-auto flex max-w-[1200px] flex-col items-center text-center">
           <p className="eyebrow text-[var(--sun)]">{t('text-96', "Come say hello")}</p>
-          <h2 className="max-w-4xl font-display text-[clamp(2.8rem,6vw,5.5rem)] leading-[.98] tracking-[-.05em]">{t('text-97', "A visit is the best way to know if it feels right")}</h2>
-          <p className="mt-6 max-w-2xl text-base leading-8 text-white/65">{t('text-98', "Meet our team, explore our Al Hudaiba nursery and talk through the next step for your child.")}</p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3"><Link href="/contact#visit" className="button button-sun">{t('text-99', "Request a visit ")}<ArrowIcon /></Link><a href={contact.phoneHref} className="button border border-white/30 text-white">{t('text-100', "Call ")}{contact.phone}</a></div>
+          <h2 className="max-w-4xl font-display text-[clamp(2.8rem,6vw,5.5rem)] leading-[.98] tracking-[-.05em]">{t('text-97', "A Visit Is the Best Way to Know If It Feels Right")}</h2>
+          <p className="mt-6 max-w-2xl text-base leading-8 text-white/65">{t('text-98', "Meet our team, explore our centre and talk through the next step for your child.")}</p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3"><Link href="/contact#visit" className="button button-sun">{t('text-99', "Request a Visit ")}<ArrowIcon /></Link><a href={contact.phoneHref} className="button border border-white/30 text-white">{t('text-100', "Call ")}{contact.phone}</a></div>
         </div>
       </section>
     </main>

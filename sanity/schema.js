@@ -1,5 +1,6 @@
 import {defineType, defineField} from 'sanity';
 import {uniquePhoto, uniqueImageAsset} from './unique-photo.js';
+import {newsletterGroups} from '../content/newsletters.js';
 
 const required = rule => rule.required();
 const text = (name, title, extra = {}) => defineField({name, title, type: 'string', ...extra});
@@ -30,6 +31,7 @@ export const schemaTypes = [
     ], preview: {select: {title: 'label', subtitle: 'value'}}}]}),
   ]}),
   defineType({name: 'nurserySettings', title: 'Nursery details', type: 'document', fields: [
+    defineField({name:'newsletters',title:'Age-group newsletters',description:'Replace the PDF for each home-page age group, then publish to rebuild the website.',type:'object',fields:newsletterGroups.map(group=>defineField({name:group.key,title:group.age,type:'file',options:{accept:'.pdf'},validation:required}))}),
     defineField({name:'tour', title:'Nursery video tour', type:'object', fields:[
       text('title','Heading'),
       defineField({name:'video',title:'Tour video',type:'file',options:{accept:'video/mp4'}}),
@@ -38,7 +40,7 @@ export const schemaTypes = [
     ]}),
     ...['phone','whatsapp','email','instagram','address','addressShort'].map(name => text(name, {phone:'Telephone',whatsapp:'WhatsApp number',email:'Email',instagram:'Instagram handle',address:'Full address',addressShort:'Short address'}[name], {validation: required})),
     ...['instagramHref','mapsHref','mapsEmbedHref'].map(name => defineField({name, title: {instagramHref:'Instagram link',mapsHref:'Google Maps link',mapsEmbedHref:'Embedded map link'}[name], type:'url', validation: rule => rule.required().uri({scheme:['https']})})),
-    defineField({name:'testimonials', title:'Parent testimonials', type:'array', validation: rule => rule.min(1), of:[{type:'object', name:'testimonial', fields:[text('name','Parent name',{validation:required}),text('role','Description'),defineField({name:'quote',title:'Quotation',type:'text',validation:required})], preview:{select:{title:'name',subtitle:'quote'}}}]}),
+    defineField({name:'testimonials', title:'Parent testimonials', type:'array', validation: rule => rule.min(1), of:[{type:'object', name:'testimonial', fields:[text('name','Parent name',{validation:required}),text('role','Description'),defineField({name:'quote',title:'Short quotation',description:'The excerpt shown in the home-page slider.',type:'text',validation:required}),defineField({name:'fullQuote',title:'Full testimonial',description:'Optional complete letter, shown when a visitor selects Read Full Testimonial. Omit private contact details.',type:'text'})], preview:{select:{title:'name',subtitle:'quote'}}}]}),
     defineField({name:'forms', title:'Admission forms', type:'array', of:[{type:'object',name:'admissionForm',fields:[text('name','Form name',{validation:required}),defineField({name:'document',title:'PDF file',type:'file',options:{accept:'.pdf'},validation:required})],preview:{select:{title:'name'}}}]}),
   ]}),
 ];

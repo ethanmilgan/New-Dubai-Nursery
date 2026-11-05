@@ -57,7 +57,7 @@ export default function SiteHeader({ contact = defaultContact }) {
             <a href={contact.phoneHref} className="grid h-11 w-11 place-items-center rounded-full border border-[var(--palm)]/15 text-[var(--palm)] transition hover:bg-white" aria-label={`Call ${contact.phone}`}>
               <PhoneIcon />
             </a>
-            <Link href="/contact#visit" className="button button-coral">Book a visit <ArrowIcon /></Link>
+            <Link href="/contact#visit" className="button button-coral">Book a Visit <ArrowIcon /></Link>
           </div>
 
           <button
@@ -88,7 +88,7 @@ export default function SiteHeader({ contact = defaultContact }) {
           <div className="mt-auto rounded-[28px] bg-[var(--mint)] p-5">
             <p className="text-sm font-bold text-[var(--palm)]">Ready to meet us?</p>
             <p className="mt-1 text-xs leading-5 text-[var(--ink-muted)]">Speak with our team about admissions and plan your visit to our Al Hudaiba nursery.</p>
-            <Link href="/contact#visit" className="button button-coral mt-5 w-full">Book a visit <ArrowIcon /></Link>
+            <Link href="/contact#visit" className="button button-coral mt-5 w-full">Book a Visit <ArrowIcon /></Link>
           </div>
         </aside>
       </header>
