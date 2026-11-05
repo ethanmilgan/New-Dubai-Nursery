@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function PageHero({ eyebrow, title, copy, image, alt, imagePosition = "center", children }) {
+export default function PageHero({ eyebrow, title, copy, image, alt, imagePosition = "center", fitImage = false, children }) {
   return (
     <section className="relative overflow-hidden bg-[var(--palm)] px-5 py-16 text-white sm:px-8 sm:py-20 lg:px-14 lg:py-24">
       <div className="decor-dots absolute -left-20 -top-20 h-64 w-64 rounded-full opacity-20" />
@@ -11,9 +11,9 @@ export default function PageHero({ eyebrow, title, copy, image, alt, imagePositi
           {copy && <p className="mt-7 max-w-xl text-base leading-8 text-white/75 sm:text-lg">{copy}</p>}
           {children}
         </div>
-        <div className="relative min-h-[330px] overflow-hidden rounded-[42px_42px_140px_42px] sm:min-h-[460px]">
-          <Image src={image} alt={alt} fill priority sizes="(max-width: 1024px) 100vw, 55vw" className="object-cover" style={{ objectPosition: imagePosition }} />
-          <div className="absolute inset-0 ring-1 ring-inset ring-white/20" />
+        <div className={fitImage ? "relative aspect-[16/9] rounded-3xl bg-white/5" : "relative min-h-[330px] overflow-hidden rounded-[42px_42px_140px_42px] sm:min-h-[460px]"}>
+          <Image src={image} alt={alt} fill priority sizes="(max-width: 1024px) 100vw, 55vw" className={fitImage ? "object-contain p-3" : "object-cover"} style={{ objectPosition: imagePosition }} />
+          <div className="pointer-events-none absolute inset-0 rounded-[inherit] ring-1 ring-inset ring-white/20" />
         </div>
       </div>
     </section>

@@ -9,11 +9,15 @@ export default function TourForm({ contact = defaultContact }) {
   function handleSubmit(event) {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
+    const start = data.get("start");
+    const preferredStart = start
+      ? new Date(`${start}-01T00:00:00Z`).toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "UTC" })
+      : "Not specified";
     const message = [
       "Hello New Dubai Nursery, I would like to arrange a visit.",
       `Parent: ${data.get("parent")}`,
       `Child's age: ${data.get("age")}`,
-      `Preferred start: ${data.get("start") || "Not specified"}`,
+      `Preferred start: ${preferredStart}`,
       `Phone: ${data.get("phone")}`,
       `Message: ${data.get("message") || "No additional message"}`
     ].join("\n");

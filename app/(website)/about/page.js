@@ -24,7 +24,7 @@ const values = [
 
   return (
     <main id="main-content">
-      <PageHero eyebrow={t('text-13', "Our story")} title={<>{t('text-14', "An Early Childhood Centre with")}<br /><em className="font-normal text-[var(--sun)]">{t('text-15', "Heart")}</em></>} copy={t('text-16', "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition} />
+      <PageHero eyebrow={t('text-13', "Our story")} title={<>{t('text-14', "An Early Childhood Centre with")}<br /><em className="font-normal text-[var(--sun)]">{t('text-15', "Heart")}</em></>} copy={t('text-16', "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition} fitImage />
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto grid max-w-[1300px] items-center gap-14 lg:grid-cols-[.95fr_1.05fr] lg:gap-24">
