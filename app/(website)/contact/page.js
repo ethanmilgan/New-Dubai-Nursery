@@ -22,7 +22,7 @@ export default async function ContactPage() {
       <section className="bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32" id="visit">
         <div className="mx-auto grid max-w-[1300px] items-start gap-14 lg:grid-cols-[.78fr_1.22fr] lg:gap-20">
           <div>
-            <SectionHeading eyebrow={t('text-7', "Arrange a Visit")} title={<>{t('text-8', "See If It Feels")}<br />{t('text-9', "Like ")}<em className="font-normal text-[var(--coral)]">{t('text-10', "Their Place")}</em></>} copy={t('text-11', "Share a few details and WhatsApp will open with your visit request ready to send.")} />
+            <SectionHeading eyebrow={t('text-7', "Arrange a Visit")} title={<>{t('text-8', "See If It Feels")}<br />{t('text-9', "Like ")}<em className="font-normal text-[var(--coral)]">{t('text-10', "Their Place")}</em></>} copy={t('text-11', "Share a few details, then choose WhatsApp or email to send your visit request.")} />
             <div className="mt-9 rounded-[28px] border border-[var(--coral)]/20 bg-[#f7d7cd] p-6">
               <p className="text-xs font-black uppercase tracking-[.15em] text-[var(--coral-dark)]">{t('text-12', "Visit New Dubai Nursery")}</p>
               <address className="mt-3 text-sm not-italic leading-7 text-[var(--ink-muted)]">{contact.address}</address>

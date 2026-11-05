@@ -4,7 +4,7 @@ import { useState } from "react";
 import { contact as defaultContact } from "@/app/lib/site-data";
 
 export default function TourForm({ contact = defaultContact }) {
-  const [sent, setSent] = useState(false);
+  const [preparedVia, setPreparedVia] = useState(null);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -17,8 +17,15 @@ export default function TourForm({ contact = defaultContact }) {
       `Phone: ${data.get("phone")}`,
       `Message: ${data.get("message") || "No additional message"}`
     ].join("\n");
-    window.open(`${contact.whatsappHref}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
-    setSent(true);
+    const delivery = event.nativeEvent.submitter?.value === "email" ? "email" : "whatsapp";
+    if (delivery === "email") {
+      const subject = encodeURIComponent("New Dubai Nursery visit enquiry");
+      const body = encodeURIComponent(message.replace(/\n/g, "\r\n"));
+      window.location.href = `${contact.emailHref || defaultContact.emailHref}?subject=${subject}&body=${body}`;
+    } else {
+      window.open(`${contact.whatsappHref}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+    }
+    setPreparedVia(delivery);
   }
 
   return (
@@ -30,9 +37,12 @@ export default function TourForm({ contact = defaultContact }) {
         <Field label="Preferred start"><input name="start" type="month" /></Field>
       </div>
       <Field label="Anything you’d like us to know?"><textarea name="message" rows="3" placeholder="Tell us how we can help" /></Field>
-      <button type="submit" className="button button-coral mt-2 w-full sm:w-auto">Send via WhatsApp <span aria-hidden="true">↗</span></button>
-      <p className="mt-4 text-xs leading-5 text-[var(--ink-muted)]">Submitting opens WhatsApp with your details ready to send. No information is stored by this website.</p>
-      {sent && <p role="status" className="mt-4 rounded-xl bg-[var(--mint)] px-4 py-3 text-sm font-bold text-[var(--palm)]">Your message is ready in WhatsApp.</p>}
+      <div className="mt-2 flex flex-wrap gap-3">
+        <button type="submit" name="delivery" value="whatsapp" className="button button-coral w-full sm:w-auto">Send via WhatsApp <span aria-hidden="true">↗</span></button>
+        <button type="submit" name="delivery" value="email" className="button button-outline w-full sm:w-auto">Send via Email <span aria-hidden="true">↗</span></button>
+      </div>
+      <p className="mt-4 text-xs leading-5 text-[var(--ink-muted)]">Choose WhatsApp or email to open your app with your details ready to send. No information is stored by this website.</p>
+      {preparedVia && <p role="status" className="mt-4 rounded-xl bg-[var(--mint)] px-4 py-3 text-sm font-bold text-[var(--palm)]">{preparedVia === "email" ? "Your email app should open with your details. Send the email there to complete your enquiry." : "Your message is ready in WhatsApp."}</p>}
     </form>
   );
 }
