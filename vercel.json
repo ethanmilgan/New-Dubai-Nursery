@@ -5,9 +5,9 @@
   "outputDirectory": "out",
   "trailingSlash": true,
   "rewrites": [
-    {"source": "/studio/structure/:path*", "destination": "/studio/index.html"},
-    {"source": "/studio/intent/:path*", "destination": "/studio/index.html"},
-    {"source": "/studio/releases/:path*", "destination": "/studio/index.html"},
+    {"source": "/studio/structure/:path*/", "destination": "/studio/index.html"},
+    {"source": "/studio/intent/:path*/", "destination": "/studio/index.html"},
+    {"source": "/studio/releases/:path*/", "destination": "/studio/index.html"},
     {"source": "/static/:path*", "destination": "/studio/static/:path*"}
   ]
 }
