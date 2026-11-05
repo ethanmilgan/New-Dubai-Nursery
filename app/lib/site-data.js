@@ -9,8 +9,8 @@ export const contact = {
   emailHref: "mailto:ndn@eim.ae",
   instagram: "@newdubainursery",
   instagramHref: "https://instagram.com/newdubainursery",
-  address: "164 Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street (Al Mankhool Road), Al Hudaiba, Bur Dubai, Dubai",
-  addressShort: "164 Al Mankhool Road, Al Hudaiba, Bur Dubai",
+  address: "Villa No. 164, Al Hudaiba, Al Satwa Road (Sheikh Sabah Al Ahmad Al Jaber Al Sabah Street), Dubai, United Arab Emirates.",
+  addressShort: "Villa No. 164, Al Hudaiba, Al Satwa Road, Dubai",
   mapsHref: "https://www.google.com/maps?cid=14530258343334115403",
   mapsEmbedHref: "https://www.google.com/maps?q=25.24098942%2C55.28106079&z=16&output=embed"
 };
