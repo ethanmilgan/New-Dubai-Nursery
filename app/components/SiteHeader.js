@@ -87,7 +87,7 @@ export default function SiteHeader({ contact = defaultContact }) {
           </nav>
           <div className="mt-auto rounded-[28px] bg-[var(--mint)] p-5">
             <p className="text-sm font-bold text-[var(--palm)]">Ready to meet us?</p>
-            <p className="mt-1 text-xs leading-5 text-[var(--ink-muted)]">Speak with our team about admissions and plan your visit to our Al Hudaiba nursery.</p>
+            <p className="mt-1 text-xs leading-5 text-[var(--ink-muted)]">Speak with our team about admissions and plan your visit to our Al Hudaiba early childhood centre.</p>
             <Link href="/contact#visit" className="button button-coral mt-5 w-full">Book a Visit <ArrowIcon /></Link>
           </div>
         </aside>

@@ -7,7 +7,7 @@ import { ArrowIcon } from "@/app/components/SiteHeader";
 
 export const metadata = {
   title: "About Us",
-  description: "Discover the story, vision, educators and nursery life at New Dubai Nursery Early Learning Center."
+  description: "Discover the story, vision, educators and early childhood centre life at New Dubai Nursery Early Learning Center."
 };
 
 export default async function AboutPage() {
@@ -18,13 +18,13 @@ const values = [
   [t('text-3', "Curiosity"), t('text-4', "Questions are treated as the beginning of meaningful learning.")],
   [t('text-5', "Confidence"), t('text-6', "Children are trusted with real choices, responsibilities and room to grow.")],
   [t('text-7', "Partnership"), t('text-8', "Families and educators work together around the needs of each child.")],
-  [t('text-9', "Culture"), t('text-10', "UAE heritage and our diverse community are woven into nursery life.")],
+  [t('text-9', "Culture"), t('text-10', "UAE heritage and our diverse community are woven into early childhood centre life.")],
   [t('text-11', "Joy"), t('text-12', "Play, laughter, creativity and friendship are essential parts of every day.")]
 ];
 
   return (
     <main id="main-content">
-      <PageHero eyebrow={t('text-13', "Our story")} title={<>{t('text-14', "A Nursery with")}<br /><em className="font-normal text-[var(--sun)]">{t('text-15', "Heart")}</em></>} copy={t('text-16', "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition} />
+      <PageHero eyebrow={t('text-13', "Our story")} title={<>{t('text-14', "An Early Childhood Centre with")}<br /><em className="font-normal text-[var(--sun)]">{t('text-15', "Heart")}</em></>} copy={t('text-16', "Since 1985, New Dubai Nursery has helped generations of Dubai families give their children a warm and confident start.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition} />
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto grid max-w-[1300px] items-center gap-14 lg:grid-cols-[.95fr_1.05fr] lg:gap-24">
@@ -72,7 +72,7 @@ const values = [
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32" id="nursery-life">
         <div className="mx-auto max-w-[1400px]">
           <div className="grid items-end gap-8 lg:grid-cols-2">
-            <SectionHeading eyebrow={t('text-32', "Nursery life")} title={<>{t('text-33', "Made for Movement,")}<br />{t('text-34', "Mess and ")}<em className="font-normal text-[var(--coral)]">{t('text-35', "Magic")}</em></>} />
+            <SectionHeading eyebrow={t('text-32', "Early Childhood Centre Life")} title={<>{t('text-33', "Made for Movement,")}<br />{t('text-34', "Mess and ")}<em className="font-normal text-[var(--coral)]">{t('text-35', "Magic")}</em></>} />
             <p className="max-w-xl text-base leading-8 text-[var(--ink-muted)] lg:justify-self-end">{t('text-36', "Our spaces invite children to move freely between focused learning, imaginative play, creativity, nature and joyful physical activity.")}</p>
           </div>
           <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-[.8fr_1.1fr_1.1fr]">
@@ -93,13 +93,13 @@ const values = [
 
       {tour && <section id="nursery-tour" aria-labelledby="nursery-tour-title" className="scroll-mt-28 bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14">
         <div className="mx-auto max-w-[1200px] text-center">
-          <p className="eyebrow text-[var(--coral)]">Our Nursery Tour</p>
-          <h2 id="nursery-tour-title" className="font-display text-[clamp(2.6rem,5vw,4.6rem)] leading-tight tracking-[-.04em] text-[var(--palm)]">{tour.title || 'Take a Look Around Our Nursery'}</h2>
+          <p className="eyebrow text-[var(--coral)]">Our Early Childhood Centre Tour</p>
+          <h2 id="nursery-tour-title" className="font-display text-[clamp(2.6rem,5vw,4.6rem)] leading-tight tracking-[-.04em] text-[var(--palm)]">{tour.title || "Take a Look Around Our Early Childhood Centre"}</h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--ink-muted)]">Step inside our Classrooms, Play Areas and Outdoor Spaces, and picture your child’s day at New Dubai Nursery.</p>
           <video className="mt-10 aspect-video w-full rounded-[28px] bg-black shadow-xl" controls playsInline preload="none" crossOrigin="anonymous" poster={tour.poster} aria-label="New Dubai Nursery video tour">
             <source src={tour.url} type="video/mp4" />
             {tour.captions && <track kind="captions" src={tour.captions} srcLang="en" label="English" />}
-            Your browser cannot play this video. <a href={tour.url}>Watch the nursery tour</a>.
+            Your browser cannot play this video. <a href={tour.url}>Watch the early childhood centre tour</a>.
           </video>
         </div>
       </section>}

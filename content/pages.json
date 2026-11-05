@@ -183,7 +183,7 @@
         "_key": "text-19",
         "key": "text-19",
         "label": "Our current nursery information welcomes children from ages 2 to 6. Contact our admissions team",
-        "value": "Our current nursery information welcomes children from ages 2 to 6. Contact our admissions team to discuss the right placement for your child."
+        "value": "Our early childhood centre welcomes children from ages 2 to 6. Contact our admissions team to discuss the right placement for your child."
       },
       {
         "_key": "text-20",
@@ -207,7 +207,7 @@
         "_key": "text-23",
         "key": "text-23",
         "label": "Yes. Extended care is available until 6:00 p.m. Please speak with the nursery team for current ",
-        "value": "Yes. Extended care is available until 6:00 p.m. Please speak with the nursery team for current core hours and transport arrangements."
+        "value": "Yes. Extended care is available until 6:00 p.m. Please speak with the early childhood centre team for current core hours and transport arrangements."
       },
       {
         "_key": "text-24",
@@ -225,7 +225,7 @@
         "_key": "text-26",
         "key": "text-26",
         "label": "RTA-compliant transport with female supervision is among our services. Availability depends on ",
-        "value": "RTA-compliant transport with female supervision is among our services. Availability depends on route, so please confirm your area with the nursery team."
+        "value": "RTA-compliant transport with female supervision is among our services. Availability depends on route, so please confirm your area with the early childhood centre team."
       },
       {
         "_key": "text-27",
@@ -483,7 +483,7 @@
         "_key": "text-69",
         "key": "text-69",
         "label": "Explore nursery life",
-        "value": "Explore Nursery Life "
+        "value": "Explore Early Childhood Centre Life "
       },
       {
         "_key": "text-70",
@@ -579,7 +579,7 @@
         "_key": "text-85",
         "key": "text-85",
         "label": "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal.",
-        "value": "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal."
+        "value": "Starting at an early childhood centre is a big moment. We keep the admissions journey warm, simple and personal."
       },
       {
         "_key": "text-86",
@@ -597,13 +597,13 @@
         "_key": "text-88",
         "key": "text-88",
         "label": "Meet the nursery",
-        "value": "Meet the Nursery"
+        "value": "Meet the Early Childhood Centre"
       },
       {
         "_key": "text-89",
         "key": "text-89",
         "label": "Visit our Al Hudaiba nursery, explore the setting and ask every question.",
-        "value": "Visit our Al Hudaiba nursery, explore the setting and ask every question."
+        "value": "Visit our Al Hudaiba early childhood centre, explore the setting and ask every question."
       },
       {
         "_key": "text-90",
@@ -781,7 +781,7 @@
         "_key": "text-10",
         "key": "text-10",
         "label": "UAE heritage and our diverse community are woven into nursery life.",
-        "value": "UAE heritage and our diverse community are woven into nursery life."
+        "value": "UAE heritage and our diverse community are woven into early childhood centre life."
       },
       {
         "_key": "text-11",
@@ -805,7 +805,7 @@
         "_key": "text-14",
         "key": "text-14",
         "label": "A nursery with",
-        "value": "A Nursery with"
+        "value": "An Early Childhood Centre with"
       },
       {
         "_key": "text-15",
@@ -913,7 +913,7 @@
         "_key": "text-32",
         "key": "text-32",
         "label": "Nursery life",
-        "value": "Nursery life"
+        "value": "Early Childhood Centre Life"
       },
       {
         "_key": "text-33",
@@ -1617,7 +1617,7 @@
         "_key": "text-36",
         "key": "text-36",
         "label": "The nursery team will confirm the current number of copies and any additional requirements befo",
-        "value": "The nursery team will confirm the current number of copies and any additional requirements before submission."
+        "value": "The early childhood centre team will confirm the current number of copies and any additional requirements before submission."
       },
       {
         "_key": "text-37",
@@ -1653,7 +1653,7 @@
         "_key": "text-42",
         "key": "text-42",
         "label": "Download the nursery’s official forms. Please check with admissions that you are using the late",
-        "value": "Download the nursery’s official forms. Please check with admissions that you are using the latest version before submitting."
+        "value": "Download the early childhood centre’s official forms. Please check with admissions that you are using the latest version before submitting."
       },
       {
         "_key": "text-43",
@@ -1729,7 +1729,7 @@
         "_key": "text-4",
         "key": "text-4",
         "label": "Whether you are exploring nursery for the first time or ready to apply, our team is here to lis",
-        "value": "Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help."
+        "value": "Whether you are exploring an early childhood centre for the first time or ready to apply, our team is here to listen and help."
       },
       {
         "_key": "text-5",
@@ -1837,7 +1837,7 @@
         "_key": "text-22",
         "key": "text-22",
         "label": "Visit our Al Hudaiba nursery",
-        "value": "Visit Our Al Hudaiba Nursery"
+        "value": "Visit Our Al Hudaiba Early Childhood Centre"
       },
       {
         "_key": "text-23",
@@ -1897,7 +1897,7 @@
         "_key": "text-32",
         "key": "text-32",
         "label": "Meet the team, experience nursery life and ask all the questions you need.",
-        "value": "Meet the team, experience nursery life and ask all the questions you need."
+        "value": "Meet the team, experience early childhood centre life and ask all the questions you need."
       }
     ]
   }

@@ -41,11 +41,11 @@ const features = [
   ["04", t('text-16', "STEAM & Movement"), t('text-17', "Robotics, creative making, music, fitness and outdoor learning keep minds and bodies active.")]
 ];
 const faqs = [
-  [t('text-18', "What ages does New Dubai Nursery welcome?"), t('text-19', "Our current nursery information welcomes children from ages 2 to 6. Contact our admissions team to discuss the right placement for your child.")],
+  [t('text-18', "What ages does New Dubai Nursery welcome?"), t('text-19', "Our early childhood centre welcomes children from ages 2 to 6. Contact our admissions team to discuss the right placement for your child.")],
   [t('text-20', "What curriculum do you follow?"), t('text-21', "Our early years programme brings together EYFS best practice, inquiry-based learning, purposeful play and school-readiness pathways.")],
-  [t('text-22', "Is extended care available?"), t('text-23', "Yes. Extended care is available until 6:00 p.m. Please speak with the nursery team for current core hours and transport arrangements.")],
+  [t('text-22', "Is extended care available?"), t('text-23', "Yes. Extended care is available until 6:00 p.m. Please speak with the early childhood centre team for current core hours and transport arrangements.")],
   [t('text-24', "How do I arrange a visit?"), `Use our short visit form, call us or message us on WhatsApp. You’ll find us at ${contact.addressShort}.`],
-  [t('text-25', "Do you provide transport?"), t('text-26', "RTA-compliant transport with female supervision is among our services. Availability depends on route, so please confirm your area with the nursery team.")]
+  [t('text-25', "Do you provide transport?"), t('text-26', "RTA-compliant transport with female supervision is among our services. Availability depends on route, so please confirm your area with the early childhood centre team.")]
 ];
 
   return (
@@ -87,7 +87,7 @@ const faqs = [
         </div>
       </section>
 
-      <section className="overflow-hidden border-y border-[var(--line)] bg-white py-4" aria-label="Nursery highlights">
+      <section className="overflow-hidden border-y border-[var(--line)] bg-white py-4" aria-label="Early Childhood Centre highlights">
         <div className="marquee-track flex w-max items-center whitespace-nowrap text-xs font-black uppercase tracking-[.18em] text-[var(--palm)]">
           {[...Array(2)].flatMap((_, group) => [t('text-39', "Learn through play"), t('text-40', "Ages 2–6"), t('text-41', "School readiness"), t('text-42', "Arabic, Islamic & Social Studies"), t('text-43', "Robotics & STEAM"), t('text-44', "Music & movement"), t('text-45', "Extended care")].map((item) => <span className="flex items-center" key={`${group}-${item}`}><span className="mx-7 text-[var(--coral)]">✿</span>{item}</span>))}
         </div>
@@ -161,8 +161,8 @@ const faqs = [
           <div className="flex flex-col gap-7 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading eyebrow={t('text-65', "Life at NDN")} title={<>{t('text-66', "Space to Play")}<br />{t('text-67', "Reasons to ")}<em className="font-normal text-[var(--coral)]">{t('text-68', "Wonder")}</em></>} />
             <div className="flex flex-wrap gap-3">
-              <Link href="/about#nursery-life" className="button button-outline">{t('text-69', "Explore Nursery Life ")}<ArrowIcon /></Link>
-              {tour && <Link href="/about#nursery-tour" className="button button-coral">Watch Our Nursery Tour <ArrowIcon /></Link>}
+              <Link href="/about#nursery-life" className="button button-outline">{t('text-69', "Explore Early Childhood Centre Life ")}<ArrowIcon /></Link>
+              {tour && <Link href="/about#nursery-tour" className="button button-coral">Watch Our Early Childhood Centre Tour <ArrowIcon /></Link>}
             </div>
           </div>
           <div className="mt-14 grid auto-rows-[250px] gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -196,9 +196,9 @@ const faqs = [
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-32">
         <div className="mx-auto max-w-[1400px]">
-          <SectionHeading align="center" eyebrow={t('text-82', "Joining New Dubai Nursery")} title={<>{t('text-83', "From Hello to")}<br /><em className="font-normal text-[var(--coral)]">{t('text-84', "First Day")}</em></>} copy={t('text-85', "Starting nursery is a big moment. We keep the admissions journey warm, simple and personal.")} />
+          <SectionHeading align="center" eyebrow={t('text-82', "Joining New Dubai Nursery")} title={<>{t('text-83', "From Hello to")}<br /><em className="font-normal text-[var(--coral)]">{t('text-84', "First Day")}</em></>} copy={t('text-85', "Starting at an early childhood centre is a big moment. We keep the admissions journey warm, simple and personal.")} />
           <div className="mt-14 grid gap-4 md:grid-cols-3">
-            {[["01", t('text-86', "Start a Conversation"), t('text-87', "Call, WhatsApp or send a visit request. Tell us a little about your child and your preferred start.")], ["02", t('text-88', "Meet the Nursery"), t('text-89', "Visit our Al Hudaiba nursery, explore the setting and ask every question.")], ["03", t('text-90', "Prepare for Their Start"), t('text-91', "Complete the admission forms and work with your child’s teacher on a gentle settling-in plan.")]].map(([number, title, copy]) => (
+            {[["01", t('text-86', "Start a Conversation"), t('text-87', "Call, WhatsApp or send a visit request. Tell us a little about your child and your preferred start.")], ["02", t('text-88', "Meet the Early Childhood Centre"), t('text-89', "Visit our Al Hudaiba early childhood centre, explore the setting and ask every question.")], ["03", t('text-90', "Prepare for Their Start"), t('text-91', "Complete the admission forms and work with your child’s teacher on a gentle settling-in plan.")]].map(([number, title, copy]) => (
               <article key={number} className="rounded-[28px] border border-[var(--line)] bg-white p-7 sm:p-9">
                 <span className="grid h-12 w-12 place-items-center rounded-full bg-[var(--sun)] text-xs font-black text-[var(--palm)]">{number}</span>
                 <h3 className="mt-7 font-display text-2xl text-[var(--palm)]">{title}</h3>

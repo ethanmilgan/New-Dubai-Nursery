@@ -15,7 +15,7 @@ export default async function ContactPage() {
 
   return (
     <main id="main-content">
-      <PageHero eyebrow={t('text-1', "Contact us")} title={<>{t('text-2', "Let’s Start a")}<br /><em className="font-normal text-[var(--sun)]">{t('text-3', "Conversation")}</em></>} copy={t('text-4', "Whether you are exploring nursery for the first time or ready to apply, our team is here to listen and help.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition}>
+      <PageHero eyebrow={t('text-1', "Contact us")} title={<>{t('text-2', "Let’s Start a")}<br /><em className="font-normal text-[var(--sun)]">{t('text-3', "Conversation")}</em></>} copy={t('text-4', "Whether you are exploring an early childhood centre for the first time or ready to apply, our team is here to listen and help.")} image={photo('photo-1').src} alt={photo('photo-1').alt} imagePosition={photo('photo-1').style.objectPosition}>
         <div className="mt-8 flex flex-wrap gap-3"><a href={contact.whatsappHref} className="button button-sun" target="_blank" rel="noreferrer">{t('text-5', "WhatsApp Us ")}<span aria-hidden="true">↗</span></a><a href={contact.phoneHref} className="button border border-white/30 text-white">{t('text-6', "Call ")}{contact.phone}</a></div>
       </PageHero>
 
@@ -49,7 +49,7 @@ export default async function ContactPage() {
         <div className="mx-auto grid max-w-[1250px] items-center gap-12 lg:grid-cols-[.72fr_1.28fr] lg:gap-20">
           <div>
             <p className="eyebrow text-[var(--sun)]">{t('text-21', "Find us")}</p>
-            <h2 className="font-display text-[clamp(2.7rem,5.2vw,4.8rem)] leading-[.98] tracking-[-.045em]">{t('text-22', "Visit Our Al Hudaiba Nursery")}</h2>
+            <h2 className="font-display text-[clamp(2.7rem,5.2vw,4.8rem)] leading-[.98] tracking-[-.045em]">{t('text-22', "Visit Our Al Hudaiba Early Childhood Centre")}</h2>
             <address className="mt-6 max-w-md text-base not-italic leading-8 text-white/70">{contact.address}</address>
             <a href={contact.mapsHref} target="_blank" rel="noreferrer" className="button button-sun mt-8">{t('text-23', "Open in Google Maps ")}<span aria-hidden="true">↗</span></a>
           </div>
@@ -77,7 +77,7 @@ export default async function ContactPage() {
             <div className="mt-8 space-y-6">
               <NextStep number="1" title={t('text-27', "We’ll Listen")} copy={t('text-28', "Tell us about your child, your timing and what matters most to your family.")} />
               <NextStep number="2" title={t('text-29', "We’ll Share Details")} copy={t('text-30', "Our team will explain availability, timings, the appropriate age group and how to find us.")} />
-              <NextStep number="3" title={t('text-31', "We’ll Plan Your Visit")} copy={t('text-32', "Meet the team, experience nursery life and ask all the questions you need.")} />
+              <NextStep number="3" title={t('text-31', "We’ll Plan Your Visit")} copy={t('text-32', "Meet the team, experience early childhood centre life and ask all the questions you need.")} />
             </div>
           </div>
         </div>

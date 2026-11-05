@@ -16,6 +16,8 @@ Under **Nursery details → Parent testimonials**, edit the parent name, short q
 
 Page layout, navigation structure, form field labels, decorative graphics, SEO metadata, and some shared footer/header wording remain code-managed. The main page wording, photos, gallery captions, testimonials, PDF forms and contact information are editable.
 
+Use **early childhood centre** for generic references in website wording, tour descriptions, photo descriptions and testimonials. Preserve **New Dubai Nursery** as the organisation's name. Existing URLs, document type identifiers, filenames and original-source labels retain their established names. `scripts/update-centre-wording.mjs` previews these CMS wording changes; `--write` applies them with a local backup and revision checks.
+
 The contact form offers WhatsApp and email. **Send via Email** opens a draft in the visitor's email app, addressed to the Email value under Nursery details (currently `ndn@eim.ae`), with their entered form details. The visitor sends the draft from that app; the website does not send or store form submissions itself.
 
 The home page's three “Discover this stage” links open age-specific newsletters in a new tab. In Studio, open **Nursery details → Age-group newsletters**, expand the matching age group (Ages 2–3, Ages 3–4 or Ages 4–6), replace its PDF, and publish. Publication triggers a rebuild; the deployed site updates when that build finishes. The current PDFs in `public/newsletters/` provide local fallbacks. `content/newsletters.js` fixes the age-group mapping so changing a PDF cannot reorder the home-page cards.

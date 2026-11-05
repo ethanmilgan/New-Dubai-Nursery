@@ -34,7 +34,7 @@ const parentDocuments = [t('text-6', "Parent Passport and Visa Copies"), t('text
           <div className="relative mt-16 grid gap-8 md:grid-cols-3">
             <div className="absolute left-[15%] right-[15%] top-8 hidden border-t border-dashed border-[var(--coral)]/40 md:block" aria-hidden="true" />
             <Step number="1" title={t('text-26', "Tell Us About Your Child")} copy={t('text-27', "Message, call or complete our visit form with your child’s age and preferred start.")} />
-            <Step number="2" title={t('text-28', "Meet Our Team")} copy={`Visit us at ${contact.addressShort} for a relaxed conversation and nursery tour.`} />
+            <Step number="2" title={t('text-28', "Meet Our Team")} copy={`Visit us at ${contact.addressShort} for a relaxed conversation and early childhood centre tour.`} />
             <Step number="3" title={t('text-29', "Complete Enrolment")} copy={t('text-30', "Submit the relevant forms and documents, then prepare a personal settling-in plan.")} />
           </div>
           <div className="mt-12 flex flex-wrap justify-center gap-3"><Link href="/contact#visit" className="button button-coral">{t('text-31', "Request a Visit ")}<ArrowIcon /></Link><a href={contact.whatsappHref} className="button button-outline" target="_blank" rel="noreferrer">{t('text-32', "Ask on WhatsApp")}</a></div>
@@ -44,7 +44,7 @@ const parentDocuments = [t('text-6', "Parent Passport and Visa Copies"), t('text
       <section className="bg-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto grid max-w-[1300px] gap-14 lg:grid-cols-[.82fr_1.18fr] lg:gap-24">
           <div>
-            <SectionHeading eyebrow={t('text-33', "Before you apply")} title={<>{t('text-34', "Documents to")}<br /><em className="font-normal text-[var(--coral)]">{t('text-35', "Prepare")}</em></>} copy={t('text-36', "The nursery team will confirm the current number of copies and any additional requirements before submission.")} />
+            <SectionHeading eyebrow={t('text-33', "Before you apply")} title={<>{t('text-34', "Documents to")}<br /><em className="font-normal text-[var(--coral)]">{t('text-35', "Prepare")}</em></>} copy={t('text-36', "The early childhood centre team will confirm the current number of copies and any additional requirements before submission.")} />
             <div className="relative mt-10 aspect-[4/3] overflow-hidden rounded-[34px_100px_34px_34px]">
               <Image src={photo('photo-2').src} alt={photo('photo-2').alt} style={photo('photo-2').style} fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover" />
             </div>
@@ -58,7 +58,7 @@ const parentDocuments = [t('text-6', "Parent Passport and Visa Copies"), t('text
 
       <section className="px-5 py-20 sm:px-8 sm:py-24 lg:px-14 lg:py-28">
         <div className="mx-auto max-w-[1050px]">
-          <SectionHeading align="center" eyebrow={t('text-39', "Download centre")} title={<>{t('text-40', "Admission Forms")}<br /><em className="font-normal text-[var(--coral)]">{t('text-41', "Ready When You Are")}</em></>} copy={t('text-42', "Download the nursery’s official forms. Please check with admissions that you are using the latest version before submitting.")} />
+          <SectionHeading align="center" eyebrow={t('text-39', "Download centre")} title={<>{t('text-40', "Admission Forms")}<br /><em className="font-normal text-[var(--coral)]">{t('text-41', "Ready When You Are")}</em></>} copy={t('text-42', "Download the early childhood centre’s official forms. Please check with admissions that you are using the latest version before submitting.")} />
           <div className="mt-12 overflow-hidden rounded-[28px] border border-[var(--line)] bg-white">
             {forms.map((form, index) => (
               <a key={form.url} href={form.url} target="_blank" rel="noreferrer" className="group flex min-h-20 items-center justify-between gap-5 border-b border-[var(--line)] px-5 py-4 last:border-0 hover:bg-[var(--cream)] sm:px-7">
