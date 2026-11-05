@@ -62,6 +62,7 @@ Before DNS changes, record the existing DNS configuration and keep the Vercel de
 
 - Pages project: `new-dubai-nursery`, live at https://new-dubai-nursery.pages.dev/.
 - Production branch: `codex/cloudflare-static`. Future production code changes must be pushed to this branch until the production-branch setting is deliberately changed. The existing `main` branch and Vercel deployment have not been changed.
+- November 5 update: at the user's request, the current website changes were also pushed to `main` for Vercel production. `vercel.json` publishes the same `out/` static output and provides Studio editor-route and `/static/` asset rewrites. Keep `main` and `codex/cloudflare-static` aligned when deploying to both hosts.
 - Editor: https://new-dubai-nursery.pages.dev/studio/. Exact-origin credentialed CORS is configured and GitHub sign-in has been verified.
 - Automatic publishing: Cloudflare hook `Sanity publish`, connected to Sanity webhook `Cloudflare Pages rebuild` for published nursery documents in `production`. Only document ID/type are sent. The hook URL is stored in the dashboards, not this repository.
 - Verification: public homepage, contact route, Studio sign-in, editor deep links and static assets passed live checks. A settings revision with the same phone value triggered a successful HTTP 200 webhook delivery and a Cloudflare build, without changing visible content.
